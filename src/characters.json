@@ -1,0 +1,35 @@
+[
+  {
+    "name": "Monkey D. Luffy",
+    "anime": {
+      "name": "One Piece",
+      "year": 1999,
+      "studio": "Toei Animation"
+    },
+    "age": 19,
+    "height": 174,
+    "hair_color": "Black"
+  },
+  {
+    "name": "Roronoa Zoro",
+    "anime": {
+      "name": "One Piece",
+      "year": 1999,
+      "studio": "Toei Animation"
+    },
+    "age": 21,
+    "height": 181,
+    "hair_color": "Green"
+  },
+  {
+    "name": "Naruto Uzumaki",
+    "anime": {
+      "name": "Naruto Shippuden",
+      "year": 2007,
+      "studio": "Pierrot"
+    },
+    "age": 16,
+    "height": 166,
+    "hair_color": "Blonde"
+  }
+]

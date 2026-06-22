@@ -1,0 +1,46 @@
+.result-banner {
+  width: 100%;
+  max-width: 900px;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  padding: 16px 24px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.result-banner--win {
+  background: #14532d;
+  border-color: #4ade80;
+}
+
+.result-banner--loss {
+  background: #450a0a;
+  border-color: #f87171;
+}
+
+.result-banner__message {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.result-banner--win  .result-banner__message { color: #4ade80; }
+.result-banner--loss .result-banner__message { color: #f87171; }
+
+.result-banner__btn {
+  margin-top: 12px;
+  border-radius: 6px;
+  padding: 8px 20px;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 13px;
+  font-family: inherit;
+  letter-spacing: 0.05em;
+  color: var(--color-text);
+  transition: opacity 0.2s;
+}
+
+.result-banner--win  .result-banner__btn { background: #166534; border: 1px solid #4ade80; }
+.result-banner--loss .result-banner__btn { background: #7f1d1d; border: 1px solid #f87171; }
+
+.result-banner__btn:hover { opacity: 0.8; }

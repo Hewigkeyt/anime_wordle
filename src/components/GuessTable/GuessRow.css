@@ -1,0 +1,6 @@
+.guess-row {
+  display: grid;
+  grid-template-columns: repeat(7, minmax(80px, 1fr));
+  gap: 6px;
+  margin-bottom: 6px;
+}

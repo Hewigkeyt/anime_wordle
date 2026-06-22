@@ -1,0 +1,1102 @@
+[
+  {
+    "name": "Monkey D. Luffy",
+    "anime": {
+      "name": "One Piece",
+      "year": 1999,
+      "studio": "Toei Animation"
+    },
+    "age": 19,
+    "height": 174,
+    "hair_color": "Black"
+  },
+  {
+    "name": "Roronoa Zoro",
+    "anime": {
+      "name": "One Piece",
+      "year": 1999,
+      "studio": "Toei Animation"
+    },
+    "age": 21,
+    "height": 181,
+    "hair_color": "Green"
+  },
+  {
+    "name": "Naruto Uzumaki",
+    "anime": {
+      "name": "Naruto Shippuden",
+      "year": 2007,
+      "studio": "Pierrot"
+    },
+    "age": 16,
+    "height": 166,
+    "hair_color": "Blonde"
+  },
+  {
+    "name": "Sasuke Uchiha",
+    "anime": {
+      "name": "Naruto Shippuden",
+      "year": 2007,
+      "studio": "Pierrot"
+    },
+    "age": 16,
+    "height": 168,
+    "hair_color": "Black"
+  },
+  {
+    "name": "Kakashi Hatake",
+    "anime": {
+      "name": "Naruto Shippuden",
+      "year": 2007,
+      "studio": "Pierrot"
+    },
+    "age": 30,
+    "height": 181,
+    "hair_color": "Silver"
+  },
+  {
+    "name": "Son Goku",
+    "anime": {
+      "name": "Dragon Ball Z",
+      "year": 1989,
+      "studio": "Toei Animation"
+    },
+    "age": 35,
+    "height": 175,
+    "hair_color": "Black"
+  },
+  {
+    "name": "Vegeta",
+    "anime": {
+      "name": "Dragon Ball Z",
+      "year": 1989,
+      "studio": "Toei Animation"
+    },
+    "age": 38,
+    "height": 164,
+    "hair_color": "Black"
+  },
+  {
+    "name": "Izuku Midoriya",
+    "anime": {
+      "name": "My Hero Academia",
+      "year": 2016,
+      "studio": "Bones"
+    },
+    "age": 16,
+    "height": 166,
+    "hair_color": "Green"
+  },
+  {
+    "name": "Katsuki Bakugo",
+    "anime": {
+      "name": "My Hero Academia",
+      "year": 2016,
+      "studio": "Bones"
+    },
+    "age": 16,
+    "height": 172,
+    "hair_color": "Ash Blonde"
+  },
+  {
+    "name": "Shoto Todoroki",
+    "anime": {
+      "name": "My Hero Academia",
+      "year": 2016,
+      "studio": "Bones"
+    },
+    "age": 16,
+    "height": 176,
+    "hair_color": "White/Red"
+  },
+  {
+    "name": "Eren Yeager",
+    "anime": {
+      "name": "Attack on Titan",
+      "year": 2013,
+      "studio": "WIT Studio"
+    },
+    "age": 19,
+    "height": 183,
+    "hair_color": "Brown"
+  },
+  {
+    "name": "Mikasa Ackerman",
+    "anime": {
+      "name": "Attack on Titan",
+      "year": 2013,
+      "studio": "WIT Studio"
+    },
+    "age": 19,
+    "height": 176,
+    "hair_color": "Black"
+  },
+  {
+    "name": "Levi Ackerman",
+    "anime": {
+      "name": "Attack on Titan",
+      "year": 2013,
+      "studio": "WIT Studio"
+    },
+    "age": 30,
+    "height": 160,
+    "hair_color": "Black"
+  },
+  {
+    "name": "Tanjiro Kamado",
+    "anime": {
+      "name": "Demon Slayer",
+      "year": 2019,
+      "studio": "ufotable"
+    },
+    "age": 16,
+    "height": 165,
+    "hair_color": "Burgundy"
+  },
+  {
+    "name": "Nezuko Kamado",
+    "anime": {
+      "name": "Demon Slayer",
+      "year": 2019,
+      "studio": "ufotable"
+    },
+    "age": 14,
+    "height": 153,
+    "hair_color": "Black"
+  },
+  {
+    "name": "Zenitsu Agatsuma",
+    "anime": {
+      "name": "Demon Slayer",
+      "year": 2019,
+      "studio": "ufotable"
+    },
+    "age": 16,
+    "height": 164,
+    "hair_color": "Blonde"
+  },
+  {
+    "name": "Inosuke Hashibira",
+    "anime": {
+      "name": "Demon Slayer",
+      "year": 2019,
+      "studio": "ufotable"
+    },
+    "age": 15,
+    "height": 164,
+    "hair_color": "Blue/Black"
+  },
+  {
+    "name": "Giyu Tomioka",
+    "anime": {
+      "name": "Demon Slayer",
+      "year": 2019,
+      "studio": "ufotable"
+    },
+    "age": 21,
+    "height": 176,
+    "hair_color": "Black"
+  },
+  {
+    "name": "Kyojuro Rengoku",
+    "anime": {
+      "name": "Demon Slayer",
+      "year": 2019,
+      "studio": "ufotable"
+    },
+    "age": 20,
+    "height": 177,
+    "hair_color": "Yellow/Red"
+  },
+  {
+    "name": "Satoru Gojo",
+    "anime": {
+      "name": "Jujutsu Kaisen",
+      "year": 2020,
+      "studio": "MAPPA"
+    },
+    "age": 28,
+    "height": 190,
+    "hair_color": "White"
+  },
+  {
+    "name": "Yuji Itadori",
+    "anime": {
+      "name": "Jujutsu Kaisen",
+      "year": 2020,
+      "studio": "MAPPA"
+    },
+    "age": 15,
+    "height": 173,
+    "hair_color": "Pink"
+  },
+  {
+    "name": "Megumi Fushiguro",
+    "anime": {
+      "name": "Jujutsu Kaisen",
+      "year": 2020,
+      "studio": "MAPPA"
+    },
+    "age": 15,
+    "height": 175,
+    "hair_color": "Black"
+  },
+  {
+    "name": "Nobara Kugisaki",
+    "anime": {
+      "name": "Jujutsu Kaisen",
+      "year": 2020,
+      "studio": "MAPPA"
+    },
+    "age": 16,
+    "height": 160,
+    "hair_color": "Orange"
+  },
+  {
+    "name": "Kento Nanami",
+    "anime": {
+      "name": "Jujutsu Kaisen",
+      "year": 2020,
+      "studio": "MAPPA"
+    },
+    "age": 28,
+    "height": 184,
+    "hair_color": "Blonde"
+  },
+  {
+    "name": "Light Yagami",
+    "anime": {
+      "name": "Death Note",
+      "year": 2006,
+      "studio": "Madhouse"
+    },
+    "age": 17,
+    "height": 179,
+    "hair_color": "Brown"
+  },
+  {
+    "name": "L Lawliet",
+    "anime": {
+      "name": "Death Note",
+      "year": 2006,
+      "studio": "Madhouse"
+    },
+    "age": 24,
+    "height": 179,
+    "hair_color": "Black"
+  },
+  {
+    "name": "Killua Zoldyck",
+    "anime": {
+      "name": "Hunter x Hunter",
+      "year": 2011,
+      "studio": "Madhouse"
+    },
+    "age": 12,
+    "height": 158,
+    "hair_color": "Silver"
+  },
+  {
+    "name": "Gon Freecss",
+    "anime": {
+      "name": "Hunter x Hunter",
+      "year": 2011,
+      "studio": "Madhouse"
+    },
+    "age": 12,
+    "height": 154,
+    "hair_color": "Black/Green"
+  },
+  {
+    "name": "Hisoka Morow",
+    "anime": {
+      "name": "Hunter x Hunter",
+      "year": 2011,
+      "studio": "Madhouse"
+    },
+    "age": 28,
+    "height": 187,
+    "hair_color": "Pink"
+  },
+  {
+    "name": "Kurapika",
+    "anime": {
+      "name": "Hunter x Hunter",
+      "year": 2011,
+      "studio": "Madhouse"
+    },
+    "age": 17,
+    "height": 171,
+    "hair_color": "Blonde"
+  },
+  {
+    "name": "Edward Elric",
+    "anime": {
+      "name": "Fullmetal Alchemist: Brotherhood",
+      "year": 2009,
+      "studio": "Bones"
+    },
+    "age": 16,
+    "height": 165,
+    "hair_color": "Blonde"
+  },
+  {
+    "name": "Alphonse Elric",
+    "anime": {
+      "name": "Fullmetal Alchemist: Brotherhood",
+      "year": 2009,
+      "studio": "Bones"
+    },
+    "age": 15,
+    "height": 220,
+    "hair_color": "None"
+  },
+  {
+    "name": "Roy Mustang",
+    "anime": {
+      "name": "Fullmetal Alchemist: Brotherhood",
+      "year": 2009,
+      "studio": "Bones"
+    },
+    "age": 29,
+    "height": 173,
+    "hair_color": "Black"
+  },
+  {
+    "name": "Saitama",
+    "anime": {
+      "name": "One Punch Man",
+      "year": 2015,
+      "studio": "Madhouse"
+    },
+    "age": 25,
+    "height": 175,
+    "hair_color": "Bald"
+  },
+  {
+    "name": "Genos",
+    "anime": {
+      "name": "One Punch Man",
+      "year": 2015,
+      "studio": "Madhouse"
+    },
+    "age": 19,
+    "height": 178,
+    "hair_color": "Blonde"
+  },
+  {
+    "name": "Rimuru Tempest",
+    "anime": {
+      "name": "That Time I Got Reincarnated as a Slime",
+      "year": 2018,
+      "studio": "8bit"
+    },
+    "age": 39,
+    "height": 140,
+    "hair_color": "Blue"
+  },
+  {
+    "name": "Subaru Natsuki",
+    "anime": {
+      "name": "Re:Zero",
+      "year": 2016,
+      "studio": "White Fox"
+    },
+    "age": 18,
+    "height": 173,
+    "hair_color": "Black"
+  },
+  {
+    "name": "Emilia",
+    "anime": {
+      "name": "Re:Zero",
+      "year": 2016,
+      "studio": "White Fox"
+    },
+    "age": 115,
+    "height": 160,
+    "hair_color": "Silver"
+  },
+  {
+    "name": "Rem",
+    "anime": {
+      "name": "Re:Zero",
+      "year": 2016,
+      "studio": "White Fox"
+    },
+    "age": 17,
+    "height": 154,
+    "hair_color": "Blue"
+  },
+  {
+    "name": "Kazuma Satou",
+    "anime": {
+      "name": "KonoSuba",
+      "year": 2016,
+      "studio": "Studio Deen"
+    },
+    "age": 17,
+    "height": 165,
+    "hair_color": "Brown"
+  },
+  {
+    "name": "Aqua",
+    "anime": {
+      "name": "KonoSuba",
+      "year": 2016,
+      "studio": "Studio Deen"
+    },
+    "age": 1000,
+    "height": 158,
+    "hair_color": "Blue"
+  },
+  {
+    "name": "Megumin",
+    "anime": {
+      "name": "KonoSuba",
+      "year": 2016,
+      "studio": "Studio Deen"
+    },
+    "age": 14,
+    "height": 150,
+    "hair_color": "Brown"
+  },
+  {
+    "name": "Kirito",
+    "anime": {
+      "name": "Sword Art Online",
+      "year": 2012,
+      "studio": "A-1 Pictures"
+    },
+    "age": 16,
+    "height": 172,
+    "hair_color": "Black"
+  },
+  {
+    "name": "Asuna",
+    "anime": {
+      "name": "Sword Art Online",
+      "year": 2012,
+      "studio": "A-1 Pictures"
+    },
+    "age": 17,
+    "height": 168,
+    "hair_color": "Chestnut"
+  },
+  {
+    "name": "Shingeru Ayanami",
+    "anime": {
+      "name": "Neon Genesis Evangelion",
+      "year": 1995,
+      "studio": "Gainax"
+    },
+    "age": 14,
+    "height": 158,
+    "hair_color": "Blue"
+  },
+  {
+    "name": "Rei Ayanami",
+    "anime": {
+      "name": "Neon Genesis Evangelion",
+      "year": 1995,
+      "studio": "Gainax"
+    },
+    "age": 14,
+    "height": 152,
+    "hair_color": "Blue"
+  },
+  {
+    "name": "Shinji Ikari",
+    "anime": {
+      "name": "Neon Genesis Evangelion",
+      "year": 1995,
+      "studio": "Gainax"
+    },
+    "age": 14,
+    "height": 157,
+    "hair_color": "Brown"
+  },
+  {
+    "name": "Asuka Langley Soryu",
+    "anime": {
+      "name": "Neon Genesis Evangelion",
+      "year": 1995,
+      "studio": "Gainax"
+    },
+    "age": 14,
+    "height": 157,
+    "hair_color": "Red"
+  },
+  {
+    "name": "Lelouch lamperouge",
+    "anime": {
+      "name": "Code Geass",
+      "year": 2006,
+      "studio": "Sunrise"
+    },
+    "age": 17,
+    "height": 178,
+    "hair_color": "Black"
+  },
+  {
+    "name": "Suzaku Kururugi",
+    "anime": {
+      "name": "Code Geass",
+      "year": 2006,
+      "studio": "Sunrise"
+    },
+    "age": 17,
+    "height": 179,
+    "hair_color": "Brown"
+  },
+  {
+    "name": "Guts",
+    "anime": {
+      "name": "Berserk",
+      "year": 1997,
+      "studio": "OLM"
+    },
+    "age": 24,
+    "height": 204,
+    "hair_color": "Black"
+  },
+  {
+    "name": "Griffith",
+    "anime": {
+      "name": "Berserk",
+      "year": 1997,
+      "studio": "OLM"
+    },
+    "age": 24,
+    "height": 178,
+    "hair_color": "White"
+  },
+  {
+    "name": "Ichigo Kurosaki",
+    "anime": {
+      "name": "Bleach",
+      "year": 2004,
+      "studio": "Pierrot"
+    },
+    "age": 15,
+    "height": 174,
+    "hair_color": "Orange"
+  },
+  {
+    "name": "Rukia Kuchiki",
+    "anime": {
+      "name": "Bleach",
+      "year": 2004,
+      "studio": "Pierrot"
+    },
+    "age": 150,
+    "height": 144,
+    "hair_color": "Black"
+  },
+  {
+    "name": "Sosuke Aizen",
+    "anime": {
+      "name": "Bleach",
+      "year": 2004,
+      "studio": "Pierrot"
+    },
+    "age": 300,
+    "height": 186,
+    "hair_color": "Brown"
+  },
+  {
+    "name": "Natsu Dragneel",
+    "anime": {
+      "name": "Fairy Tail",
+      "year": 2009,
+      "studio": "A-1 Pictures"
+    },
+    "age": 18,
+    "height": 172,
+    "hair_color": "Pink"
+  },
+  {
+    "name": "Lucy Heartfilia",
+    "anime": {
+      "name": "Fairy Tail",
+      "year": 2009,
+      "studio": "A-1 Pictures"
+    },
+    "age": 17,
+    "height": 165,
+    "hair_color": "Blonde"
+  },
+  {
+    "name": "Erza Scarlet",
+    "anime": {
+      "name": "Fairy Tail",
+      "year": 2009,
+      "studio": "A-1 Pictures"
+    },
+    "age": 19,
+    "height": 169,
+    "hair_color": "Scarlet"
+  },
+  {
+    "name": "Ken Kaneki",
+    "anime": {
+      "name": "Tokyo Ghoul",
+      "year": 2014,
+      "studio": "Pierrot"
+    },
+    "age": 19,
+    "height": 169,
+    "hair_color": "White"
+  },
+  {
+    "name": "Touka Kirishima",
+    "anime": {
+      "name": "Tokyo Ghoul",
+      "year": 2014,
+      "studio": "Pierrot"
+    },
+    "age": 18,
+    "height": 156,
+    "hair_color": "Blue"
+  },
+  {
+    "name": "Tanjirou Kamado",
+    "anime": {
+      "name": "Demon Slayer",
+      "year": 2019,
+      "studio": "ufotable"
+    },
+    "age": 16,
+    "height": 165,
+    "hair_color": "Burgundy"
+  },
+  {
+    "name": "Jotaro Kujo",
+    "anime": {
+      "name": "JoJo's Bizarre Adventure",
+      "year": 2012,
+      "studio": "David Production"
+    },
+    "age": 17,
+    "height": 195,
+    "hair_color": "Black"
+  },
+  {
+    "name": "Dio Brando",
+    "anime": {
+      "name": "JoJo's Bizarre Adventure",
+      "year": 2012,
+      "studio": "David Production"
+    },
+    "age": 122,
+    "height": 195,
+    "hair_color": "Blonde"
+  },
+  {
+    "name": "Joseph Joestar",
+    "anime": {
+      "name": "JoJo's Bizarre Adventure",
+      "year": 2012,
+      "studio": "David Production"
+    },
+    "age": 18,
+    "height": 195,
+    "hair_color": "Brown"
+  },
+  {
+    "name": "Mob",
+    "anime": {
+      "name": "Mob Psycho 100",
+      "year": 2016,
+      "studio": "Bones"
+    },
+    "age": 14,
+    "height": 157,
+    "hair_color": "Black"
+  },
+  {
+    "name": "Reigen Arataka",
+    "anime": {
+      "name": "Mob Psycho 100",
+      "year": 2016,
+      "studio": "Bones"
+    },
+    "age": 28,
+    "height": 179,
+    "hair_color": "Blonde"
+  },
+  {
+    "name": "Meliodas",
+    "anime": {
+      "name": "The Seven Deadly Sins",
+      "year": 2014,
+      "studio": "A-1 Pictures"
+    },
+    "age": 3000,
+    "height": 152,
+    "hair_color": "Blonde"
+  },
+  {
+    "name": "Escanor",
+    "anime": {
+      "name": "The Seven Deadly Sins",
+      "year": 2014,
+      "studio": "A-1 Pictures"
+    },
+    "age": 40,
+    "height": 165,
+    "hair_color": "Ginger"
+  },
+  {
+    "name": "Soma Yukihira",
+    "anime": {
+      "name": "Food Wars!",
+      "year": 2015,
+      "studio": "J.C.Staff"
+    },
+    "age": 15,
+    "height": 171,
+    "hair_color": "Red/Blue"
+  },
+  {
+    "name": "Senku Ishigami",
+    "anime": {
+      "name": "Dr. STONE",
+      "year": 2019,
+      "studio": "TMS Entertainment"
+    },
+    "age": 18,
+    "height": 175,
+    "hair_color": "Green/White"
+  },
+  {
+    "name": "Tatsumaki",
+    "anime": {
+      "name": "One Punch Man",
+      "year": 2015,
+      "studio": "Madhouse"
+    },
+    "age": 28,
+    "height": 142,
+    "hair_color": "Green"
+  },
+  {
+    "name": "Baki Hanma",
+    "anime": {
+      "name": "Baki",
+      "year": 2018,
+      "studio": "TMS Entertainment"
+    },
+    "age": 17,
+    "height": 167,
+    "hair_color": "Brown"
+  },
+  {
+    "name": "Asta",
+    "anime": {
+      "name": "Black Clover",
+      "year": 2017,
+      "studio": "Pierrot"
+    },
+    "age": 16,
+    "height": 155,
+    "hair_color": "Ash Blond"
+  },
+  {
+    "name": "Yuno",
+    "anime": {
+      "name": "Black Clover",
+      "year": 2017,
+      "studio": "Pierrot"
+    },
+    "age": 16,
+    "height": 172,
+    "hair_color": "Black"
+  },
+  {
+    "name": "Yami Sukehiro",
+    "anime": {
+      "name": "Black Clover",
+      "year": 2017,
+      "studio": "Pierrot"
+    },
+    "age": 28,
+    "height": 183,
+    "hair_color": "Black"
+  },
+  {
+    "name": "Shino Asada",
+    "anime": {
+      "name": "Sword Art Online",
+      "year": 2012,
+      "studio": "A-1 Pictures"
+    },
+    "age": 16,
+    "height": 161,
+    "hair_color": "Blue"
+  },
+  {
+    "name": "Luffy",
+    "anime": {
+      "name": "One Piece",
+      "year": 1999,
+      "studio": "Toei Animation"
+    },
+    "age": 19,
+    "height": 174,
+    "hair_color": "Black"
+  },
+  {
+    "name": "Sanji",
+    "anime": {
+      "name": "One Piece",
+      "year": 1999,
+      "studio": "Toei Animation"
+    },
+    "age": 21,
+    "height": 180,
+    "hair_color": "Blonde"
+  },
+  {
+    "name": "Tony Tony Chopper",
+    "anime": {
+      "name": "One Piece",
+      "year": 1999,
+      "studio": "Toei Animation"
+    },
+    "age": 17,
+    "height": 90,
+    "hair_color": "Brown"
+  },
+  {
+    "name": "Nami",
+    "anime": {
+      "name": "One Piece",
+      "year": 1999,
+      "studio": "Toei Animation"
+    },
+    "age": 20,
+    "height": 170,
+    "hair_color": "Orange"
+  },
+  {
+    "name": "Nico Robin",
+    "anime": {
+      "name": "One Piece",
+      "year": 1999,
+      "studio": "Toei Animation"
+    },
+    "age": 30,
+    "height": 188,
+    "hair_color": "Black"
+  },
+  {
+    "name": "Spike Spiegel",
+    "anime": {
+      "name": "Cowboy Bebop",
+      "year": 1998,
+      "studio": "Sunrise"
+    },
+    "age": 27,
+    "height": 185,
+    "hair_color": "Green/Black"
+  },
+  {
+    "name": "Faye Valentine",
+    "anime": {
+      "name": "Cowboy Bebop",
+      "year": 1998,
+      "studio": "Sunrise"
+    },
+    "age": 23,
+    "height": 168,
+    "hair_color": "Purple"
+  },
+  {
+    "name": "Violet Evergarden",
+    "anime": {
+      "name": "Violet Evergarden",
+      "year": 2018,
+      "studio": "Kyoto Animation"
+    },
+    "age": 14,
+    "height": 161,
+    "hair_color": "Blonde"
+  },
+  {
+    "name": "Denji",
+    "anime": {
+      "name": "Chainsaw Man",
+      "year": 2022,
+      "studio": "MAPPA"
+    },
+    "age": 16,
+    "height": 173,
+    "hair_color": "Blonde"
+  },
+  {
+    "name": "Power",
+    "anime": {
+      "name": "Chainsaw Man",
+      "year": 2022,
+      "studio": "MAPPA"
+    },
+    "age": 100,
+    "height": 168,
+    "hair_color": "Blonde/Pink"
+  },
+  {
+    "name": "Aki Hayakawa",
+    "anime": {
+      "name": "Chainsaw Man",
+      "year": 2022,
+      "studio": "MAPPA"
+    },
+    "age": 22,
+    "height": 180,
+    "hair_color": "Black"
+  },
+  {
+    "name": "Makima",
+    "anime": {
+      "name": "Chainsaw Man",
+      "year": 2022,
+      "studio": "MAPPA"
+    },
+    "age": 30,
+    "height": 168,
+    "hair_color": "Red"
+  },
+  {
+    "name": "Loid Forger",
+    "anime": {
+      "name": "Spy x Family",
+      "year": 2022,
+      "studio": "Wit Studio / CloverWorks"
+    },
+    "age": 28,
+    "height": 187,
+    "hair_color": "Blonde"
+  },
+  {
+    "name": "Yor Forger",
+    "anime": {
+      "name": "Spy x Family",
+      "year": 2022,
+      "studio": "Wit Studio / CloverWorks"
+    },
+    "age": 27,
+    "height": 170,
+    "hair_color": "Black"
+  },
+  {
+    "name": "Anya Forger",
+    "anime": {
+      "name": "Spy x Family",
+      "year": 2022,
+      "studio": "Wit Studio / CloverWorks"
+    },
+    "age": 6,
+    "height": 99,
+    "hair_color": "Pink"
+  },
+  {
+    "name": "Kageyama Tobio",
+    "anime": {
+      "name": "Haikyu!!",
+      "year": 2014,
+      "studio": "Production I.G"
+    },
+    "age": 16,
+    "height": 181,
+    "hair_color": "Black"
+  },
+  {
+    "name": "Hinata Shoyo",
+    "anime": {
+      "name": "Haikyu!!",
+      "year": 2014,
+      "studio": "Production I.G"
+    },
+    "age": 16,
+    "height": 164,
+    "hair_color": "Orange"
+  },
+  {
+    "name": "Marin Kitagawa",
+    "anime": {
+      "name": "My Dress-Up Darling",
+      "year": 2022,
+      "studio": "CloverWorks"
+    },
+    "age": 15,
+    "height": 164,
+    "hair_color": "Blonde/Pink"
+  },
+  {
+    "name": "Hachimann Hikigaya",
+    "anime": {
+      "name": "My Teen Romantic Comedy SNAFU",
+      "year": 2013,
+      "studio": "Brain's Base"
+    },
+    "age": 17,
+    "height": 172,
+    "hair_color": "Black"
+  },
+  {
+    "name": "Ryuko Matoi",
+    "anime": {
+      "name": "Kill la Kill",
+      "year": 2013,
+      "studio": "Trigger"
+    },
+    "age": 17,
+    "height": 160,
+    "hair_color": "Black/Red"
+  },
+  {
+    "name": "Miku Nakano",
+    "anime": {
+      "name": "The Quintessential Quintuplets",
+      "year": 2019,
+      "studio": "Tezuka Productions"
+    },
+    "age": 17,
+    "height": 165,
+    "hair_color": "Brown"
+  },
+  {
+    "name": "Rintarou Okabe",
+    "anime": {
+      "name": "Steins;Gate",
+      "year": 2011,
+      "studio": "White Fox"
+    },
+    "age": 18,
+    "height": 177,
+    "hair_color": "Brown"
+  },
+  {
+    "name": "Kurisu Makise",
+    "anime": {
+      "name": "Steins;Gate",
+      "year": 2011,
+      "studio": "White Fox"
+    },
+    "age": 18,
+    "height": 160,
+    "hair_color": "Red"
+  },
+  {
+    "name": "Frieren",
+    "anime": {
+      "name": "Frieren: Beyond Journey's End",
+      "year": 2023,
+      "studio": "Madhouse"
+    },
+    "age": 1000,
+    "height": 150,
+    "hair_color": "White"
+  }
+]
