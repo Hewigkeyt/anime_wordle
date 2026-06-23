@@ -45,9 +45,11 @@ export function buildResult(guess, target) {
       },
       {
         key: "age",
-        display: String(guess.age),
-        status: compareNum(guess.age, target.age),
-        numeric: true,
+        display: guess.age === null ? "?" : String(guess.age),
+        status: guess.age === null && target.age === null ? "correct"
+          : guess.age === null || target.age === null ? "wrong"
+            : compareNum(guess.age, target.age),
+        numeric: guess.age !== null && target.age !== null,
       },
       {
         key: "height",

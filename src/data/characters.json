@@ -107,7 +107,7 @@
     },
     "age": 16,
     "height": 172,
-    "hair_color": "Ash Blonde"
+    "hair_color": "Blonde"
   },
   {
     "name": "Shoto Todoroki",
@@ -347,7 +347,7 @@
       "year": 2003,
       "studio": "Bones"
     },
-    "age": 149,
+    "age": 14,
     "height": 149,
     "hair_color": "Blonde"
   },
@@ -1139,7 +1139,7 @@
       "year": 2006,
       "studio": "Sunrise"
     },
-    "age": 500,
+    "age": null,
     "height": 168,
     "hair_color": "Green"
   },
@@ -1197,5 +1197,214 @@
     "age": 12,
     "height": 145,
     "hair_color": "Black"
+  },
+  {
+    "name": "Haruhi Suzumiya",
+    "anime": {
+      "name": "The Melancholy of Haruhi Suzumiya",
+      "year": 2006,
+      "studio": "Kyoto Animation"
+    },
+    "age": 15,
+    "height": 158,
+    "hair_color": "Brown"
+  },
+  {
+    "name": "Kyon",
+    "anime": {
+      "name": "The Melancholy of Haruhi Suzumiya",
+      "year": 2006,
+      "studio": "Kyoto Animation"
+    },
+    "age": 15,
+    "height": 170,
+    "hair_color": "Brown"
+  },
+  {
+    "name": "Yuki Nagato",
+    "anime": {
+      "name": "The Melancholy of Haruhi Suzumiya",
+      "year": 2006,
+      "studio": "Kyoto Animation"
+    },
+    "age": 15,
+    "height": 154,
+    "hair_color": "Purple"
+  },
+  {
+    "name": "Mikuru Asahina",
+    "anime": {
+      "name": "The Melancholy of Haruhi Suzumiya",
+      "year": 2006,
+      "studio": "Kyoto Animation"
+    },
+    "age": 15,
+    "height": 152,
+    "hair_color": "Brown"
+  },
+  {
+    "name": "Itsuki Koizumi",
+    "anime": {
+      "name": "The Melancholy of Haruhi Suzumiya",
+      "year": 2006,
+      "studio": "Kyoto Animation"
+    },
+    "age": 15,
+    "height": 178,
+    "hair_color": "Brown"
+  },
+  {
+    "name": "Sakura Kinomoto",
+    "anime": {
+      "name": "Card Captor Sakura",
+      "year": 1998,
+      "studio": "Madhouse"
+    },
+    "age": 10,
+    "height": 141,
+    "hair_color": "Brown"
+  },
+  {
+    "name": "Shaolan Li",
+    "anime": {
+      "name": "Card Captor Sakura",
+      "year": 1998,
+      "studio": "Madhouse"
+    },
+    "age": 10,
+    "height": 143,
+    "hair_color": "Brown"
+  },
+  {
+    "name": "Hitomi Kanzaki",
+    "anime": {
+      "name": "Visions of Escaflowne",
+      "year": 1996,
+      "studio": "Sunrise"
+    },
+    "age": 15,
+    "height": 160,
+    "hair_color": "Brown"
+  },
+  {
+    "name": "Van Fanel",
+    "anime": {
+      "name": "Visions of Escaflowne",
+      "year": 1996,
+      "studio": "Sunrise"
+    },
+    "age": 15,
+    "height": 173,
+    "hair_color": "Black"
+  },
+  {
+    "name": "Allen Schezar",
+    "anime": {
+      "name": "Visions of Escaflowne",
+      "year": 1996,
+      "studio": "Sunrise"
+    },
+    "age": 24,
+    "height": 182,
+    "hair_color": "Blonde"
+  },
+  {
+    "name": "Dilandau Albatou",
+    "anime": {
+      "name": "Visions of Escaflowne",
+      "year": 1996,
+      "studio": "Sunrise"
+    },
+    "age": 15,
+    "height": 171,
+    "hair_color": "Silver"
+  },
+  {
+    "name": "Ayato Kamina",
+    "anime": {
+      "name": "RahXephon",
+      "year": 2002,
+      "studio": "Bones"
+    },
+    "age": 17,
+    "height": 170,
+    "hair_color": "Grey"
+  },
+  {
+    "name": "Haruka Shitow",
+    "anime": {
+      "name": "RahXephon",
+      "year": 2002,
+      "studio": "Bones"
+    },
+    "age": 29,
+    "height": 167,
+    "hair_color": "Black"
+  },
+  {
+    "name": "Quon Kisaragi",
+    "anime": {
+      "name": "RahXephon",
+      "year": 2002,
+      "studio": "Bones"
+    },
+    "age": 15,
+    "height": 155,
+    "hair_color": "Pink"
+  },
+  {
+    "name": "Reika Mishima",
+    "anime": {
+      "name": "RahXephon",
+      "year": 2002,
+      "studio": "Bones"
+    },
+    "age": 17,
+    "height": 155,
+    "hair_color": "Brown"
+  },
+  {
+    "name": "Tiger Mask",
+    "anime": {
+      "name": "Tiger Mask",
+      "year": 1969,
+      "studio": "Toei Animation"
+    },
+    "age": 22,
+    "height": 185,
+    "hair_color": "Other"
+  },
+  {
+    "name": "Captain Herlock",
+    "anime": {
+      "name": "Space Pirate Captain Harlock",
+      "year": 1978,
+      "studio": "Toei Animation"
+    },
+    "age": 28,
+    "height": 185,
+    "hair_color": "Brown"
+  },
+  {
+    "name": "Emeraldas",
+    "anime": {
+      "name": "Space Pirate Captain Harlock",
+      "year": 1978,
+      "studio": "Toei Animation"
+    },
+    "age": null,
+    "height": 175,
+    "hair_color": "Blonde"
+  },
+  {
+    "name": "Maetel",
+    "anime": {
+      "name": "Galaxy Express 999",
+      "year": 1978,
+      "studio": "Toei Animation"
+    },
+    "age": null,
+    "height": 175,
+    "hair_color": "Blonde"
   }
 ]
