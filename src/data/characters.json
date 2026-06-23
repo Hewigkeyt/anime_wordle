@@ -6,8 +6,8 @@
       "year": 1999,
       "studio": "Toei Animation"
     },
-    "age": 19,
-    "height": 174,
+    "age": 17,
+    "height": 172,
     "hair_color": "Black"
   },
   {
@@ -17,51 +17,62 @@
       "year": 1999,
       "studio": "Toei Animation"
     },
-    "age": 21,
-    "height": 181,
+    "age": 19,
+    "height": 178,
     "hair_color": "Green"
   },
   {
     "name": "Naruto Uzumaki",
     "anime": {
-      "name": "Naruto Shippuden",
-      "year": 2007,
+      "name": "Naruto",
+      "year": 2002,
       "studio": "Pierrot"
     },
-    "age": 16,
-    "height": 166,
+    "age": 12,
+    "height": 145,
     "hair_color": "Blonde"
   },
   {
     "name": "Sasuke Uchiha",
     "anime": {
-      "name": "Naruto Shippuden",
-      "year": 2007,
+      "name": "Naruto",
+      "year": 2002,
       "studio": "Pierrot"
     },
-    "age": 16,
-    "height": 168,
+    "age": 12,
+    "height": 150,
     "hair_color": "Black"
+  },
+  {
+    "name": "Sakura Haruno",
+    "anime": {
+      "name": "Naruto",
+      "year": 2002,
+      "studio": "Pierrot"
+    },
+    "age": 12,
+    "height": 148,
+    "hair_color": "Pink"
   },
   {
     "name": "Kakashi Hatake",
     "anime": {
-      "name": "Naruto Shippuden",
-      "year": 2007,
+      "name": "Naruto",
+      "year": 2002,
       "studio": "Pierrot"
     },
-    "age": 30,
+    "age": 26,
     "height": 181,
     "hair_color": "Silver"
   },
   {
-    "name": "Son Goku",
+    "name": "Son Goku (adult)",
     "anime": {
       "name": "Dragon Ball Z",
       "year": 1989,
       "studio": "Toei Animation"
     },
-    "age": 35,
+    "age": 24,
     "height": 175,
     "hair_color": "Black"
   },
@@ -72,7 +83,7 @@
       "year": 1989,
       "studio": "Toei Animation"
     },
-    "age": 38,
+    "age": 29,
     "height": 164,
     "hair_color": "Black"
   },
@@ -107,7 +118,7 @@
     },
     "age": 16,
     "height": 176,
-    "hair_color": "White/Red"
+    "hair_color": "Bicolor"
   },
   {
     "name": "Eren Yeager",
@@ -116,8 +127,8 @@
       "year": 2013,
       "studio": "WIT Studio"
     },
-    "age": 19,
-    "height": 183,
+    "age": 15,
+    "height": 170,
     "hair_color": "Brown"
   },
   {
@@ -127,8 +138,8 @@
       "year": 2013,
       "studio": "WIT Studio"
     },
-    "age": 19,
-    "height": 176,
+    "age": 15,
+    "height": 170,
     "hair_color": "Black"
   },
   {
@@ -151,7 +162,7 @@
     },
     "age": 16,
     "height": 165,
-    "hair_color": "Burgundy"
+    "hair_color": "Red"
   },
   {
     "name": "Nezuko Kamado",
@@ -184,7 +195,7 @@
     },
     "age": 15,
     "height": 164,
-    "hair_color": "Blue/Black"
+    "hair_color": "Blue"
   },
   {
     "name": "Giyu Tomioka",
@@ -206,7 +217,7 @@
     },
     "age": 20,
     "height": 177,
-    "hair_color": "Yellow/Red"
+    "hair_color": "Bicolor"
   },
   {
     "name": "Satoru Gojo",
@@ -286,44 +297,44 @@
     "hair_color": "Black"
   },
   {
-    "name": "Killua Zoldyck",
-    "anime": {
-      "name": "Hunter x Hunter",
-      "year": 2011,
-      "studio": "Madhouse"
-    },
-    "age": 12,
-    "height": 158,
-    "hair_color": "Silver"
-  },
-  {
     "name": "Gon Freecss",
     "anime": {
       "name": "Hunter x Hunter",
-      "year": 2011,
-      "studio": "Madhouse"
+      "year": 1999,
+      "studio": "Nippon Animation"
     },
     "age": 12,
     "height": 154,
-    "hair_color": "Black/Green"
+    "hair_color": "Black"
+  },
+  {
+    "name": "Kirua Zoldik",
+    "anime": {
+      "name": "Hunter x Hunter",
+      "year": 1999,
+      "studio": "Nippon Animation"
+    },
+    "age": 12,
+    "height": 160,
+    "hair_color": "White"
   },
   {
     "name": "Hisoka Morow",
     "anime": {
       "name": "Hunter x Hunter",
-      "year": 2011,
-      "studio": "Madhouse"
+      "year": 1999,
+      "studio": "Nippon Animation"
     },
     "age": 28,
-    "height": 187,
-    "hair_color": "Pink"
+    "height": 197,
+    "hair_color": "Blue"
   },
   {
     "name": "Kurapika",
     "anime": {
       "name": "Hunter x Hunter",
-      "year": 2011,
-      "studio": "Madhouse"
+      "year": 1999,
+      "studio": "Nippon Animation"
     },
     "age": 17,
     "height": 171,
@@ -332,30 +343,30 @@
   {
     "name": "Edward Elric",
     "anime": {
-      "name": "Fullmetal Alchemist: Brotherhood",
-      "year": 2009,
+      "name": "Fullmetal Alchemist",
+      "year": 2003,
       "studio": "Bones"
     },
-    "age": 16,
-    "height": 165,
+    "age": 149,
+    "height": 149,
     "hair_color": "Blonde"
   },
   {
     "name": "Alphonse Elric",
     "anime": {
-      "name": "Fullmetal Alchemist: Brotherhood",
-      "year": 2009,
+      "name": "Fullmetal Alchemist",
+      "year": 2003,
       "studio": "Bones"
     },
-    "age": 15,
-    "height": 220,
+    "age": 14,
+    "height": 224,
     "hair_color": "None"
   },
   {
     "name": "Roy Mustang",
     "anime": {
-      "name": "Fullmetal Alchemist: Brotherhood",
-      "year": 2009,
+      "name": "Fullmetal Alchemist",
+      "year": 2003,
       "studio": "Bones"
     },
     "age": 29,
@@ -481,18 +492,7 @@
     },
     "age": 17,
     "height": 168,
-    "hair_color": "Chestnut"
-  },
-  {
-    "name": "Shingeru Ayanami",
-    "anime": {
-      "name": "Neon Genesis Evangelion",
-      "year": 1995,
-      "studio": "Gainax"
-    },
-    "age": 14,
-    "height": 158,
-    "hair_color": "Blue"
+    "hair_color": "Blonde"
   },
   {
     "name": "Rei Ayanami",
@@ -528,7 +528,7 @@
     "hair_color": "Red"
   },
   {
-    "name": "Lelouch lamperouge",
+    "name": "Lelouch Lamperouge",
     "anime": {
       "name": "Code Geass",
       "year": 2006,
@@ -556,8 +556,8 @@
       "year": 1997,
       "studio": "OLM"
     },
-    "age": 24,
-    "height": 204,
+    "age": 15,
+    "height": 185,
     "hair_color": "Black"
   },
   {
@@ -567,7 +567,7 @@
       "year": 1997,
       "studio": "OLM"
     },
-    "age": 24,
+    "age": 18,
     "height": 178,
     "hair_color": "White"
   },
@@ -660,17 +660,6 @@
     "hair_color": "Blue"
   },
   {
-    "name": "Tanjirou Kamado",
-    "anime": {
-      "name": "Demon Slayer",
-      "year": 2019,
-      "studio": "ufotable"
-    },
-    "age": 16,
-    "height": 165,
-    "hair_color": "Burgundy"
-  },
-  {
     "name": "Jotaro Kujo",
     "anime": {
       "name": "JoJo's Bizarre Adventure",
@@ -756,7 +745,7 @@
     },
     "age": 15,
     "height": 171,
-    "hair_color": "Red/Blue"
+    "hair_color": "Red"
   },
   {
     "name": "Senku Ishigami",
@@ -767,7 +756,7 @@
     },
     "age": 18,
     "height": 175,
-    "hair_color": "Green/White"
+    "hair_color": "Bicolor"
   },
   {
     "name": "Tatsumaki",
@@ -784,12 +773,12 @@
     "name": "Baki Hanma",
     "anime": {
       "name": "Baki",
-      "year": 2018,
-      "studio": "TMS Entertainment"
+      "year": 2001,
+      "studio": "Group TAC"
     },
-    "age": 17,
-    "height": 167,
-    "hair_color": "Brown"
+    "age": 13,
+    "height": 157,
+    "hair_color": "Orange"
   },
   {
     "name": "Asta",
@@ -800,7 +789,7 @@
     },
     "age": 16,
     "height": 155,
-    "hair_color": "Ash Blond"
+    "hair_color": "Silver"
   },
   {
     "name": "Yuno",
@@ -834,17 +823,6 @@
     "age": 16,
     "height": 161,
     "hair_color": "Blue"
-  },
-  {
-    "name": "Luffy",
-    "anime": {
-      "name": "One Piece",
-      "year": 1999,
-      "studio": "Toei Animation"
-    },
-    "age": 19,
-    "height": 174,
-    "hair_color": "Black"
   },
   {
     "name": "Sanji",
@@ -899,7 +877,7 @@
     },
     "age": 27,
     "height": 185,
-    "hair_color": "Green/Black"
+    "hair_color": "Green"
   },
   {
     "name": "Faye Valentine",
@@ -943,7 +921,7 @@
     },
     "age": 100,
     "height": 168,
-    "hair_color": "Blonde/Pink"
+    "hair_color": "Blonde"
   },
   {
     "name": "Aki Hayakawa",
@@ -1031,7 +1009,7 @@
     },
     "age": 15,
     "height": 164,
-    "hair_color": "Blonde/Pink"
+    "hair_color": "Blonde"
   },
   {
     "name": "Hachimann Hikigaya",
@@ -1053,7 +1031,7 @@
     },
     "age": 17,
     "height": 160,
-    "hair_color": "Black/Red"
+    "hair_color": "Black"
   },
   {
     "name": "Miku Nakano",
@@ -1098,5 +1076,126 @@
     "age": 1000,
     "height": 150,
     "hair_color": "White"
+  },
+  {
+    "name": "Yujiro Hanma",
+    "anime": {
+      "name": "Baki",
+      "year": 2001,
+      "studio": "Group TAC"
+    },
+    "age": 32,
+    "height": 191,
+    "hair_color": "Red"
+  },
+  {
+    "name": "Son Gohan (kid)",
+    "anime": {
+      "name": "Dragon Ball Z",
+      "year": 1989,
+      "studio": "Toei Animation"
+    },
+    "age": 5,
+    "height": 115,
+    "hair_color": "Black"
+  },
+  {
+    "name": "Freezer",
+    "anime": {
+      "name": "Dragon Ball Z",
+      "year": 1989,
+      "studio": "Toei Animation"
+    },
+    "age": 32,
+    "height": 152,
+    "hair_color": "None"
+  },
+  {
+    "name": "Nunnally Lamperouge",
+    "anime": {
+      "name": "Code Geass",
+      "year": 2006,
+      "studio": "Sunrise"
+    },
+    "age": 14,
+    "height": 160,
+    "hair_color": "Blonde"
+  },
+  {
+    "name": "Karen Stadtfeld",
+    "anime": {
+      "name": "Code Geass",
+      "year": 2006,
+      "studio": "Sunrise"
+    },
+    "age": 17,
+    "height": 160,
+    "hair_color": "Pink"
+  },
+  {
+    "name": "C.C.",
+    "anime": {
+      "name": "Code Geass",
+      "year": 2006,
+      "studio": "Sunrise"
+    },
+    "age": 500,
+    "height": 168,
+    "hair_color": "Green"
+  },
+  {
+    "name": "Satsuki Kiryuin",
+    "anime": {
+      "name": "Kill la Kill",
+      "year": 2013,
+      "studio": "Trigger"
+    },
+    "age": 18,
+    "height": 175,
+    "hair_color": "Black"
+  },
+  {
+    "name": "Wakana Gojo",
+    "anime": {
+      "name": "My Dress-Up Darling",
+      "year": 2022,
+      "studio": "CloverWorks"
+    },
+    "age": 15,
+    "height": 185,
+    "hair_color": "Black"
+  },
+  {
+    "name": "Misato Katsuragi",
+    "anime": {
+      "name": "Neon Genesis Evangelion",
+      "year": 1995,
+      "studio": "Gainax"
+    },
+    "age": 29,
+    "height": 163,
+    "hair_color": "Blue"
+  },
+  {
+    "name": "Bulma",
+    "anime": {
+      "name": "Dragon Ball",
+      "year": 1986,
+      "studio": "Toei Animation"
+    },
+    "age": 16,
+    "height": 165,
+    "hair_color": "Blue"
+  },
+  {
+    "name": "Son Goku (kid)",
+    "anime": {
+      "name": "Dragon Ball",
+      "year": 1986,
+      "studio": "Toei Animation"
+    },
+    "age": 12,
+    "height": 145,
+    "hair_color": "Black"
   }
 ]

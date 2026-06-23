@@ -12,6 +12,8 @@ export function useWordle(db) {
   const [rows,    setRows]    = useState([]);       // array of buildResult() outputs, newest first
   const [won,     setWon]     = useState(false);
   const [lost,    setLost]    = useState(false);
+  const [hintUsed, setHintUsed] = useState(false);
+
 
   // Derived: names already guessed, used to exclude from suggestions
   const guessedNames = new Set(rows.map((r) => r.character.name));
@@ -77,5 +79,7 @@ export function useWordle(db) {
     guessCount: rows.length,
     submitGuess,
     selectSuggestion,
+    hintUsed,
+    onHintUsed: () => setHintUsed(true),
   };
 }

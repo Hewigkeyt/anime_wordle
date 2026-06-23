@@ -7,7 +7,7 @@ export default function ResultBanner({ won, lost, target, attempts }) {
     <div className={`result-banner result-banner--${won ? "win" : "loss"}`}>
       <p className="result-banner__message">
         {won
-          ? `🎉 Correct! You guessed ${target.name} in ${attempts} attempts!`
+          ? `Correct! You guessed ${target.name} in ${attempts} attempts!`
           : `💀 Game over! It was ${target.name} from ${target.anime.name}.`}
       </p>
       <button

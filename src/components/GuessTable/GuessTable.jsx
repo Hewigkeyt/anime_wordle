@@ -6,8 +6,26 @@ export default function GuessTable({ rows }) {
   if (rows.length === 0) {
     return (
       <div className="guess-table__empty">
-        <span className="guess-table__empty-icon">⛩️</span>
-        <p>Search for a character above to start guessing</p>
+        <div className="db-wrapper">
+          <div className="db-arrow">
+            <div className="star">★</div>
+          </div>
+          <div className="db-arrow_outline"></div>
+        </div>
+        <p>Search for a character above to start guessing.</p>
+        
+        <ul>
+          <li>A character's data is based on their first major anime appearance.</li>
+          <li>Short introductions are ignored (e.g. Eren is 15 y.o.).</li>
+          <li>For instance Naruto is a 12-year-old character from Naruto (2002), not Naruto Shippuden (2007).</li>
+          <li>If you notice an error please fill an issue <a href="https://github.com/Hewigkeyt/anime_wordle/issues">here</a>.</li>
+        </ul>
+        <br />
+        <p>Updates to come:</p>
+        <ul>
+          <li>Addition/fix of characters in the database.</li>
+          <li>Daily mode with leaderboard.</li>
+        </ul>
       </div>
     );
   }

@@ -10,7 +10,7 @@
   display: flex;
   align-items: center;
   gap: 6px;
-  font-size: 11px;
+  font-size: 1rem;
   color: var(--color-muted);
 }
 

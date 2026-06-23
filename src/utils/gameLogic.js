@@ -1,4 +1,4 @@
-export const HEADERS = ["Character", "Anime", "Year", "Studio", "Age", "Height", "Hair"];
+export const HEADERS = ["Character", "Anime", "Year", "Studio", "Age", "Height", "Hair color"];
 // export const MAX_GUESSES = 8;
 
 /**

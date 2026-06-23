@@ -4,18 +4,65 @@
 }
 
 .header__title {
-  font-family: "Bebas Neue", sans-serif;
+  font-family: "JetBrains Mono", sans-serif;
   font-size: clamp(42px, 8vw, 72px);
   letter-spacing: 0.04em;
   margin: 0;
-  background: linear-gradient(135deg, #e84393, #a855f7);
+  background: #F06C00;
+  background: linear-gradient(-1deg, rgba(240, 108, 0, 1) 0%, rgba(255, 230, 0, 1) 45%, rgba(255, 230, 0, 1) 55%, rgba(240, 108, 0, 1) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+  position: relative;
+  z-index: 1;
 }
 
 .header__subtitle {
   color: var(--color-muted);
-  font-size: 13px;
+  font-size: 1rem;
   margin: 4px 0 0;
+}
+
+.shine {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  pointer-events: none;
+  font-family: "JetBrains Mono", monospace;
+  font-size: clamp(42px, 8vw, 72px);
+  letter-spacing: 0.04em;
+  margin: 0;
+  background: linear-gradient(90deg, transparent 40%, rgba(255, 255, 255, 0.95) 50%, transparent 60%);
+  background-size: 300% 100%;
+  background-position: 100% 0;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  animation: sweep 6s ease-in-out infinite;
+}
+
+@keyframes sweep {
+  0% {
+    background-position: 150% 0;
+    opacity: 0;
+  }
+
+  10% {
+    opacity: 1;
+  }
+
+  50% {
+    background-position: -50% 0;
+    opacity: 1;
+  }
+
+  60% {
+    opacity: 0;
+  }
+
+  80% {
+    background-position: -50% 0;
+    opacity: 0;
+  }
 }

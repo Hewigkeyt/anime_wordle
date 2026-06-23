@@ -10,7 +10,7 @@ export default function GuessRow({ cells }) {
           status={cell.status}
           display={cell.display}
           numeric={cell.numeric}
-          animDelay={`${i * 0.07}s`}
+          animDelay={`${i * 0.1}s`}
         />
       ))}
     </div>
