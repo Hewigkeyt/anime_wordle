@@ -1,7 +1,7 @@
 import "./Header.css";
 // import { MAX_GUESSES } from "../../utils/gameLogic";
 
-export default function Header({ guessCount }) {
+export default function Header({ guessCount, mode }) {
   return (
     <header className="header">
       <h1 className="header__title"><span className="shine">ANIME WORDLE</span>ANIME WORDLE</h1>

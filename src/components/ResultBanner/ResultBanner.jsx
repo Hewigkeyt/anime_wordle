@@ -1,6 +1,6 @@
 import "./ResultBanner.css";
 
-export default function ResultBanner({ won, lost, target, attempts }) {
+export default function ResultBanner({ won, lost, target, attempts, onPlayAgain }) {
   if (!won && !lost) return null;
 
   return (
@@ -12,7 +12,7 @@ export default function ResultBanner({ won, lost, target, attempts }) {
       </p>
       <button
         className="result-banner__btn"
-        onClick={() => window.location.reload()}
+        onClick={onPlayAgain ?? (() => window.location.reload())}
       >
         PLAY AGAIN
       </button>

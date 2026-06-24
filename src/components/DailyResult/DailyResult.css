@@ -1,0 +1,148 @@
+.daily-result {
+  width: 100%;
+  max-width: 480px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+/* Outcome banner */
+.daily-result__outcome {
+  border-radius: 10px;
+  border: 1px solid transparent;
+  padding: 14px 20px;
+  text-align: center;
+}
+
+.daily-result__outcome--win  { background: #14532d; border-color: #4ade80; }
+.daily-result__outcome--loss { background: #450a0a; border-color: #f87171; }
+
+.daily-result__outcome-msg {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.daily-result__outcome--win  .daily-result__outcome-msg { color: #4ade80; }
+.daily-result__outcome--loss .daily-result__outcome-msg { color: #f87171; }
+
+/* Score submission */
+.daily-result__submit {
+  background: #161b22;
+  border: 1px solid var(--color-border);
+  border-radius: 10px;
+  padding: 14px 16px;
+}
+
+.daily-result__submit-label {
+  margin: 0 0 10px;
+  font-size: 12px;
+  color: var(--color-muted);
+}
+
+.daily-result__submit-row {
+  display: flex;
+  gap: 8px;
+}
+
+.daily-result__input {
+  flex: 1;
+  background: var(--color-bg);
+  border: 1px solid var(--color-orange);
+  border-radius: 6px;
+  padding: 7px 10px;
+  color: var(--color-text);
+  font-size: 13px;
+  font-family: inherit;
+  outline: none;
+}
+
+.daily-result__input:focus { border-color: var(--color-yellow); }
+
+.daily-result__submit-btn {
+  background: linear-gradient(135deg, var(--color-orange), var(--color-yellow));
+  border: none;
+  border-radius: 6px;
+  padding: 7px 16px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 13px;
+  font-family: inherit;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.daily-result__submit-btn:disabled { opacity: 0.4; cursor: not-allowed; }
+.daily-result__submit-btn:not(:disabled):hover { opacity: 0.85; }
+
+.daily-result__submitted-msg {
+  margin: 0;
+  font-size: 13px;
+  color: #4ade80;
+}
+
+.daily-result__error {
+  margin: 8px 0 0;
+  font-size: 12px;
+  color: #f87171;
+}
+
+/* Leaderboard */
+.daily-result__leaderboard {
+  background: #161b22;
+  border: 1px solid var(--color-border);
+  border-radius: 10px;
+  padding: 14px 16px;
+}
+
+.daily-result__lb-title {
+  margin: 0 0 12px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-muted);
+}
+
+.daily-result__lb-empty {
+  margin: 0;
+  font-size: 13px;
+  color: var(--color-muted);
+}
+
+.daily-result__lb-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.daily-result__lb-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 13px;
+}
+
+.daily-result__lb-medal { font-size: 18px; flex-shrink: 0; }
+
+.daily-result__lb-name {
+  flex: 1;
+  font-weight: 600;
+  color: var(--color-text);
+}
+
+.daily-result__lb-guesses { color: var(--color-muted); }
+
+.daily-result__lb-hint {
+  font-size: 10px;
+  font-weight: 700;
+  background: #78350f;
+  color: #fcd34d;
+  border-radius: 4px;
+  padding: 1px 6px;
+  letter-spacing: 0.05em;
+}

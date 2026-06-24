@@ -1,0 +1,38 @@
+.mode-selector {
+  display: flex;
+  gap: 4px;
+  background: #161b22;
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  padding: 4px;
+  margin-bottom: 24px;
+}
+
+.mode-selector__btn {
+  flex: 1;
+  background: none;
+  border: none;
+  border-radius: 5px;
+  padding: 7px 20px;
+  color: var(--color-muted);
+  font-family: inherit;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.15s;
+  white-space: nowrap;
+}
+
+.mode-selector__btn--active {
+  background: var(--color-border);
+  color: var(--color-text);
+}
+
+.mode-selector__btn:disabled {
+  opacity: 0.35;
+  cursor: not-allowed;
+}
+
+.mode-selector__btn:not(:disabled):not(.mode-selector__btn--active):hover {
+  color: var(--color-text);
+}

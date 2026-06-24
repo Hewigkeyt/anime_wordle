@@ -1,25 +1,31 @@
 import { useState, useEffect, useCallback } from "react";
-import { buildResult, pickRandom } from "../utils/gameLogic";
+import { buildResult } from "../utils/gameLogic";
 
 /**
  * Encapsulates all Wordle game state.
- * @param {object[]} db - the full character database
+ * @param {object[]} db     - the full character database
+ * @param {object}   target - the secret character (daily or random, resolved by the caller)
  */
-export function useWordle(db) {
-  const [target]      = useState(() => pickRandom(db));
-  const [query,   setQuery]   = useState("");
-  const [selected, setSelected] = useState(null);  // character object highlighted in dropdown
-  const [rows,    setRows]    = useState([]);       // array of buildResult() outputs, newest first
-  const [won,     setWon]     = useState(false);
-  const [lost,    setLost]    = useState(false);
+export function useWordle(db, target) {
+  const [query,    setQuery]    = useState("");
+  const [selected, setSelected] = useState(null);
+  const [rows,     setRows]     = useState([]);
+  const [won,      setWon]      = useState(false);
+  const [lost,     setLost]     = useState(false);
   const [hintUsed, setHintUsed] = useState(false);
 
-
-  // Derived: names already guessed, used to exclude from suggestions
   const guessedNames = new Set(rows.map((r) => r.character.name));
-
-  // Filtered suggestions from the DB
   const [suggestions, setSuggestions] = useState([]);
+
+  // Reset state whenever the target changes (mode switch)
+  useEffect(() => {
+    setQuery("");
+    setSelected(null);
+    setRows([]);
+    setWon(false);
+    setLost(false);
+    setSuggestions([]);
+  }, [target]);
 
   useEffect(() => {
     if (!query.trim() || won || lost) {
@@ -67,19 +73,16 @@ export function useWordle(db) {
   }, []);
 
   return {
-    target,
-    query,
-    setQuery,
-    selected,
-    setSelected,
+    query,    setQuery,
+    selected, setSelected,
     suggestions,
     rows,
     won,
     lost,
+    hintUsed,
+    onHintUsed: () => setHintUsed(true),
     guessCount: rows.length,
     submitGuess,
     selectSuggestion,
-    hintUsed,
-    onHintUsed: () => setHintUsed(true),
   };
 }
