@@ -24,7 +24,6 @@ export default function GuessTable({ rows }) {
         <p>Updates to come:</p>
         <ul>
           <li>Addition/fix of characters in the database.</li>
-          <li>Daily mode with leaderboard.</li>
         </ul>
       </div>
     );

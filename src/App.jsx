@@ -12,6 +12,7 @@ import GuessTable from "./components/GuessTable/GuessTable";
 import Legend from "./components/Legend/Legend";
 import ResultBanner from "./components/ResultBanner/ResultBanner";
 import DailyResult from "./components/DailyResult/DailyResult";
+import Leaderboard from "./components/Leaderboard/Leaderboard";
 import Sakura from "./components/Sakura/Sakura";
 import HintPanel from "./components/HintPanel/HintPanel";
 import BottomAd from "./components/adsense/Adsense";
@@ -28,6 +29,7 @@ export default function App() {
   const [showBanner,  setShowBanner]  = useState(!!persistedDaily);
   
   const [showSakura, setShowSakura] = useState(false);
+  const [leaderboardRefreshKey, setLeaderboardRefreshKey] = useState(0);
   const [dailyTarget, setDailyTarget] = useState(null);
   const [infiniteTarget, setInfiniteTarget] = useState(() => pickRandom(DB));
 
@@ -130,6 +132,7 @@ export default function App() {
           hintUsed={dailyHintUsed}
           target={target}
           alreadyCompleted={!!persistedDaily}
+          onScoreSubmitted={() => setLeaderboardRefreshKey((k) => k + 1)}
         />
       )}
       {showBanner && mode === "infinite" && (<ResultBanner won={won} lost={lost} target={target} attempts={guessCount} onPlayAgain={() => {
@@ -137,14 +140,22 @@ export default function App() {
             setShowSakura(false);
             setInfiniteTarget(pickRandom(DB));}}/>)}
 
+     
+
       {(mode === "infinite" || dailyBoardVisible) && (
         <Legend />
       )}
+
+       
 
       {rows.length > 0 && (<HintPanel db={DB} guessedRows={rows} onHintUsed={onHintUsed} />)}
 
       {(mode === "infinite" || dailyBoardVisible) && (
         <GuessTable rows={rows} />
+      )}
+
+      {mode === "daily" && (
+        <Leaderboard refreshKey={leaderboardRefreshKey} />
       )}
 
       <BottomAd />

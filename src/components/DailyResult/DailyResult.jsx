@@ -4,18 +4,18 @@ import "./DailyResult.css";
 
 const MEDALS = ["🥇", "🥈", "🥉"];
 
-export default function DailyResult({ won, guessCount, hintUsed, target, alreadyCompleted = false }) {
+export default function DailyResult({ won, guessCount, hintUsed, target, alreadyCompleted = false, onScoreSubmitted }) {
   const [username,    setUsername]    = useState(() => localStorage.getItem("aw_username") ?? "");
   const [submitted,   setSubmitted]   = useState(alreadyCompleted);
   const [alreadyDone, setAlreadyDone] = useState(alreadyCompleted);
-  const [top3,        setTop3]        = useState(null);
+  // const [top3,        setTop3]        = useState(null);
   const [loading,     setLoading]     = useState(false);
   const [error,       setError]       = useState(null);
 
   // Load leaderboard immediately
-  useEffect(() => {
-    loadTop3();
-  }, []);
+  // useEffect(() => {
+  //   loadTop3();
+  // }, []);
 
   // If we have a stored username, check whether they already submitted today
   useEffect(() => {
@@ -26,10 +26,10 @@ export default function DailyResult({ won, guessCount, hintUsed, target, already
     });
   }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
-  async function loadTop3() {
-    const { data, error } = await fetchTop3();
-    if (!error) setTop3(data);
-  }
+  // async function loadTop3() {
+  //   const { data, error } = await fetchTop3();
+  //   if (!error) setTop3(data);
+  // }
 
   async function handleSubmit() {
     if (!username.trim()) return;
@@ -55,7 +55,8 @@ export default function DailyResult({ won, guessCount, hintUsed, target, already
       setError("Could not save score. Try again.");
     } else {
       setSubmitted(true);
-      await loadTop3();
+      onScoreSubmitted?.();
+      // await loadTop3();
     }
     setLoading(false);
   }
@@ -107,7 +108,7 @@ export default function DailyResult({ won, guessCount, hintUsed, target, already
       )}
 
       {/* Top 3 */}
-      <div className="daily-result__leaderboard">
+      {/* <div className="daily-result__leaderboard">
         <p className="daily-result__lb-title">Today's top 3</p>
         {top3 === null ? (
           <p className="daily-result__lb-empty">Loading…</p>
@@ -125,7 +126,7 @@ export default function DailyResult({ won, guessCount, hintUsed, target, already
             ))}
           </ol>
         )}
-      </div>
+      </div> */}
     </div>
   );
 }
