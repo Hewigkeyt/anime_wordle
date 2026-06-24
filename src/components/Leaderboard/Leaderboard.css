@@ -67,3 +67,19 @@
   padding: 1px 6px;
   letter-spacing: 0.05em;
 }
+
+.daily-result__lb-row--small > span {
+  font-size: 10px;
+}
+.daily-result__lb-row.margin {
+  margin-top: 10px;
+}
+
+.daily-result__see-all-btn {
+  margin: 10px auto 0;
+  display: block;
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: var(--color-muted);
+}

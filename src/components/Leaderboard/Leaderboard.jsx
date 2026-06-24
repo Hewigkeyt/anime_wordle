@@ -7,6 +7,8 @@ const MEDALS = ["🥇", "🥈", "🥉"];
 export default function Leaderboard({ refreshKey }) {
   const [top3, setTop3] = useState(null);
 
+  const [showAll, setShowAll] = useState(false);
+
   const loadTop3 = useCallback(async () => {
     const { data, error } = await fetchTop3();
     if (!error) setTop3(data);
@@ -17,6 +19,8 @@ export default function Leaderboard({ refreshKey }) {
     loadTop3();
   }, [loadTop3, refreshKey]);
 
+  const displayedRows = top3 && showAll ? top3 : (top3 ? top3.slice(0, 3) : []);
+
   return (
     <div className="daily-result__leaderboard">
       <p className="daily-result__lb-title">Today's top 3</p>
@@ -25,10 +29,11 @@ export default function Leaderboard({ refreshKey }) {
       ) : top3.length === 0 ? (
         <p className="daily-result__lb-empty">No scores yet — be the first!</p>
       ) : (
+        <>
         <ol className="daily-result__lb-list">
-          {top3.map((row, i) => (
-            <li key={row.username} className="daily-result__lb-row">
-              <span className="daily-result__lb-medal">{MEDALS[i]}</span>
+          {displayedRows.map((row, i) => (
+            <li key={row.username} className={`daily-result__lb-row ${i == 3 ? 'daily-result__lb-row--small margin' : i > 3 ? 'daily-result__lb-row--small' : ''}`}>
+              <span className="daily-result__lb-medal">{i < 3 ? MEDALS[i]: `${i + 1}`}</span>
               <span className="daily-result__lb-name">{row.username}</span>
               <span className="daily-result__lb-guesses">
                 {row.guesses} guess{row.guesses > 1 ? "es" : ""}
@@ -37,6 +42,14 @@ export default function Leaderboard({ refreshKey }) {
             </li>
           ))}
         </ol>
+        {/* Le bouton s'affiche uniquement s'il y a plus de 3 éléments au total */}
+        {top3.length > 3 && !showAll && (
+          <button 
+            onClick={() => setShowAll(!showAll)} 
+            className="daily-result__see-all-btn"
+          >See all</button>
+        )}
+        </>
       )}
     </div>
   );

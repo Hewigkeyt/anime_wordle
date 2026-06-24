@@ -56,10 +56,10 @@ export async function fetchTop3() {
     .from("daily_scores")
     .select("username, guesses, hint_used, created_at")
     .eq("day", todayString())
-    .order("guesses",    { ascending: true })
     .order("hint_used",  { ascending: true })
-    .order("created_at", { ascending: true })
-    .limit(3);
+    .order("guesses",    { ascending: true })
+    .order("created_at", { ascending: true });
+    // .limit(3);
 
   return { data, error };
 }
