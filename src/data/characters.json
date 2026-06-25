@@ -1406,5 +1406,170 @@
     "age": null,
     "height": 175,
     "hair_color": "Blonde"
+  },
+  {
+    "name": "Nayuki Minase",
+    "anime": {
+      "name": "Kanon",
+      "year": 2002,
+      "studio": "Toei Animation"
+    },
+    "age": 17,
+    "height": 164,
+    "hair_color": "Blue"
+  },
+  {
+    "name": "Akiko Minase",
+    "anime": {
+      "name": "Kanon",
+      "year": 2002,
+      "studio": "Toei Animation"
+    },
+    "age": null,
+    "height": 165,
+    "hair_color": "Blue"
+  },
+  {
+    "name": "Yuuichi Aizawa",
+    "anime": {
+      "name": "Kanon",
+      "year": 2002,
+      "studio": "Toei Animation"
+    },
+    "age": 17,
+    "height": 173,
+    "hair_color": "Brown"
+  },
+  {
+    "name": "Ayu Tsukimiya",
+    "anime": {
+      "name": "Kanon",
+      "year": 2002,
+      "studio": "Toei Animation"
+    },
+    "age": 17,
+    "height": 157,
+    "hair_color": "Orange"
+  },
+  {
+    "name": "Makoto Sawatari",
+    "anime": {
+      "name": "Kanon",
+      "year": 2002,
+      "studio": "Toei Animation"
+    },
+    "age": null,
+    "height": 159,
+    "hair_color": "Orange"
+  },
+  {
+    "name": "Mai Kawasum",
+    "anime": {
+      "name": "Kanon",
+      "year": 2002,
+      "studio": "Toei Animation"
+    },
+    "age": 18,
+    "height": 167,
+    "hair_color": "Blue"
+  },
+  {
+    "name": "Seiya",
+    "anime": {
+      "name": "Saint Seiya",
+      "year": 1986,
+      "studio": "Toei Animation"
+    },
+    "age": 13,
+    "height": 165,
+    "hair_color": "Brown"
+  },
+  {
+    "name": "Shiryuu",
+    "anime": {
+      "name": "Saint Seiya",
+      "year": 1986,
+      "studio": "Toei Animation"
+    },
+    "age": 14,
+    "height": 172,
+    "hair_color": "Black"
+  },
+  {
+    "name": "Ikki",
+    "anime": {
+      "name": "Saint Seiya",
+      "year": 1986,
+      "studio": "Toei Animation"
+    },
+    "age": 15,
+    "height": 175,
+    "hair_color": "Blue"
+  },
+  {
+    "name": "Shun",
+    "anime": {
+      "name": "Saint Seiya",
+      "year": 1986,
+      "studio": "Toei Animation"
+    },
+    "age": 13,
+    "height": 162,
+    "hair_color": "Green"
+  },
+  {
+    "name": "Hyoga",
+    "anime": {
+      "name": "Saint Seiya",
+      "year": 1986,
+      "studio": "Toei Animation"
+    },
+    "age": 14,
+    "height": 173,
+    "hair_color": "Blonde"
+  },
+  {
+    "name": "Saori Kido",
+    "anime": {
+      "name": "Saint Seiya",
+      "year": 1986,
+      "studio": "Toei Animation"
+    },
+    "age": 13,
+    "height": 155,
+    "hair_color": "Purple"
+  },
+  {
+    "name": "Gintoki Sakata",
+    "anime": {
+      "name": "Gintama",
+      "year": 2006,
+      "studio": "Sunrise"
+    },
+    "age": 27,
+    "height": 177,
+    "hair_color": "White"
+  },
+  {
+    "name": "Kagura",
+    "anime": {
+      "name": "Gintama",
+      "year": 2006,
+      "studio": "Sunrise"
+    },
+    "age": 14,
+    "height": 155,
+    "hair_color": "Orange"
+  },
+  {
+    "name": "Shinpachi Shimura",
+    "anime": {
+      "name": "Gintama",
+      "year": 2006,
+      "studio": "Sunrise"
+    },
+    "age": 16,
+    "height": 166,
+    "hair_color": "Black"
   }
 ]

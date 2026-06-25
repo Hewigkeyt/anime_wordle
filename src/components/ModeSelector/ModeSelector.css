@@ -8,6 +8,12 @@
   margin-bottom: 24px;
 }
 
+@media (max-width: 768px) {
+  .mode-selector {
+    margin-top: 40px;
+  }
+}
+
 .mode-selector__btn {
   flex: 1;
   background: none;

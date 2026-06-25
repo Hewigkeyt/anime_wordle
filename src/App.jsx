@@ -31,7 +31,7 @@ export default function App() {
   const [showSakura, setShowSakura] = useState(false);
   const [leaderboardRefreshKey, setLeaderboardRefreshKey] = useState(0);
   const [dailyTarget, setDailyTarget] = useState(null);
-  const [yesterdayTarget, setYesterdayTarget] = useState(null);
+  const [yesterdayTarget, setYesterdayTarget] = useState(undefined);
   const [infiniteTarget, setInfiniteTarget] = useState(() => pickRandom(DB));
 
   useEffect(() => {
@@ -97,19 +97,19 @@ export default function App() {
   const dailyGuesses   = persistedDaily ? persistedDaily.guessCount : guessCount;
   const dailyHintUsed  = persistedDaily ? persistedDaily.hintUsed   : hintUsed;
 
-  if (!dailyTarget) {
+  if (!dailyTarget || yesterdayTarget === undefined) {
     return (
       <div className="app app--loading">
         <span>Loading today's challenge…</span>
       </div>
     );
   }
-
+  
   return (
     <div className="app">
       {showSakura && <Sakura />}
 
-      <Header guessCount={guessCount} mode={mode}  yesterday={yesterdayTarget}  />
+      <Header guessCount={guessCount} mode={mode} dailyBoardVisible={dailyBoardVisible} yesterday={yesterdayTarget}  />
       {/* <p> daily won : {dailyWon? "won":"lost"}<br/>hint used: {dailyHintUsed?"used":"not"}<br/>daily guesses {dailyGuesses}</p> */}
       <ModeSelector
         mode={mode}

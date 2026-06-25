@@ -1,4 +1,5 @@
 import { supabase } from "./supabase";
+import { pickRandom } from "../utils/gameLogic";
 
 /**
  * Returns today's date as "YYYY-MM-DD" in UTC.
@@ -23,31 +24,44 @@ export async function getDailyTarget(db) {
   const today    = todayString();
   const yesterday = yesterdayString();
 
-  const cacheKey = `aw_daily_name_${today}`;
-  const yCacheKey       = `aw_daily_name_${yesterday}`;
+  const cacheKey = `aw_daily_name_v2${today}`;
+  const yCacheKey = `aw_daily_name_v2${yesterday}`;
 
   const cached = sessionStorage.getItem(cacheKey);
   const cachedYesterday = sessionStorage.getItem(yCacheKey);
-  if (cached) return {
+  if (cached && cachedYesterday) return {
     target: db.find((c) => c.name === cached) ?? pickRandom(db),
     yesterday: cachedYesterday
         ? db.find((c) => c.name === cachedYesterday) ?? null
         : null,
   }
 
-  const { data, error } = await supabase
+ const { data, error } = await supabase
     .from("daily_index")
-    .select("character_name")
-    .eq("day", today)
-    .maybeSingle();
+    .select("day, character_name")
+    .gte("day", yesterday)
+    .lte("day", today);
+
 
   if (error || !data) {
     console.warn("daily_index not found for today, using fallback");
-    return pickRandom(db);
+    return { target: pickRandom(db), yesterday: null };
   }
-
-  sessionStorage.setItem(cacheKey, data.character_name);
-  return db.find((c) => c.name === data.character_name) ?? pickRandom(db);
+  const todayRow     = data.find((r) => r.day === today);
+  const yesterdayRow = data.find((r) => r.day === yesterday);
+ 
+  if (todayRow) sessionStorage.setItem(cacheKey, todayRow.character_name);
+  if (yesterdayRow) sessionStorage.setItem(yCacheKey, yesterdayRow.character_name);
+ 
+  const target = todayRow
+    ? db.find((c) => c.name === todayRow.character_name) ?? pickRandom(db)
+    : pickRandom(db);
+ 
+  const yesterdayChar = yesterdayRow
+    ? db.find((c) => c.name === yesterdayRow.character_name) ?? null
+    : null;
+ 
+  return { target, yesterday: yesterdayChar };
 }
 
 /**

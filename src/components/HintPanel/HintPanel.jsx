@@ -52,13 +52,12 @@ export default function HintPanel({ db, guessedRows, onHintUsed }) {
   return (
     <div className={`hint-panel ${open ? "hint-panel--open" : ""}`}>
       <button className="hint-panel__toggle" onClick={() => setOpen((v) => !v)}>
-        <span className="hint-panel__toggle-icon">{open ? "✕" : "💡"}</span>
-        {open && <span className="hint-panel__toggle-label">Hints</span>}
+        <span className="hint-panel__toggle-icon">{open ? "✕ Close Hints" : "💡 Use hints"} </span>
       </button>
 
       {open && (
         <div className="hint-panel__content">
-          <p className="hint-panel__title">Hints</p>
+          <p className="hint-panel__title">Using hints affects your leaderboard ranking.</p>
 
           {/* Section 1 — Studio → Anime list */}
           <div className="hint-section">
