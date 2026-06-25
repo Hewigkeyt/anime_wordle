@@ -31,10 +31,15 @@ export default function App() {
   const [showSakura, setShowSakura] = useState(false);
   const [leaderboardRefreshKey, setLeaderboardRefreshKey] = useState(0);
   const [dailyTarget, setDailyTarget] = useState(null);
+  const [yesterdayTarget, setYesterdayTarget] = useState(null);
   const [infiniteTarget, setInfiniteTarget] = useState(() => pickRandom(DB));
 
   useEffect(() => {
-    getDailyTarget(DB).then(setDailyTarget);
+    getDailyTarget(DB).then(
+      ({ target, yesterday }) => {
+      setDailyTarget(target);
+      setYesterdayTarget(yesterday);
+  });
   }, []);
 
   const daily = useWordle(DB, dailyTarget);
@@ -104,7 +109,7 @@ export default function App() {
     <div className="app">
       {showSakura && <Sakura />}
 
-      <Header guessCount={guessCount} mode={mode} />
+      <Header guessCount={guessCount} mode={mode}  yesterday={yesterdayTarget}  />
       {/* <p> daily won : {dailyWon? "won":"lost"}<br/>hint used: {dailyHintUsed?"used":"not"}<br/>daily guesses {dailyGuesses}</p> */}
       <ModeSelector
         mode={mode}
@@ -154,9 +159,7 @@ export default function App() {
         <GuessTable rows={rows} />
       )}
 
-      {mode === "daily" && (
-        <Leaderboard refreshKey={leaderboardRefreshKey} />
-      )}
+      <Leaderboard refreshKey={leaderboardRefreshKey} hidden={mode !== "daily"}/>
 
       <BottomAd />
     </div>

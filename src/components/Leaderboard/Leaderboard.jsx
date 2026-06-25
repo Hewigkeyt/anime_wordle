@@ -4,7 +4,7 @@ import "./Leaderboard.css";
 
 const MEDALS = ["🥇", "🥈", "🥉"];
 
-export default function Leaderboard({ refreshKey }) {
+export default function Leaderboard({ refreshKey, hidden = false }) {
   const [top3, setTop3] = useState(null);
 
   const [showAll, setShowAll] = useState(false);
@@ -22,7 +22,7 @@ export default function Leaderboard({ refreshKey }) {
   const displayedRows = top3 && showAll ? top3 : (top3 ? top3.slice(0, 3) : []);
 
   return (
-    <div className="daily-result__leaderboard">
+    <div className="daily-result__leaderboard" hidden={hidden}>
       <p className="daily-result__lb-title">Today's top 3</p>
       {top3 === null ? (
         <p className="daily-result__lb-empty">Loading…</p>

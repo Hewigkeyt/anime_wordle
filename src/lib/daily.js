@@ -8,6 +8,12 @@ export function todayString() {
   return new Date().toISOString().slice(0, 10);
 }
 
+export function yesterdayString() {
+  const d = new Date();
+  d.setUTCDate(d.getUTCDate() - 1);
+  return d.toISOString().slice(0, 10);
+}
+
 /**
  * Fetches today's character index from Supabase (set by the cron job),
  * then resolves it against the local DB.
@@ -15,10 +21,19 @@ export function todayString() {
  */
 export async function getDailyTarget(db) {
   const today    = todayString();
+  const yesterday = yesterdayString();
+
   const cacheKey = `aw_daily_name_${today}`;
+  const yCacheKey       = `aw_daily_name_${yesterday}`;
 
   const cached = sessionStorage.getItem(cacheKey);
-  if (cached) return db.find((c) => c.name === cached) ?? pickRandom(db);
+  const cachedYesterday = sessionStorage.getItem(yCacheKey);
+  if (cached) return {
+    target: db.find((c) => c.name === cached) ?? pickRandom(db),
+    yesterday: cachedYesterday
+        ? db.find((c) => c.name === cachedYesterday) ?? null
+        : null,
+  }
 
   const { data, error } = await supabase
     .from("daily_index")
