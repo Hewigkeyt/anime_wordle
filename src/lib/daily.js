@@ -47,21 +47,31 @@ export async function getDailyTarget(db) {
     console.warn("daily_index not found for today, using fallback");
     return { target: pickRandom(db), yesterday: null };
   }
+  
   const todayRow     = data.find((r) => r.day === today);
   const yesterdayRow = data.find((r) => r.day === yesterday);
  
   if (todayRow) sessionStorage.setItem(cacheKey, todayRow.character_name);
   if (yesterdayRow) sessionStorage.setItem(yCacheKey, yesterdayRow.character_name);
  
-  const target = todayRow
-    ? db.find((c) => c.name === todayRow.character_name) ?? pickRandom(db)
-    : pickRandom(db);
+  let warning = null;
+  let target;
+  if (!todayRow) {
+    warning = "No daily challenge found for today. Playing with a random character.";
+    target = pickRandom(db);
+  } else {
+    target = db.find((c) => c.name === todayRow.character_name);
+    if (!target) {
+      warning = "No daily challenge found for today. Playing with a random character.";
+      target = pickRandom(db);
+    }
+  }
  
   const yesterdayChar = yesterdayRow
     ? db.find((c) => c.name === yesterdayRow.character_name) ?? null
     : null;
  
-  return { target, yesterday: yesterdayChar };
+  return { target, yesterday: yesterdayChar, warning };
 }
 
 /**

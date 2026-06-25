@@ -23,6 +23,10 @@
   margin: 4px 0 0;
 }
 
+.header__warning {
+  color: var(--color-pink);
+}
+
 .shine {
   position: absolute;
   inset: 0;

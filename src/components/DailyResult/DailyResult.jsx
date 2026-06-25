@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { submitScore, fetchTop3, hasPlayedToday } from "../../lib/daily";
 import "./DailyResult.css";
 
-const MEDALS = ["🥇", "🥈", "🥉"];
+// const MEDALS = ["🥇", "🥈", "🥉"];
 
 export default function DailyResult({ won, guessCount, hintUsed, target, alreadyCompleted = false, onScoreSubmitted }) {
   const [username,    setUsername]    = useState(() => localStorage.getItem("aw_username") ?? "");
@@ -37,6 +37,8 @@ export default function DailyResult({ won, guessCount, hintUsed, target, already
     setError(null);
     localStorage.setItem("aw_username", username.trim());
 
+    if (alreadyDone) { setSubmitted(true); setLoading(false); return; } // skip query if mount already checked
+  
     const already = await hasPlayedToday(username);
     if (already) {
       setAlreadyDone(true);

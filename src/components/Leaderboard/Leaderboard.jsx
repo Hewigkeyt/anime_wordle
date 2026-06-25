@@ -32,7 +32,7 @@ export default function Leaderboard({ refreshKey, hidden = false }) {
         <>
         <ol className="daily-result__lb-list">
           {displayedRows.map((row, i) => (
-            <li key={row.username} className={`daily-result__lb-row ${i == 3 ? 'daily-result__lb-row--small margin' : i > 3 ? 'daily-result__lb-row--small' : ''}`}>
+            <li key={row.username} className={`daily-result__lb-row ${i === 3 ? 'daily-result__lb-row--small margin' : i > 3 ? 'daily-result__lb-row--small' : ''}`}>
               <span className="daily-result__lb-medal">{i < 3 ? MEDALS[i]: `${i + 1}`}</span>
               <span className="daily-result__lb-name">{row.username}</span>
               <span className="daily-result__lb-guesses">

@@ -33,12 +33,14 @@ export default function App() {
   const [dailyTarget, setDailyTarget] = useState(null);
   const [yesterdayTarget, setYesterdayTarget] = useState(undefined);
   const [infiniteTarget, setInfiniteTarget] = useState(() => pickRandom(DB));
+  const [dailyWarning, setDailyWarning] = useState(null);
 
   useEffect(() => {
     getDailyTarget(DB).then(
-      ({ target, yesterday }) => {
+      ({ target, yesterday, warning }) => {
       setDailyTarget(target);
       setYesterdayTarget(yesterday);
+      if (warning) setDailyWarning(warning);
   });
   }, []);
 
@@ -64,7 +66,7 @@ export default function App() {
       setDailyDone(true);
       saveDailyResult(won, guessCount, hintUsed);
     }
-  }, [won, lost, mode]);
+  }, [won, lost, mode, guessCount, hintUsed]);
 
   useEffect(() => {
     if (!won && !lost) return;
@@ -109,7 +111,7 @@ export default function App() {
     <div className="app">
       {showSakura && <Sakura />}
 
-      <Header guessCount={guessCount} mode={mode} dailyBoardVisible={dailyBoardVisible} yesterday={yesterdayTarget}  />
+      <Header guessCount={guessCount} mode={mode} dailyBoardVisible={dailyBoardVisible} yesterday={yesterdayTarget} warning={dailyWarning} />
       {/* <p> daily won : {dailyWon? "won":"lost"}<br/>hint used: {dailyHintUsed?"used":"not"}<br/>daily guesses {dailyGuesses}</p> */}
       <ModeSelector
         mode={mode}
