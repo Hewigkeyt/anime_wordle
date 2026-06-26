@@ -140,6 +140,8 @@ export default function App() {
           target={target}
           alreadyCompleted={!!persistedDaily}
           onScoreSubmitted={() => setLeaderboardRefreshKey((k) => k + 1)}
+          rows={daily.rows}
+          animate={!persistedDaily}
         />
       )}
       {showBanner && mode === "infinite" && (<ResultBanner won={won} lost={lost} target={target} attempts={guessCount} onPlayAgain={() => {
@@ -160,6 +162,7 @@ export default function App() {
       {(mode === "infinite" || dailyBoardVisible) && (
         <GuessTable rows={rows} />
       )}
+
 
       <Leaderboard refreshKey={leaderboardRefreshKey} hidden={mode !== "daily"}/>
 

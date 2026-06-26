@@ -51,8 +51,8 @@ export default function GuessTable({ rows }) {
       </div>
 
       {/* Guess rows — newest at top */}
-      {rows.map((row) => (
-        <GuessRow key={row.character.name} cells={row.cells} />
+      {rows.map((row, i) => (
+        <GuessRow key={row.character.name} cells={row.cells} isWin={i === 0 && row.cells.every(c => c.status === "correct")}/>
       ))}
     </div>
   );

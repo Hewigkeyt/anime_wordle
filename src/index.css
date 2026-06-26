@@ -32,6 +32,48 @@ body {
   font-family: "Inter", sans-serif;
   -webkit-font-smoothing: antialiased;
 }
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  background-image:
+    repeating-linear-gradient(
+      0deg,
+      transparent 0px,
+      transparent 18px,
+      rgba(240, 108, 0, 0.035) 18px,
+      rgba(240, 108, 0, 0.035) 22px,
+      transparent 22px,
+      transparent 30px,
+      rgba(255, 230, 0, 0.025) 30px,
+      rgba(255, 230, 0, 0.025) 32px,
+      transparent 32px,
+      transparent 40px,
+      rgba(240, 108, 0, 0.035) 40px,
+      rgba(240, 108, 0, 0.035) 44px,
+      transparent 44px,
+      transparent 60px
+    ),
+    repeating-linear-gradient(
+      90deg,
+      transparent 0px,
+      transparent 18px,
+      rgba(240, 108, 0, 0.035) 18px,
+      rgba(240, 108, 0, 0.035) 22px,
+      transparent 22px,
+      transparent 30px,
+      rgba(255, 230, 0, 0.025) 30px,
+      rgba(255, 230, 0, 0.025) 32px,
+      transparent 32px,
+      transparent 40px,
+      rgba(240, 108, 0, 0.035) 40px,
+      rgba(240, 108, 0, 0.035) 44px,
+      transparent 44px,
+      transparent 60px
+    );
+}
 
 /* ── Reduced motion ─────────────────────────────────────────────────────────── */
 @media (prefers-reduced-motion: reduce) {

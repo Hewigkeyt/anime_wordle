@@ -12,27 +12,45 @@ export default function SearchBar({
   disabled,
 }) {
   const inputRef = useRef(null);
+
   const [dropdownOpen, setDropdownOpen] = useState(false);
+  const [activeIndex, setActiveIndex] = useState(-1);
 
   const handleChange = (e) => {
     setQuery(e.target.value);
     setSelected(null);
+    setActiveIndex(-1);
     setDropdownOpen(true);
   };
 
   const handleKeyDown = (e) => {
-    if (e.key === "Enter" && selected) onSubmit(selected);
-    if (e.key === "Escape") {
+    if (e.key === "ArrowDown") {
+      e.preventDefault();
+      setActiveIndex((i) => Math.min(i + 1, suggestions.length - 1));
+    } else if (e.key === "ArrowUp") {
+      e.preventDefault();
+      setActiveIndex((i) => Math.max(i - 1, 0));
+    } else if (e.key === "Enter") {
+      if (activeIndex >= 0) {
+        handleSelect(suggestions[activeIndex]);
+      } else if (selected) {
+        onSubmit(selected);
+        setActiveIndex(-1);
+        setTimeout(() => inputRef.current?.focus(), 0);
+      }
+    } else if (e.key === "Escape") {
       setSelected(null);
       setQuery("");
       setDropdownOpen(false);
+      setActiveIndex(-1);
     }
   };
 
   const handleSelect = (c) => {
     onSelectSuggestion(c);
     setDropdownOpen(false);
-    inputRef.current?.blur();
+    setActiveIndex(-1);
+    inputRef.current?.focus();
   };
 
   const showDropdown = dropdownOpen && suggestions.length > 0;
@@ -63,11 +81,12 @@ export default function SearchBar({
 
       {showDropdown && (
         <ul className="searchbar__dropdown">
-          {suggestions.map((c) => (
+          {suggestions.map((c, i) => (
             <li
               key={c.name}
-              className={`searchbar__option${selected?.name === c.name ? " searchbar__option--active" : ""}`}
+              className={`searchbar__option${i === activeIndex ? " searchbar__option--active" : ""}`}
               onMouseDown={() => handleSelect(c)}
+              onMouseEnter={() => setActiveIndex(i)}
             >
               <span className="searchbar__option-name">{c.name}</span>
               <span className="searchbar__option-anime">{c.anime.name}</span>

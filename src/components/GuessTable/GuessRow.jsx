@@ -1,9 +1,10 @@
 import Cell from "./Cell";
 import "./GuessRow.css";
 
-export default function GuessRow({ cells }) {
+export default function GuessRow({ cells, isWin = false }) {
   return (
-    <div className="guess-row">
+    
+    <div className={`guess-row ${isWin ? "guess-row--win" : ""}`}>
       {cells.map((cell, i) => (
         <Cell
           key={cell.key}
@@ -14,5 +15,6 @@ export default function GuessRow({ cells }) {
         />
       ))}
     </div>
+    
   );
 }

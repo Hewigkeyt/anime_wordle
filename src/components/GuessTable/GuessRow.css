@@ -4,3 +4,14 @@
   gap: 6px;
   margin-bottom: 6px;
 }
+
+.guess-row--win {
+  border-radius: 8px;
+  animation: winGlow 2s ease 1s infinite alternate both;
+}
+
+@keyframes winGlow {
+  0%   { box-shadow: none; }
+  1% { box-shadow: 0 0 4px 2px rgba(212, 222, 74, 0.3); }
+  100%   { box-shadow: 0 0 10px 6px rgba(222, 212, 74, 0.6); }
+}

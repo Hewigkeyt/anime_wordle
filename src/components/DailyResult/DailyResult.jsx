@@ -1,22 +1,35 @@
 import { useState, useEffect } from "react";
-import { submitScore, fetchTop3, hasPlayedToday } from "../../lib/daily";
+import { submitScore, fetchTop3, hasPlayedToday, todayString } from "../../lib/daily";
 import "./DailyResult.css";
 
 // const MEDALS = ["🥇", "🥈", "🥉"];
 
-export default function DailyResult({ won, guessCount, hintUsed, target, alreadyCompleted = false, onScoreSubmitted }) {
+export default function DailyResult({ won, guessCount, hintUsed, target, alreadyCompleted = false, onScoreSubmitted, rows, animate = true }) {
   const [username,    setUsername]    = useState(() => localStorage.getItem("aw_username") ?? "");
   const [submitted,   setSubmitted]   = useState(alreadyCompleted);
   const [alreadyDone, setAlreadyDone] = useState(alreadyCompleted);
-  // const [top3,        setTop3]        = useState(null);
   const [loading,     setLoading]     = useState(false);
   const [error,       setError]       = useState(null);
 
-  // Load leaderboard immediately
-  // useEffect(() => {
-  //   loadTop3();
-  // }, []);
 
+  const [countdown, setCountdown] = useState("");
+  const [copied, setCopied] = useState(false);
+
+
+  useEffect(() => {
+    function update() {
+      const now = new Date();
+      const next = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate() + 1));
+      const diff = next - now;
+      const h = String(Math.floor(diff / 3600000)).padStart(2, "0");
+      const m = String(Math.floor((diff % 3600000) / 60000)).padStart(2, "0");
+      const s = String(Math.floor((diff % 60000) / 1000)).padStart(2, "0");
+      setCountdown(`${h}:${m}:${s}`);
+    }
+    update();
+    const id = setInterval(update, 1000);
+    return () => clearInterval(id);
+  }, []);
   // If we have a stored username, check whether they already submitted today
   useEffect(() => {
     if (alreadyCompleted) return;
@@ -26,10 +39,27 @@ export default function DailyResult({ won, guessCount, hintUsed, target, already
     });
   }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
-  // async function loadTop3() {
-  //   const { data, error } = await fetchTop3();
-  //   if (!error) setTop3(data);
-  // }
+
+  function buildShareText(guessCount, hintUsed, rows) {
+    const header = `Anime Wordle ${todayString()}`;
+    const result =`✅ ${guessCount} guess${guessCount > 1 ? "es" : ""}${hintUsed ? " (hint)" : ""}`;
+    console.log(rows)
+    const grid = rows.slice().map(({ cells }) =>
+      cells.map((c) => {
+        if (c.status === "correct") return "🟩";
+        if (c.status === "wrong") return "🟥";
+        return "🟨"; // low or high
+      }).join("")
+    ).join("\n");
+
+    return `${header}\n${result}\n${grid}\nhttps://hewigkeyt.github.io/anime_wordle/`;
+  }
+
+  function handleShare(rows) {
+    const text = buildShareText(guessCount, hintUsed, rows);
+    navigator.clipboard.writeText(text).then(() => setCopied(true));
+    setTimeout(() => setCopied(false), 2000);
+  }
 
   async function handleSubmit() {
     if (!username.trim()) return;
@@ -64,16 +94,17 @@ export default function DailyResult({ won, guessCount, hintUsed, target, already
   }
 
   return (
-    <div className="daily-result">
+    <div className={`daily-result ${animate ? "daily-result--animate" : ""}`}>
       {/* Outcome */}
       <div className={`daily-result__outcome daily-result__outcome--${won ? "win" : "loss"}`}>
         <p className="daily-result__outcome-msg">
-          {won
-            ? `Correct! You guessed ${target.name} in ${guessCount} attempt${guessCount > 1 ? "s" : ""}${hintUsed ? " (hint used)" : ""}!`
-            : `💀 It was ${target.name} from ${target.anime.name}.`}
+          {won && (<>Correct! You guessed {target.name} in {guessCount} attempt{guessCount > 1 ? "s" : ""}{hintUsed ? " (hint used)" : ""}!</>)}
         </p>
       </div>
-
+      <p className="daily-result__countdown">Next character in <strong>{countdown}</strong></p>
+      {!alreadyCompleted && (<button className="daily-result__share-btn" onClick={() => handleShare(rows)}>
+        {copied ? "Copied! ✓" : "Share result 📋"}
+      </button>)}
       {/* Score submission */}
       {won && (
         <div className="daily-result__submit">
@@ -108,27 +139,6 @@ export default function DailyResult({ won, guessCount, hintUsed, target, already
           )}
         </div>
       )}
-
-      {/* Top 3 */}
-      {/* <div className="daily-result__leaderboard">
-        <p className="daily-result__lb-title">Today's top 3</p>
-        {top3 === null ? (
-          <p className="daily-result__lb-empty">Loading…</p>
-        ) : top3.length === 0 ? (
-          <p className="daily-result__lb-empty">No scores yet — be the first!</p>
-        ) : (
-          <ol className="daily-result__lb-list">
-            {top3.map((row, i) => (
-              <li key={row.username} className="daily-result__lb-row">
-                <span className="daily-result__lb-medal">{MEDALS[i]}</span>
-                <span className="daily-result__lb-name">{row.username}</span>
-                <span className="daily-result__lb-guesses">{row.guesses} guess{row.guesses > 1 ? "es" : ""}</span>
-                {row.hint_used && <span className="daily-result__lb-hint">hint</span>}
-              </li>
-            ))}
-          </ol>
-        )}
-      </div> */}
     </div>
   );
 }

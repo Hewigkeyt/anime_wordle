@@ -1,7 +1,8 @@
 .guess-table {
   width: 100%;
-  max-width: 900px;
+  max-width: 924px;
   overflow-x: auto;
+  padding: 0 12px;
 }
 
 /* Column header row */
