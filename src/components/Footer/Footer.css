@@ -1,0 +1,28 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  margin-top: 48px;
+  /* color: var(--color-border); */
+  text-align: left;
+  gap: 8px;
+  max-width: 900px;
+}
+
+.footer p {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.footer li {
+  font-size: 0.8rem;
+  margin-left: 2rem;
+}
+
+.footer .privacy {
+    font-size: 0.8rem;
+}
+
+a {
+  color: var(--text-color);
+}

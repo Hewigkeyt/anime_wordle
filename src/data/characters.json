@@ -1041,7 +1041,7 @@
       "studio": "Tezuka Productions"
     },
     "age": 17,
-    "height": 165,
+    "height": 159,
     "hair_color": "Brown"
   },
   {
@@ -1570,6 +1570,897 @@
     },
     "age": 16,
     "height": 166,
+    "hair_color": "Black"
+  },
+  {
+    "name": "Yui Hirasawa",
+    "anime": {
+      "name": "K-On!",
+      "year": 2009,
+      "studio": "Kyoto Animation"
+    },
+    "age": 15,
+    "height": 156,
+    "hair_color": "Brown"
+  },
+  {
+    "name": "Mio Akiyama",
+    "anime": {
+      "name": "K-On!",
+      "year": 2009,
+      "studio": "Kyoto Animation"
+    },
+    "age": 15,
+    "height": 160,
+    "hair_color": "Black"
+  },
+  {
+    "name": "Ritsu Tainaka",
+    "anime": {
+      "name": "K-On!",
+      "year": 2009,
+      "studio": "Kyoto Animation"
+    },
+    "age": 15,
+    "height": 154,
+    "hair_color": "Brown"
+  },
+  {
+    "name": "Tsumugi Kotobuki",
+    "anime": {
+      "name": "K-On!",
+      "year": 2009,
+      "studio": "Kyoto Animation"
+    },
+    "age": 15,
+    "height": 157,
+    "hair_color": "Blonde"
+  },
+  {
+    "name": "Azusa Nakano",
+    "anime": {
+      "name": "K-On!",
+      "year": 2009,
+      "studio": "Kyoto Animation"
+    },
+    "age": 15,
+    "height": 150,
+    "hair_color": "Black"
+  },
+  {
+    "name": "Tomoya Okazaki",
+    "anime": {
+      "name": "Clannad",
+      "year": 2007,
+      "studio": "Kyoto Animation"
+    },
+    "age": 17,
+    "height": 173,
+    "hair_color": "Blue"
+  },
+  {
+    "name": "Nagisa Furukawa",
+    "anime": {
+      "name": "Clannad",
+      "year": 2007,
+      "studio": "Kyoto Animation"
+    },
+    "age": 18,
+    "height": 155,
+    "hair_color": "Brown"
+  },
+  {
+    "name": "Kyou Fujibayashi",
+    "anime": {
+      "name": "Clannad",
+      "year": 2007,
+      "studio": "Kyoto Animation"
+    },
+    "age": 17,
+    "height": 160,
+    "hair_color": "Purple"
+  },
+  {
+    "name": "Ryou Fujibayashi",
+    "anime": {
+      "name": "Clannad",
+      "year": 2007,
+      "studio": "Kyoto Animation"
+    },
+    "age": 17,
+    "height": 159,
+    "hair_color": "Purple"
+  },
+  {
+    "name": "Kotomi Ichinose",
+    "anime": {
+      "name": "Clannad",
+      "year": 2007,
+      "studio": "Kyoto Animation"
+    },
+    "age": 17,
+    "height": 160,
+    "hair_color": "Blue"
+  },
+  {
+    "name": "Tomoyo Sakagami",
+    "anime": {
+      "name": "Clannad",
+      "year": 2007,
+      "studio": "Kyoto Animation"
+    },
+    "age": 16,
+    "height": 161,
+    "hair_color": "Silver"
+  },
+  {
+    "name": "Fuko Ibuki",
+    "anime": {
+      "name": "Clannad",
+      "year": 2007,
+      "studio": "Kyoto Animation"
+    },
+    "age": 15,
+    "height": 150,
+    "hair_color": "Grey"
+  },
+  {
+    "name": "Kenshiro",
+    "anime": {
+      "name": "Hokuto no Ken",
+      "year": 1984,
+      "studio": "Toei Animation"
+    },
+    "age": 26,
+    "height": 185,
+    "hair_color": "Black"
+  },
+  {
+    "name": "Raoh",
+    "anime": {
+      "name": "Hokuto no Ken",
+      "year": 1984,
+      "studio": "Toei Animation"
+    },
+    "age": 30,
+    "height": 210,
+    "hair_color": "Black"
+  },
+  {
+    "name": "Toki",
+    "anime": {
+      "name": "Hokuto no Ken",
+      "year": 1984,
+      "studio": "Toei Animation"
+    },
+    "age": 28,
+    "height": 188,
+    "hair_color": "White"
+  },
+  {
+    "name": "Yuria",
+    "anime": {
+      "name": "Hokuto no Ken",
+      "year": 1984,
+      "studio": "Toei Animation"
+    },
+    "age": 21,
+    "height": 168,
+    "hair_color": "Orange"
+  },
+  {
+    "name": "Rei",
+    "anime": {
+      "name": "Hokuto no Ken",
+      "year": 1984,
+      "studio": "Toei Animation"
+    },
+    "age": 25,
+    "height": 180,
+    "hair_color": "Green"
+  },
+  {
+    "name": "Satoshi",
+    "anime": {
+      "name": "Pokemon",
+      "year": 1997,
+      "studio": "OLM"
+    },
+    "age": 10,
+    "height": 140,
+    "hair_color": "Black"
+  },
+  {
+    "name": "Kasumi",
+    "anime": {
+      "name": "Pokemon",
+      "year": 1997,
+      "studio": "OLM"
+    },
+    "age": 10,
+    "height": 155,
+    "hair_color": "Orange"
+  },
+  {
+    "name": "Takeshi",
+    "anime": {
+      "name": "Pokemon",
+      "year": 1997,
+      "studio": "OLM"
+    },
+    "age": 15,
+    "height": 172,
+    "hair_color": "Brown"
+  },
+  {
+    "name": "Taichi Yagami",
+    "anime": {
+      "name": "Digimon",
+      "year": 1999,
+      "studio": "Toei Animation"
+    },
+    "age": 11,
+    "height": 145,
+    "hair_color": "Brown"
+  },
+  {
+    "name": "Yamato Ishida",
+    "anime": {
+      "name": "Digimon",
+      "year": 1999,
+      "studio": "Toei Animation"
+    },
+    "age": 11,
+    "height": 147,
+    "hair_color": "Blonde"
+  },
+  {
+    "name": "Sora Takenouchi",
+    "anime": {
+      "name": "Digimon",
+      "year": 1999,
+      "studio": "Toei Animation"
+    },
+    "age": 11,
+    "height": 150,
+    "hair_color": "Orange"
+  },
+  {
+    "name": "Koushiro Izumi",
+    "anime": {
+      "name": "Digimon",
+      "year": 1999,
+      "studio": "Toei Animation"
+    },
+    "age": 10,
+    "height": 135,
+    "hair_color": "Orange"
+  },
+  {
+    "name": "Mimi Tachikawa",
+    "anime": {
+      "name": "Digimon",
+      "year": 1999,
+      "studio": "Toei Animation"
+    },
+    "age": 10,
+    "height": 142,
+    "hair_color": "Brown"
+  },
+  {
+    "name": "Joe Kido",
+    "anime": {
+      "name": "Digimon",
+      "year": 1999,
+      "studio": "Toei Animation"
+    },
+    "age": 12,
+    "height": 158,
+    "hair_color": "Black"
+  },
+  {
+    "name": "Takeru Takaishi",
+    "anime": {
+      "name": "Digimon",
+      "year": 1999,
+      "studio": "Toei Animation"
+    },
+    "age": 8,
+    "height": 125,
+    "hair_color": "Blonde"
+  },
+  {
+    "name": "Hikari Yagami",
+    "anime": {
+      "name": "Digimon",
+      "year": 1999,
+      "studio": "Toei Animation"
+    },
+    "age": 8,
+    "height": 123,
+    "hair_color": "Brown"
+  },
+  {
+    "name": "Tsubasa Ozora",
+    "anime": {
+      "name": "Captain Tsubasa",
+      "year": 1983,
+      "studio": "Tsuchida Production"
+    },
+    "age": 11,
+    "height": 145,
+    "hair_color": "Brown"
+  },
+  {
+    "name": "Genzo Wakabayashi",
+    "anime": {
+      "name": "Captain Tsubasa",
+      "year": 1983,
+      "studio": "Tsuchida Production"
+    },
+    "age": 11,
+    "height": 147,
+    "hair_color": "Black"
+  },
+  {
+    "name": "Kojiro Hyuga",
+    "anime": {
+      "name": "Captain Tsubasa",
+      "year": 1983,
+      "studio": "Tsuchida Production"
+    },
+    "age": 11,
+    "height": 148,
+    "hair_color": "Black"
+  },
+  {
+    "name": "Fern",
+    "anime": {
+      "name": "Frieren: Beyond Journey's End",
+      "year": 2023,
+      "studio": "Madhouse"
+    },
+    "age": 18,
+    "height": 162,
+    "hair_color": "Purple"
+  },
+  {
+    "name": "Stark",
+    "anime": {
+      "name": "Frieren: Beyond Journey's End",
+      "year": 2023,
+      "studio": "Madhouse"
+    },
+    "age": 17,
+    "height": 175,
+    "hair_color": "Red"
+  },
+  {
+    "name": "Sung Jinwoo",
+    "anime": {
+      "name": "Solo Leveling",
+      "year": 2024,
+      "studio": "A-1 Pictures"
+    },
+    "age": 24,
+    "height": 170,
+    "hair_color": "Black"
+  },
+  {
+    "name": "Momo Ayase",
+    "anime": {
+      "name": "Dandadan",
+      "year": 2024,
+      "studio": "Science SARU"
+    },
+    "age": 16,
+    "height": 157,
+    "hair_color": "Brown"
+  },
+  {
+    "name": "Ken Takakura",
+    "anime": {
+      "name": "Dandadan",
+      "year": 2024,
+      "studio": "Science SARU"
+    },
+    "age": 16,
+    "height": 165,
+    "hair_color": "Black"
+  },
+  {
+    "name": "Ranma Saotome ♂️",
+    "anime": {
+      "name": "Ranma 1/2",
+      "year": 1989,
+      "studio": "Deen"
+    },
+    "age": 16,
+    "height": 165,
+    "hair_color": "Black"
+  },
+  {
+    "name": "Ranma Saotome ♀️",
+    "anime": {
+      "name": "Ranma 1/2",
+      "year": 1989,
+      "studio": "Deen"
+    },
+    "age": 16,
+    "height": 150,
+    "hair_color": "Red"
+  },
+  {
+    "name": "Akane Tendo",
+    "anime": {
+      "name": "Ranma 1/2",
+      "year": 1989,
+      "studio": "Deen"
+    },
+    "age": 16,
+    "height": 156,
+    "hair_color": "Black"
+  },
+  {
+    "name": "Ryoga Hibiki",
+    "anime": {
+      "name": "Ranma 1/2",
+      "year": 1989,
+      "studio": "Deen"
+    },
+    "age": 16,
+    "height": 167,
+    "hair_color": "Black"
+  },
+  {
+    "name": "Shampoo",
+    "anime": {
+      "name": "Ranma 1/2",
+      "year": 1989,
+      "studio": "Deen"
+    },
+    "age": 16,
+    "height": 155,
+    "hair_color": "Purple"
+  },
+  {
+    "name": "Takemichi Hanagaki",
+    "anime": {
+      "name": "Tokyo Revengers",
+      "year": 2021,
+      "studio": "Liden Films"
+    },
+    "age": 14,
+    "height": 165,
+    "hair_color": "Blonde"
+  },
+  {
+    "name": "Manjiro Sano",
+    "anime": {
+      "name": "Tokyo Revengers",
+      "year": 2021,
+      "studio": "Liden Films"
+    },
+    "age": 15,
+    "height": 162,
+    "hair_color": "Blonde"
+  },
+  {
+    "name": "Ken Ryuguji",
+    "anime": {
+      "name": "Tokyo Revengers",
+      "year": 2021,
+      "studio": "Liden Films"
+    },
+    "age": 15,
+    "height": 185,
+    "hair_color": "Blonde"
+  },
+  {
+    "name": "Futaro Uesugi",
+    "anime": {
+      "name": "The Quintessential Quintuplets",
+      "year": 2019,
+      "studio": "Tezuka Productions"
+    },
+    "age": 17,
+    "height": 178,
+    "hair_color": "Black"
+  },
+  {
+    "name": "Ichika Nakano",
+    "anime": {
+      "name": "The Quintessential Quintuplets",
+      "year": 2019,
+      "studio": "Tezuka Productions"
+    },
+    "age": 17,
+    "height": 159,
+    "hair_color": "Pink"
+  },
+  {
+    "name": "Nino Nakano",
+    "anime": {
+      "name": "The Quintessential Quintuplets",
+      "year": 2019,
+      "studio": "Tezuka Productions"
+    },
+    "age": 17,
+    "height": 159,
+    "hair_color": "Pink"
+  },
+  {
+    "name": "Yotsuba Nakano",
+    "anime": {
+      "name": "The Quintessential Quintuplets",
+      "year": 2019,
+      "studio": "Tezuka Productions"
+    },
+    "age": 15,
+    "height": 159,
+    "hair_color": "Orange"
+  },
+  {
+    "name": "Itsuki Nakano",
+    "anime": {
+      "name": "The Quintessential Quintuplets",
+      "year": 2019,
+      "studio": "Tezuka Productions"
+    },
+    "age": 15,
+    "height": 159,
+    "hair_color": "Red"
+  },
+  {
+    "name": "Erina Nakiri",
+    "anime": {
+      "name": "Food Wars!",
+      "year": 2015,
+      "studio": "J.C.Staff"
+    },
+    "age": 15,
+    "height": 162,
+    "hair_color": "Blonde"
+  },
+  {
+    "name": "Megumi Tadokoro",
+    "anime": {
+      "name": "Food Wars!",
+      "year": 2015,
+      "studio": "J.C.Staff"
+    },
+    "age": 15,
+    "height": 154,
+    "hair_color": "Black"
+  },
+  {
+    "name": "Riko",
+    "anime": {
+      "name": "Made in Abyss",
+      "year": 2017,
+      "studio": "Kinema Citrus"
+    },
+    "age": 12,
+    "height": 140,
+    "hair_color": "Blonde"
+  },
+  {
+    "name": "Reg",
+    "anime": {
+      "name": "Made in Abyss",
+      "year": 2017,
+      "studio": "Kinema Citrus"
+    },
+    "age": null,
+    "height": 135,
+    "hair_color": "Black"
+  },
+  {
+    "name": "Toyohisa Shimazu",
+    "anime": {
+      "name": "Drifters",
+      "year": 2017,
+      "studio": "Hoods Drifters Studio"
+    },
+    "age": 30,
+    "height": 175,
+    "hair_color": "Black"
+  },
+  {
+    "name": "Phosphophyllite",
+    "anime": {
+      "name": "Land of the Lustrous",
+      "year": 2017,
+      "studio": "Orange"
+    },
+    "age": null,
+    "height": 160,
+    "hair_color": "Green"
+  },
+  {
+    "name": "Oda Nobunaga",
+    "anime": {
+      "name": "Drifters",
+      "year": 2017,
+      "studio": "Hoods Drifters Studio"
+    },
+    "age": 50,
+    "height": 165,
+    "hair_color": "Black"
+  },
+  {
+    "name": "Nasu no Yoichi",
+    "anime": {
+      "name": "Drifters",
+      "year": 2017,
+      "studio": "Hoods Drifters Studio"
+    },
+    "age": 19,
+    "height": 155,
+    "hair_color": "Black"
+  },
+  {
+    "name": "Cinabre",
+    "anime": {
+      "name": "Land of the Lustrous",
+      "year": 2017,
+      "studio": "Orange"
+    },
+    "age": null,
+    "height": 165,
+    "hair_color": "Red"
+  },
+  {
+    "name": "Oscar François de Jarjayes",
+    "anime": {
+      "name": "The Rose of Versailles",
+      "year": 1979,
+      "studio": "TMS Entertainment"
+    },
+    "age": 14,
+    "height": 178,
+    "hair_color": "Blonde"
+  },
+  {
+    "name": "Shinichi Kudo",
+    "anime": {
+      "name": "Detective Conan",
+      "year": 1996,
+      "studio": "TMS Entertainment"
+    },
+    "age": 17,
+    "height": 174,
+    "hair_color": "Black"
+  },
+  {
+    "name": "Conan Edogawa",
+    "anime": {
+      "name": "Detective Conan",
+      "year": 1996,
+      "studio": "TMS Entertainment"
+    },
+    "age": 7,
+    "height": 95,
+    "hair_color": "Black"
+  },
+  {
+    "name": "Ai Haibara",
+    "anime": {
+      "name": "Detective Conan",
+      "year": 1996,
+      "studio": "TMS Entertainment"
+    },
+    "age": 7,
+    "height": 95,
+    "hair_color": "Brown"
+  },
+  {
+    "name": "Ran Mouri",
+    "anime": {
+      "name": "Detective Conan",
+      "year": 1996,
+      "studio": "TMS Entertainment"
+    },
+    "age": 16,
+    "height": 160,
+    "hair_color": "Brown"
+  },
+  {
+    "name": "Gin",
+    "anime": {
+      "name": "Detective Conan",
+      "year": 1996,
+      "studio": "TMS Entertainment"
+    },
+    "age": null,
+    "height": 190,
+    "hair_color": "Blonde"
+  },
+  {
+    "name": "Vermouth",
+    "anime": {
+      "name": "Detective Conan",
+      "year": 1996,
+      "studio": "TMS Entertainment"
+    },
+    "age": null,
+    "height": 170,
+    "hair_color": "Blonde"
+  },
+  {
+    "name": "André Grandier",
+    "anime": {
+      "name": "The Rose of Versailles",
+      "year": 1979,
+      "studio": "TMS Entertainment"
+    },
+    "age": 15,
+    "height": 183,
+    "hair_color": "Brown"
+  },
+  {
+    "name": "Marie-Antoinette d'Autriche",
+    "anime": {
+      "name": "The Rose of Versailles",
+      "year": 1979,
+      "studio": "TMS Entertainment"
+    },
+    "age": 14,
+    "height": 165,
+    "hair_color": "Blonde"
+  },
+  {
+    "name": "Utena Tenjou",
+    "anime": {
+      "name": "Shoujo Kakumei Utena",
+      "year": 1997,
+      "studio": "J.C.Staff"
+    },
+    "age": 14,
+    "height": 164,
+    "hair_color": "Pink"
+  },
+  {
+    "name": "Anthy Himemiya",
+    "anime": {
+      "name": "Shoujo Kakumei Utena",
+      "year": 1997,
+      "studio": "J.C.Staff"
+    },
+    "age": 14,
+    "height": 157,
+    "hair_color": "Purple"
+  },
+  {
+    "name": "Kamui Shiro",
+    "anime": {
+      "name": "X",
+      "year": 2001,
+      "studio": "Madhouse"
+    },
+    "age": 15,
+    "height": 170,
+    "hair_color": "Black"
+  },
+  {
+    "name": "Fuma Monou",
+    "anime": {
+      "name": "X",
+      "year": 2001,
+      "studio": "Madhouse"
+    },
+    "age": 16,
+    "height": 180,
+    "hair_color": "Black"
+  },
+  {
+    "name": "Kotori Monou",
+    "anime": {
+      "name": "X",
+      "year": 2001,
+      "studio": "Madhouse"
+    },
+    "age": 15,
+    "height": 158,
+    "hair_color": "Brown"
+  },
+  {
+    "name": "Honoka Kosaka",
+    "anime": {
+      "name": "Love Live!",
+      "year": 2013,
+      "studio": "Sunrise"
+    },
+    "age": 16,
+    "height": 157,
+    "hair_color": "Orange"
+  },
+  {
+    "name": "Kotori Minami",
+    "anime": {
+      "name": "Love Live!",
+      "year": 2013,
+      "studio": "Sunrise"
+    },
+    "age": 16,
+    "height": 159,
+    "hair_color": "Grey"
+  },
+  {
+    "name": "Umi Sonoda",
+    "anime": {
+      "name": "Love Live!",
+      "year": 2013,
+      "studio": "Sunrise"
+    },
+    "age": 16,
+    "height": 159,
+    "hair_color": "Blue"
+  },
+  {
+    "name": "Maki Nishikino",
+    "anime": {
+      "name": "Love Live!",
+      "year": 2013,
+      "studio": "Sunrise"
+    },
+    "age": 15,
+    "height": 161,
+    "hair_color": "Red"
+  },
+  {
+    "name": "Rin Hoshizora",
+    "anime": {
+      "name": "Love Live!",
+      "year": 2013,
+      "studio": "Sunrise"
+    },
+    "age": 15,
+    "height": 155,
+    "hair_color": "Orange"
+  },
+  {
+    "name": "Hanayo Koizumi",
+    "anime": {
+      "name": "Love Live!",
+      "year": 2013,
+      "studio": "Sunrise"
+    },
+    "age": 15,
+    "height": 156,
+    "hair_color": "Brown"
+  },
+  {
+    "name": "Eli Ayase",
+    "anime": {
+      "name": "Love Live!",
+      "year": 2013,
+      "studio": "Sunrise"
+    },
+    "age": 17,
+    "height": 162,
+    "hair_color": "Blonde"
+  },
+  {
+    "name": "Nozomi Tojo",
+    "anime": {
+      "name": "Love Live!",
+      "year": 2013,
+      "studio": "Sunrise"
+    },
+    "age": 17,
+    "height": 159,
+    "hair_color": "Purple"
+  },
+  {
+    "name": "Nico Yazawa",
+    "anime": {
+      "name": "Love Live!",
+      "year": 2013,
+      "studio": "Sunrise"
+    },
+    "age": 17,
+    "height": 154,
     "hair_color": "Black"
   }
 ]

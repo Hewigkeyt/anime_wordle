@@ -7,3 +7,12 @@
   position: relative;
   z-index: 1;
 }
+
+.push__footer {
+  min-height: 0;
+  transition: 0.5s;
+}
+
+.push__footer--started {
+  min-height: 100vh;
+}

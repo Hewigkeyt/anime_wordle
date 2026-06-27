@@ -23,19 +23,6 @@ export default function GuessTable({ rows }) {
         </div>
         <p>Search for a character above to start guessing.</p>
         
-        <ul>
-          <li>Use the clues from each guess to find the mystery character!</li>
-          <li>A character's data is based on their first major anime appearance.</li>
-          <li>Hair colors are simplified to basic shades (e.g., navy and cyan are both 'Blue') to allow better character matching.</li>
-          <li>Short introductions are ignored (e.g. Eren Yeager is 15 y.o.).</li>
-          <li>For instance Naruto Uzumaki is a 12-year-old character from Naruto (2002), not Naruto Shippuden (2007).</li>
-          <li>If you notice an error please fill an issue <a href="https://github.com/Hewigkeyt/anime_wordle/issues">here</a>.</li>
-        </ul>
-        <br />
-        <p>Updates to come:</p>
-        <ul>
-          <li>Addition/fix of characters in the database.</li>
-        </ul>
       </div>
       </>
     );

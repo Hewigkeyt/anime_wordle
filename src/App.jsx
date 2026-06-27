@@ -16,6 +16,7 @@ import Leaderboard from "./components/Leaderboard/Leaderboard";
 import Sakura from "./components/Sakura/Sakura";
 import HintPanel from "./components/HintPanel/HintPanel";
 import BottomAd from "./components/adsense/Adsense";
+import Footer from "./components/Footer/Footer";
 
 // ── Drop your JSON file at src/data/characters.json ──────────────────────────
 import DB from "./data/characters.json";
@@ -101,8 +102,11 @@ export default function App() {
 
   if (!dailyTarget || yesterdayTarget === undefined) {
     return (
-      <div className="app app--loading">
-        <span>Loading today's challenge…</span>
+      <div className="app">
+        <Header guessCount={0} mode={mode} dailyBoardVisible={false} yesterday={null} warning={null} />
+        <span style={{ color: "var(--color-muted)", fontSize: "14px" }}>Loading today's challenge…</span>
+        <Footer />
+        <BottomAd />
       </div>
     );
   }
@@ -158,13 +162,14 @@ export default function App() {
        
 
       {rows.length > 0 && (<HintPanel db={DB} guessedRows={rows} onHintUsed={onHintUsed} />)}
-
+      <div className={`push__footer ${((!dailyBoardVisible && mode === "daily") || (rows.length > 0 && (dailyBoardVisible || mode === "infinite"))) ? "push__footer--started" : ""}`}>
       {(mode === "infinite" || dailyBoardVisible) && (
         <GuessTable rows={rows} />
       )}
-
+      </div>
 
       <Leaderboard refreshKey={leaderboardRefreshKey} hidden={mode !== "daily"}/>
+      <Footer />
 
       <BottomAd />
     </div>
