@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import "./App.css";
 
 import { useWordle } from "./hooks/useWordle";
-import { getDailyTarget, saveDailyResult, loadDailyResult } from "./lib/daily";
+import { getDailyTarget, saveDailyResult, loadDailyResult, saveInfiniteTarget,loadInfiniteTarget, clearInfiniteTarget } from "./lib/daily";
 import { pickRandom } from "./utils/gameLogic";
 
 import Header from "./components/Header/Header";
@@ -33,7 +33,8 @@ export default function App() {
   const [leaderboardRefreshKey, setLeaderboardRefreshKey] = useState(0);
   const [dailyTarget, setDailyTarget] = useState(null);
   const [yesterdayTarget, setYesterdayTarget] = useState(undefined);
-  const [infiniteTarget, setInfiniteTarget] = useState(() => pickRandom(DB));
+  const [infiniteTarget, setInfiniteTarget] = useState(() => loadInfiniteTarget(DB) ?? pickRandom(DB));
+
   const [dailyWarning, setDailyWarning] = useState(null);
 
   useEffect(() => {
@@ -45,8 +46,8 @@ export default function App() {
   });
   }, []);
 
-  const daily = useWordle(DB, dailyTarget);
-  const infinite = useWordle(DB, infiniteTarget);
+  const daily = useWordle(DB, dailyTarget, "daily");
+  const infinite = useWordle(DB, infiniteTarget, "infinite");
 
   const target = mode === "daily" ? dailyTarget : infiniteTarget;
 
@@ -61,6 +62,10 @@ export default function App() {
     submitGuess,
     selectSuggestion
   } = mode === "daily" ? daily : infinite;
+
+  useEffect(() => {
+    if (infiniteTarget) saveInfiniteTarget(infiniteTarget.name);
+  }, [infiniteTarget]);
 
   useEffect(() => {
     if ((won || lost) && mode === "daily") {
@@ -151,7 +156,10 @@ export default function App() {
       {showBanner && mode === "infinite" && (<ResultBanner won={won} lost={lost} target={target} attempts={guessCount} onPlayAgain={() => {
             setShowBanner(false);
             setShowSakura(false);
-            setInfiniteTarget(pickRandom(DB));}}/>)}
+            clearInfiniteTarget();
+            const next = pickRandom(DB);
+            saveInfiniteTarget(next.name);
+            setInfiniteTarget(next);}}/>)}
 
      
 
@@ -161,14 +169,15 @@ export default function App() {
 
        
 
-      {rows.length > 0 && (<HintPanel db={DB} guessedRows={rows} onHintUsed={onHintUsed} />)}
+      {rows.length > 0 && (<HintPanel db={DB} guessedRows={rows} onHintUsed={onHintUsed} top={mode === "daily" ? 160 : 120}/>)}
       <div className={`push__footer ${((!dailyBoardVisible && mode === "daily") || (rows.length > 0 && (dailyBoardVisible || mode === "infinite"))) ? "push__footer--started" : ""}`}>
-      {(mode === "infinite" || dailyBoardVisible) && (
-        <GuessTable rows={rows} />
-      )}
+        {(mode === "infinite" || dailyBoardVisible) && (
+          <GuessTable rows={rows} />
+        )}
+        <Leaderboard refreshKey={leaderboardRefreshKey} hidden={mode !== "daily"}/>
       </div>
 
-      <Leaderboard refreshKey={leaderboardRefreshKey} hidden={mode !== "daily"}/>
+      
       <Footer />
 
       <BottomAd />

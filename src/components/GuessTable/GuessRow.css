@@ -3,12 +3,20 @@
   grid-template-columns: repeat(7, minmax(80px, 1fr));
   gap: 6px;
   margin-bottom: 6px;
+  width: fit-content;
+  min-width: 100%;
 }
 
 .guess-row--win {
   border-radius: 8px;
   animation: winGlow 2s ease 1s infinite alternate both;
 }
+
+/* @media (max-width: 768px) {
+  .guess-row--win {
+    width: fit-content;
+  }
+} */
 
 @keyframes winGlow {
   0%   { box-shadow: none; }

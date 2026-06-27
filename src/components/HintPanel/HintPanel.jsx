@@ -1,7 +1,7 @@
 import { useState, useMemo } from "react";
 import "./HintPanel.css";
 
-export default function HintPanel({ db, guessedRows, onHintUsed }) {
+export default function HintPanel({ db, guessedRows, onHintUsed, top }) {
   const [open, setOpen] = useState(false);
   const [section1Open, setSection1Open] = useState(false);
   const [section2Open, setSection2Open] = useState(false);
@@ -50,7 +50,9 @@ export default function HintPanel({ db, guessedRows, onHintUsed }) {
   };
 
   return (
-    <div className={`hint-panel ${open ? "hint-panel--open" : ""}`}>
+    <div className={`hint-panel ${open ? "hint-panel--open" : ""}`}
+    style={{ "--hint-top": top ? `${top}px` : "160px" }}
+    >
       <button className="hint-panel__toggle" onClick={() => setOpen((v) => !v)}>
         <span className="hint-panel__toggle-icon">{open ? "✕ Close Hints" : "💡 Use hints"} </span>
       </button>

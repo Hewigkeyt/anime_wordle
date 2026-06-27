@@ -8,6 +8,7 @@ const ITEMS = [
 
 export default function Legend() {
   return (
+    <>
     <div className="legend">
       {ITEMS.map(({ bg, border, label }) => (
         <div key={label} className="legend__item">
@@ -16,5 +17,7 @@ export default function Legend() {
         </div>
       ))}
     </div>
+    <p className="legend__note">A red clue for age indicates that the mystery character has no specified age.</p>
+    </>
   );
 }

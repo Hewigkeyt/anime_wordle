@@ -12,7 +12,7 @@
 @media (max-width: 768px) {
   .hint-panel {
     position: absolute;
-    top: 160px;
+    top: var(--hint-top, 160px);
     right: 50%;
     transform: translateX(50%);
     align-items: center;

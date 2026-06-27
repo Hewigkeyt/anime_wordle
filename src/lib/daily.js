@@ -140,3 +140,44 @@ export function loadDailyResult() {
     return null;
   }
 }
+
+export function saveGuessRows(rows, mode = "daily") {
+  localStorage.setItem(`aw_${mode}_rows`, JSON.stringify({
+    day: todayString(),
+    rows,
+  }));
+}
+
+export function loadGuessRows(mode = "daily") {
+  try {
+    const raw = localStorage.getItem(`aw_${mode}_rows`);
+    if (!raw) return null;
+    const data = JSON.parse(raw);
+    // daily rows expire each day, infinite rows don't
+    if (mode === "daily" && data.day !== todayString()) {
+      localStorage.removeItem(`aw_${mode}_rows`);
+      return null;
+    }
+    return data.rows;
+  } catch {
+    return null;
+  }
+}
+
+export function clearGuessRows(mode = "daily") {
+  localStorage.removeItem(`aw_${mode}_rows`);
+}
+
+export function saveInfiniteTarget(characterName) {
+  localStorage.setItem("aw_infinite_target", characterName);
+}
+
+export function loadInfiniteTarget(db) {
+  const name = localStorage.getItem("aw_infinite_target");
+  if (!name) return null;
+  return db.find((c) => c.name === name) ?? null;
+}
+
+export function clearInfiniteTarget() {
+  localStorage.removeItem("aw_infinite_target");
+}

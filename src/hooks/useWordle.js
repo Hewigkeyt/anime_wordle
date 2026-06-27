@@ -1,15 +1,17 @@
 import { useState, useEffect, useCallback } from "react";
 import { buildResult } from "../utils/gameLogic";
+import { saveGuessRows, loadGuessRows, clearGuessRows, clearInfiniteTarget } from "../lib/daily";
+
 
 /**
  * Encapsulates all Wordle game state.
  * @param {object[]} db     - the full character database
  * @param {object}   target - the secret character (daily or random, resolved by the caller)
  */
-export function useWordle(db, target) {
+export function useWordle(db, target, mode = null) {
   const [query,    setQuery]    = useState("");
   const [selected, setSelected] = useState(null);
-  const [rows,     setRows]     = useState([]);
+  const [rows,     setRows]     = useState(() => mode ? (loadGuessRows(mode) ?? []) : []);
   const [won,      setWon]      = useState(false);
   const [lost,     setLost]     = useState(false);
   const [hintUsed, setHintUsed] = useState(false);
@@ -25,6 +27,8 @@ export function useWordle(db, target) {
     setWon(false);
     setLost(false);
     setSuggestions([]);
+    if (!mode) setRows([]);
+    else setRows(loadGuessRows(mode) ?? []);
   }, [target]);
 
   useEffect(() => {
@@ -49,15 +53,20 @@ export function useWordle(db, target) {
       if (!char || won || lost) return;
       const result  = buildResult(char, target);
       const newRows = [result, ...rows];
-
       setRows(newRows);
+      if (mode) saveGuessRows(newRows, mode);
+
       setQuery("");
       setSuggestions([]);
       setSelected(null);
 
       const isWin = result.cells.every((c) => c.status === "correct");
       if (isWin) {
-        setWon(true);
+        setWon(true);    
+        if (mode === "infinite") {
+          clearGuessRows("infinite");
+          clearInfiniteTarget()
+        }
       }
       // else if (newRows.length >= MAX_GUESSES) {
       //   setLost(true);
