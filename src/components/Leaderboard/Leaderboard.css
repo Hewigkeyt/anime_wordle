@@ -59,7 +59,7 @@
   display: flex;
   align-items: center;
   gap: 10px;
-  font-size: 13px;
+  font-size: 12px;
 }
 
 .daily-result__lb-medal { font-size: 18px; flex-shrink: 0; }
@@ -96,4 +96,29 @@
   background: none;
   cursor: pointer;
   color: var(--color-muted);
+}
+
+.daily-result__lb-columns {
+  display: flex;
+  gap: 12px;
+}
+
+.daily-result__lb-col {
+  flex: 1;
+  min-width: 0;
+}
+
+.daily-result__lb-col-title {
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--color-muted);
+  margin: 0 0 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.daily-result__lb-divider {
+  width: 1px;
+  background: var(--color-border);
+  align-self: stretch;
 }
