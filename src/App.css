@@ -18,3 +18,35 @@
 .push__footer--started {
   min-height: 100vh;
 }
+
+.mobile-actions {
+  display: none;
+  margin-bottom: 16px;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .mobile-actions {
+    display: flex;
+    gap: 8px;
+    width: 100%;
+    margin-top: 24px;
+  }
+
+  .mobile-actions__btn {
+    flex: 1;
+    background: var(--color-surface);
+    border: none;
+    border-radius: 8px;
+    padding: 10px 16px;
+    color: var(--color-text);
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 19px;
+    font-family: inherit;
+    cursor: pointer;
+    transition: opacity 0.2s;
+  }
+
+  .mobile-actions__btn:hover { opacity: 0.8; }
+}

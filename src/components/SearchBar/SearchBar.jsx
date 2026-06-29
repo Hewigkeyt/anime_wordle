@@ -10,6 +10,7 @@ export default function SearchBar({
   onSelectSuggestion,
   onSubmit,
   disabled,
+  hint
 }) {
   const inputRef = useRef(null);
 
@@ -57,6 +58,7 @@ export default function SearchBar({
 
   return (
     <div className="searchbar">
+      <div className="searchbar__row-wrapper">
       <div className="searchbar__row">
         <input
           ref={inputRef}
@@ -78,7 +80,8 @@ export default function SearchBar({
           GUESS
         </button>
       </div>
-
+      {hint && <div className="searchbar__hint-slot">{hint}</div>}
+      </div>
       {showDropdown && (
         <ul className="searchbar__dropdown">
           {suggestions.map((c, i) => (

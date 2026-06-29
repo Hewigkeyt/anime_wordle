@@ -1,7 +1,7 @@
 import { useState, useMemo } from "react";
 import "./HintPanel.css";
 
-export default function HintPanel({ db, guessedRows, onHintUsed, top }) {
+export default function HintPanel({ db, guessedRows, onHintUsed, variant = "inline" }) {
   const [open, setOpen] = useState(false);
   const [section1Open, setSection1Open] = useState(false);
   const [section2Open, setSection2Open] = useState(false);
@@ -50,15 +50,16 @@ export default function HintPanel({ db, guessedRows, onHintUsed, top }) {
   };
 
   return (
-    <div className={`hint-panel ${open ? "hint-panel--open" : ""}`}
-    style={{ "--hint-top": top ? `${top}px` : "160px" }}
-    >
-      <button className="hint-panel__toggle" onClick={() => setOpen((v) => !v)}>
-        <span className="hint-panel__toggle-icon">{open ? "✕ Close Hints" : "💡 Use hints"} </span>
+    <div className={`hint-panel hint-panel--${variant}`}>
+      <button className="hint-panel__toggle" onClick={() => setOpen(v => !v)}>
+        💡 Hints
       </button>
-
       {open && (
+        <>
+        <div className="hint-panel__overlay" onClick={() => setOpen(false)} />
         <div className="hint-panel__content">
+          <button className="hint-panel__close" onClick={() => setOpen(false)}>✕</button>
+
           <p className="hint-panel__title">Using hints affects your leaderboard ranking.</p>
 
           {/* Section 1 — Studio → Anime list */}
@@ -114,7 +115,9 @@ export default function HintPanel({ db, guessedRows, onHintUsed, top }) {
             )}
           </div>
         </div>
+        </>
       )}
     </div>
+    
   );
 }

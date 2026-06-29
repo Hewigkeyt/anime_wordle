@@ -30,6 +30,7 @@ export default function App() {
   const [showBanner,  setShowBanner]  = useState(!!persistedDaily);
   
   const [showSakura, setShowSakura] = useState(false);
+  const [leaderboardOpen, setLeaderboardOpen] = useState(false);
   const [leaderboardRefreshKey, setLeaderboardRefreshKey] = useState(0);
   const [dailyTarget, setDailyTarget] = useState(null);
   const [yesterdayTarget, setYesterdayTarget] = useState(undefined);
@@ -127,6 +128,18 @@ export default function App() {
         onSelect={handleModeSelect}
         dailyDone={dailyDone}
       />
+
+    <div className="mobile-actions">
+      {mode === "daily" && (
+        <button className="mobile-actions__btn" onClick={() => setLeaderboardOpen(true)}>
+          🏆 Leaderboard
+        </button>
+      )}
+      {rows.length > 0 && (
+        <HintPanel db={DB} guessedRows={rows} onHintUsed={onHintUsed} />
+      )}
+    </div>
+
       {/* Hide search when game is over or daily already completed */}
       {!won && !lost && (mode ==="infinite" || dailyBoardVisible) && (
       <SearchBar
@@ -138,6 +151,7 @@ export default function App() {
         onSelectSuggestion={selectSuggestion}
         onSubmit={submitGuess}
         disabled={won || lost}
+        hint={rows.length > 0 ? <HintPanel db={DB} guessedRows={rows} onHintUsed={onHintUsed} /> : null}
       />
       )}
 
@@ -169,12 +183,11 @@ export default function App() {
 
        
 
-      {rows.length > 0 && (<HintPanel db={DB} guessedRows={rows} onHintUsed={onHintUsed} top={mode === "daily" ? 160 : 120}/>)}
       <div className={`push__footer ${((!dailyBoardVisible && mode === "daily") || (rows.length > 0 && (dailyBoardVisible || mode === "infinite"))) ? "push__footer--started" : ""}`}>
         {(mode === "infinite" || dailyBoardVisible) && (
           <GuessTable rows={rows} />
         )}
-        <Leaderboard refreshKey={leaderboardRefreshKey} hidden={mode !== "daily"}/>
+        <Leaderboard refreshKey={leaderboardRefreshKey} hidden={mode !== "daily"} open={leaderboardOpen}  onToggle={() => setLeaderboardOpen(v => !v)}  onClose={() => setLeaderboardOpen(false)}/>
       </div>
 
       

@@ -5,9 +5,19 @@
   margin-bottom: 20px;
 }
 
+.searchbar__row-wrapper {
+  position: relative;
+}
+
 .searchbar__row {
   display: flex;
   gap: 8px;
+}
+
+.searchbar__hint-slot {
+  position: absolute;
+  left: calc(100% + 16px);
+  top: 0;
 }
 
 .searchbar__input {

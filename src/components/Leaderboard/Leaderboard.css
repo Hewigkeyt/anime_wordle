@@ -122,3 +122,108 @@
   background: var(--color-border);
   align-self: stretch;
 }
+
+/* ── Desktop drawer ─────────────────────────────────────────── */
+.lb-drawer {
+  display: flex;
+  position: fixed;
+  left: 30px;
+  top: 10%;
+  z-index: 40;
+  align-items: flex-start;
+  transform: translateX(-100%);
+  transition: 0.5s;
+}
+
+.lb-drawer.lb-drawer--open {
+  transform: none;
+  left: 0;
+}
+
+.lb-drawer__tab {
+  writing-mode: sideways-lr;
+  text-orientation: mixed;
+  background: var(--color-border);
+  border: none;
+  border-radius: 0 6px 6px 0;
+  padding: 16px 8px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.1em;
+  cursor: pointer;
+  transition: opacity 0.2s;
+  flex-shrink: 0;
+}
+
+.lb-drawer__tab:hover { opacity: 0.85; }
+
+.lb-drawer__panel {
+  background: rgba(22, 27, 34, 0.95);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid var(--color-border);
+  padding: 20px 16px;
+  width: auto;
+  overflow: hidden;
+  transition: width 0.3s ease, padding 0.3s ease;
+  white-space: normal;
+}
+
+/* ── Mobile modal ───────────────────────────────────────────── */
+.lb-modal__overlay {
+  display: none;
+}
+
+@keyframes slideDown {
+  from { opacity: 0; transform: translateY(-6px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@media (max-width: 768px) {
+  .lb-drawer {
+    display: none;
+  }
+
+  .lb-modal__overlay {
+    display: flex;
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 50;
+    align-items: center;
+    justify-content: center;
+    animation: fadeIn 0.15s ease;
+  }
+
+  .lb-modal__content {
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: 12px;
+    padding: 20px 16px;
+    width: 90%;
+    max-width: 400px;
+    max-height: 80vh;
+    overflow-y: auto;
+    position: relative;
+    animation: slideDown 0.15s ease;
+
+  }
+
+  .lb-modal__close {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    background: none;
+    border: none;
+    color: var(--color-muted);
+    font-size: 16px;
+    cursor: pointer;
+  }
+}
