@@ -53,9 +53,11 @@ export function buildResult(guess, target) {
       },
       {
         key: "height",
-        display: `${guess.height} cm`,
-        status: compareNum(guess.height, target.height),
-        numeric: true,
+        display: guess.height === null ? "?" : `${guess.height} cm`,
+        status: guess.height === null && target.height === null ? "correct"
+          : guess.height === null || target.height === null ? "wrong"
+            : compareNum(guess.height, target.height),
+        numeric: guess.height !== null && target.height !== null,
       },
       {
         key: "hair",

@@ -169,6 +169,7 @@
   overflow: hidden;
   transition: width 0.3s ease, padding 0.3s ease;
   white-space: normal;
+  min-height: 156px;
 }
 
 /* ── Mobile modal ───────────────────────────────────────────── */

@@ -2869,5 +2869,247 @@
     "age": 17,
     "height": 176,
     "hair_color": "Green"
+  },
+  {
+    "name": "Yukiteru Amano",
+    "anime": {
+      "name": "Mirai Nikki",
+      "year": 2011,
+      "studio": "Asread"
+    },
+    "age": 14,
+    "height": 161,
+    "hair_color": "Black"
+  },
+  {
+    "name": "Yuno Gasai",
+    "anime": {
+      "name": "Mirai Nikki",
+      "year": 2011,
+      "studio": "Asread"
+    },
+    "age": 14,
+    "height": 159,
+    "hair_color": "Pink"
+  },
+  {
+    "name": "Simon",
+    "anime": {
+      "name": "Gurren Lagann",
+      "year": 2007,
+      "studio": "Gainax"
+    },
+    "age": 14,
+    "height": 152,
+    "hair_color": "Blue"
+  },
+  {
+    "name": "Kamina",
+    "anime": {
+      "name": "Gurren Lagann",
+      "year": 2007,
+      "studio": "Gainax"
+    },
+    "age": 18,
+    "height": 184,
+    "hair_color": "Blue"
+  },
+  {
+    "name": "Yoko Littner",
+    "anime": {
+      "name": "Gurren Lagann",
+      "year": 2007,
+      "studio": "Gainax"
+    },
+    "age": 14,
+    "height": 165,
+    "hair_color": "Red"
+  },
+  {
+    "name": "Akane Tsunemori",
+    "anime": {
+      "name": "Psycho-Pass",
+      "year": 2012,
+      "studio": "Production I.G"
+    },
+    "age": 20,
+    "height": 163,
+    "hair_color": "Brown"
+  },
+  {
+    "name": "Shinya Kogami",
+    "anime": {
+      "name": "Psycho-Pass",
+      "year": 2012,
+      "studio": "Production I.G"
+    },
+    "age": 28,
+    "height": 180,
+    "hair_color": "Black"
+  },
+  {
+    "name": "Shogo Makishima",
+    "anime": {
+      "name": "Psycho-Pass",
+      "year": 2012,
+      "studio": "Production I.G"
+    },
+    "age": null,
+    "height": 180,
+    "hair_color": "White"
+  },
+  {
+    "name": "Shinichi Izumi",
+    "anime": {
+      "name": "Parasyte -the maxim-",
+      "year": 2014,
+      "studio": "Madhouse"
+    },
+    "age": 16,
+    "height": 165,
+    "hair_color": "Brown"
+  },
+  {
+    "name": "Migi",
+    "anime": {
+      "name": "Parasyte -the maxim-",
+      "year": 2014,
+      "studio": "Madhouse"
+    },
+    "age": null,
+    "height": null,
+    "hair_color": "Other"
+  },
+  {
+    "name": "Satomi Murano",
+    "anime": {
+      "name": "Parasyte -the maxim-",
+      "year": 2014,
+      "studio": "Madhouse"
+    },
+    "age": 16,
+    "height": 158,
+    "hair_color": "Brown"
+  },
+  {
+    "name": "Shigeru Akagi",
+    "anime": {
+      "name": "Akagi",
+      "year": 2005,
+      "studio": "Madhouse"
+    },
+    "age": 13,
+    "height": null,
+    "hair_color": "White"
+  },
+  {
+    "name": "Sora",
+    "anime": {
+      "name": "No Game No Life",
+      "year": 2014,
+      "studio": "Madhouse"
+    },
+    "age": 18,
+    "height": 175,
+    "hair_color": "Auburn"
+  },
+  {
+    "name": "Shiro",
+    "anime": {
+      "name": "No Game No Life",
+      "year": 2014,
+      "studio": "Madhouse"
+    },
+    "age": 11,
+    "height": 130,
+    "hair_color": "Bicolor"
+  },
+  {
+    "name": "Madoka Kaname",
+    "anime": {
+      "name": "Puella Magi Madoka☆Magica",
+      "year": 2011,
+      "studio": "Shaft"
+    },
+    "age": 14,
+    "height": 152,
+    "hair_color": "Pink"
+  },
+  {
+    "name": "Homura Akemi",
+    "anime": {
+      "name": "Puella Magi Madoka☆Magica",
+      "year": 2011,
+      "studio": "Shaft"
+    },
+    "age": 14,
+    "height": 155,
+    "hair_color": "Black"
+  },
+  {
+    "name": "Sayaka Miki",
+    "anime": {
+      "name": "Puella Magi Madoka☆Magica",
+      "year": 2011,
+      "studio": "Shaft"
+    },
+    "age": 14,
+    "height": 158,
+    "hair_color": "Blue"
+  },
+  {
+    "name": "Mami Tomoe",
+    "anime": {
+      "name": "Puella Magi Madoka☆Magica",
+      "year": 2011,
+      "studio": "Shaft"
+    },
+    "age": 15,
+    "height": 156,
+    "hair_color": "Blonde"
+  },
+  {
+    "name": "Kyoko Sakura",
+    "anime": {
+      "name": "Puella Magi Madoka☆Magica",
+      "year": 2011,
+      "studio": "Shaft"
+    },
+    "age": 14,
+    "height": 157,
+    "hair_color": "Red"
+  },
+  {
+    "name": "Hikaru Ichijyo",
+    "anime": {
+      "name": "The Super Dimension Fortress Macross",
+      "year": 1982,
+      "studio": "Tatsunoko Production"
+    },
+    "age": 16,
+    "height": 175,
+    "hair_color": "Brown"
+  },
+  {
+    "name": "Lynn Minmay",
+    "anime": {
+      "name": "The Super Dimension Fortress Macross",
+      "year": 1982,
+      "studio": "Tatsunoko Production"
+    },
+    "age": 15,
+    "height": 158,
+    "hair_color": "Blue"
+  },
+  {
+    "name": "Misa Hayase",
+    "anime": {
+      "name": "The Super Dimension Fortress Macross",
+      "year": 1982,
+      "studio": "Tatsunoko Production"
+    },
+    "age": 19,
+    "height": 168,
+    "hair_color": "Brown"
   }
 ]

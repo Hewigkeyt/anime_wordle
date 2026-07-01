@@ -17,7 +17,8 @@ export default function Legend() {
         </div>
       ))}
     </div>
-    <p className="legend__note">A red clue for age indicates that the mystery character has no specified age.</p>
+    <p className="legend__note">A red clue for age indicates that the mystery character has no specified or unknown age.<br/>
+    A red clue for height indicates that the mystery character has variable or unknown height.</p>
     </>
   );
 }
