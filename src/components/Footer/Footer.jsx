@@ -15,6 +15,7 @@ export default function Footer() {
             <br />
             <p>Updates to come:</p>
             <ul>
+                <li>Better handling of bicolor hair. (currently bicolor is a value, not a merge of two values)</li>
                 <li>Addition/fix of characters in the database.</li>
             </ul>
             <br />

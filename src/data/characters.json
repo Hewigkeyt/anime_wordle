@@ -635,7 +635,7 @@
     },
     "age": 19,
     "height": 169,
-    "hair_color": "Scarlet"
+    "hair_color": "Red"
   },
   {
     "name": "Ken Kaneki",
@@ -677,7 +677,7 @@
       "year": 2012,
       "studio": "David Production"
     },
-    "age": 122,
+    "age": 119,
     "height": 195,
     "hair_color": "Blonde"
   },
@@ -734,7 +734,7 @@
     },
     "age": 40,
     "height": 165,
-    "hair_color": "Ginger"
+    "hair_color": "Orange"
   },
   {
     "name": "Soma Yukihira",
@@ -1042,7 +1042,7 @@
     },
     "age": 17,
     "height": 159,
-    "hair_color": "Brown"
+    "hair_color": "Auburn"
   },
   {
     "name": "Rintarou Okabe",
@@ -2462,5 +2462,412 @@
     "age": 17,
     "height": 154,
     "hair_color": "Black"
+  },
+  {
+    "name": "Nagisa Misumi",
+    "anime": {
+      "name": "Futari wa Pretty Cure",
+      "year": 2004,
+      "studio": "Toei Animation"
+    },
+    "age": 14,
+    "height": 155,
+    "hair_color": "Brown"
+  },
+  {
+    "name": "Honoka Yukishiro",
+    "anime": {
+      "name": "Futari wa Pretty Cure",
+      "year": 2004,
+      "studio": "Toei Animation"
+    },
+    "age": 14,
+    "height": 156,
+    "hair_color": "Blue"
+  },
+  {
+    "name": "Hikari Kujou",
+    "anime": {
+      "name": "Futari wa Pretty Cure Max Heart",
+      "year": 2005,
+      "studio": "Toei Animation"
+    },
+    "age": 13,
+    "height": 147,
+    "hair_color": "Blonde"
+  },
+  {
+    "name": "Shinra Kusakabe",
+    "anime": {
+      "name": "Fire Force",
+      "year": 2019,
+      "studio": "David Production"
+    },
+    "age": 17,
+    "height": 173,
+    "hair_color": "Black"
+  },
+  {
+    "name": "Arthur Boyle",
+    "anime": {
+      "name": "Fire Force",
+      "year": 2019,
+      "studio": "David Production"
+    },
+    "age": 17,
+    "height": 174,
+    "hair_color": "Blonde"
+  },
+  {
+    "name": "Maki Oze",
+    "anime": {
+      "name": "Fire Force",
+      "year": 2019,
+      "studio": "David Production"
+    },
+    "age": 19,
+    "height": 167,
+    "hair_color": "Black"
+  },
+  {
+    "name": "Iris",
+    "anime": {
+      "name": "Fire Force",
+      "year": 2019,
+      "studio": "David Production"
+    },
+    "age": 16,
+    "height": 154,
+    "hair_color": "Blonde"
+  },
+  {
+    "name": "Tamaki Kotatsu",
+    "anime": {
+      "name": "Fire Force",
+      "year": 2019,
+      "studio": "David Production"
+    },
+    "age": 17,
+    "height": 156,
+    "hair_color": "Black"
+  },
+  {
+    "name": "Akitaru Obi",
+    "anime": {
+      "name": "Fire Force",
+      "year": 2019,
+      "studio": "David Production"
+    },
+    "age": 31,
+    "height": 189,
+    "hair_color": "Black"
+  },
+  {
+    "name": "Takehisa Hinawa",
+    "anime": {
+      "name": "Fire Force",
+      "year": 2019,
+      "studio": "David Production"
+    },
+    "age": 28,
+    "height": 180,
+    "hair_color": "Brown"
+  },
+  {
+    "name": "Boruto Uzumaki",
+    "anime": {
+      "name": "Boruto: Naruto Next Generations",
+      "year": 2017,
+      "studio": "Pierrot"
+    },
+    "age": 12,
+    "height": 145,
+    "hair_color": "Blonde"
+  },
+  {
+    "name": "Sarada Uchiha",
+    "anime": {
+      "name": "Boruto: Naruto Next Generations",
+      "year": 2017,
+      "studio": "Pierrot"
+    },
+    "age": 12,
+    "height": 147,
+    "hair_color": "Black"
+  },
+  {
+    "name": "Mitsuki",
+    "anime": {
+      "name": "Boruto: Naruto Next Generations",
+      "year": 2017,
+      "studio": "Pierrot"
+    },
+    "age": 12,
+    "height": 149,
+    "hair_color": "Blue"
+  },
+  {
+    "name": "Kenshin Himura",
+    "anime": {
+      "name": "Rurouni Kenshin",
+      "year": 1996,
+      "studio": "Gallop"
+    },
+    "age": 28,
+    "height": 158,
+    "hair_color": "Orange"
+  },
+  {
+    "name": "Kaoru Kamiya",
+    "anime": {
+      "name": "Rurouni Kenshin",
+      "year": 1996,
+      "studio": "Gallop"
+    },
+    "age": 17,
+    "height": 155,
+    "hair_color": "Black"
+  },
+  {
+    "name": "Sanosuke Sagara",
+    "anime": {
+      "name": "Rurouni Kenshin",
+      "year": 1996,
+      "studio": "Gallop"
+    },
+    "age": 19,
+    "height": 179,
+    "hair_color": "Black"
+  },
+  {
+    "name": "Yahiko Myojin",
+    "anime": {
+      "name": "Rurouni Kenshin",
+      "year": 1996,
+      "studio": "Gallop"
+    },
+    "age": 10,
+    "height": 128,
+    "hair_color": "Black"
+  },
+  {
+    "name": "Ash Lynx",
+    "anime": {
+      "name": "Banana Fish",
+      "year": 2018,
+      "studio": "MAPPA"
+    },
+    "age": 17,
+    "height": 180,
+    "hair_color": "Blonde"
+  },
+  {
+    "name": "Eiji Okumura",
+    "anime": {
+      "name": "Banana Fish",
+      "year": 2018,
+      "studio": "MAPPA"
+    },
+    "age": 19,
+    "height": 170,
+    "hair_color": "Black"
+  },
+  {
+    "name": "Kaiji Itou",
+    "anime": {
+      "name": "Kaiji: Ultimate Survivor",
+      "year": 2007,
+      "studio": "Madhouse"
+    },
+    "age": 22,
+    "height": 178,
+    "hair_color": "Black"
+  },
+  {
+    "name": "Kyousuke Kousaka",
+    "anime": {
+      "name": "Oreimo",
+      "year": 2010,
+      "studio": "AIC Build"
+    },
+    "age": 17,
+    "height": 175,
+    "hair_color": "Black"
+  },
+  {
+    "name": "Kirino Kousaka",
+    "anime": {
+      "name": "Oreimo",
+      "year": 2010,
+      "studio": "AIC Build"
+    },
+    "age": 14,
+    "height": 165,
+    "hair_color": "Brown"
+  },
+  {
+    "name": "Ruri Goko",
+    "anime": {
+      "name": "Oreimo",
+      "year": 2010,
+      "studio": "AIC Build"
+    },
+    "age": 15,
+    "height": 155,
+    "hair_color": "Black"
+  },
+  {
+    "name": "Ayase Aragaki",
+    "anime": {
+      "name": "Oreimo",
+      "year": 2010,
+      "studio": "AIC Build"
+    },
+    "age": 14,
+    "height": 166,
+    "hair_color": "Blue"
+  },
+  {
+    "name": "Yuki Morikawa",
+    "anime": {
+      "name": "White Album",
+      "year": 2009,
+      "studio": "Seven Arcs"
+    },
+    "age": 19,
+    "height": 160,
+    "hair_color": "Auburn"
+  },
+  {
+    "name": "Rina Ogata",
+    "anime": {
+      "name": "White Album",
+      "year": 2009,
+      "studio": "Seven Arcs"
+    },
+    "age": 19,
+    "height": 161,
+    "hair_color": "Brown"
+  },
+  {
+    "name": "Shirou Emiya",
+    "anime": {
+      "name": "Fate/stay night",
+      "year": 2006,
+      "studio": "Studio Deen"
+    },
+    "age": 17,
+    "height": 167,
+    "hair_color": "Orange"
+  },
+  {
+    "name": "Saber",
+    "anime": {
+      "name": "Fate/stay night",
+      "year": 2006,
+      "studio": "Studio Deen"
+    },
+    "age": 15,
+    "height": 154,
+    "hair_color": "Blonde"
+  },
+  {
+    "name": "Rin Tousaka",
+    "anime": {
+      "name": "Fate/stay night",
+      "year": 2006,
+      "studio": "Studio Deen"
+    },
+    "age": 17,
+    "height": 159,
+    "hair_color": "Black"
+  },
+  {
+    "name": "Sakura Matou",
+    "anime": {
+      "name": "Fate/stay night",
+      "year": 2006,
+      "studio": "Studio Deen"
+    },
+    "age": 16,
+    "height": 156,
+    "hair_color": "Purple"
+  },
+  {
+    "name": "Archer",
+    "anime": {
+      "name": "Fate/stay night",
+      "year": 2006,
+      "studio": "Studio Deen"
+    },
+    "age": null,
+    "height": 187,
+    "hair_color": "White"
+  },
+  {
+    "name": "Lain Iwakura",
+    "anime": {
+      "name": "Serial Experiments Lain",
+      "year": 1998,
+      "studio": "Triangle Staff"
+    },
+    "age": 14,
+    "height": 150,
+    "hair_color": "Brown"
+  },
+  {
+    "name": "Taiga Aisaka",
+    "anime": {
+      "name": "Toradora!",
+      "year": 2008,
+      "studio": "J.C.Staff"
+    },
+    "age": 17,
+    "height": 143,
+    "hair_color": "Blonde"
+  },
+  {
+    "name": "Ryuuji Takasu",
+    "anime": {
+      "name": "Toradora!",
+      "year": 2008,
+      "studio": "J.C.Staff"
+    },
+    "age": 17,
+    "height": 173,
+    "hair_color": "Blue"
+  },
+  {
+    "name": "Minori Kushieda",
+    "anime": {
+      "name": "Toradora!",
+      "year": 2008,
+      "studio": "J.C.Staff"
+    },
+    "age": 17,
+    "height": 163,
+    "hair_color": "Pink"
+  },
+  {
+    "name": "Ami Kawashima",
+    "anime": {
+      "name": "Toradora!",
+      "year": 2008,
+      "studio": "J.C.Staff"
+    },
+    "age": 17,
+    "height": 165,
+    "hair_color": "Blue"
+  },
+  {
+    "name": "Yusaku Kitamura",
+    "anime": {
+      "name": "Toradora!",
+      "year": 2008,
+      "studio": "J.C.Staff"
+    },
+    "age": 17,
+    "height": 176,
+    "hair_color": "Green"
   }
 ]

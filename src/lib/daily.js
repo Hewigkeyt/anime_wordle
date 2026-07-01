@@ -123,6 +123,7 @@ export function saveDailyResult(won, guessCount, hintUsed) {
     won,
     guessCount,
     hintUsed,
+    submitted: false,
   }));
 }
 export function loadDailyResult() {
@@ -180,4 +181,11 @@ export function loadInfiniteTarget(db) {
 
 export function clearInfiniteTarget() {
   localStorage.removeItem("aw_infinite_target");
+}
+
+export function saveDailySubmitted() {
+  const raw = localStorage.getItem("aw_daily_result");
+  if (!raw) return;
+  const data = JSON.parse(raw);
+  localStorage.setItem("aw_daily_result", JSON.stringify({ ...data, submitted: true }));
 }

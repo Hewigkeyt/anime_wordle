@@ -1,15 +1,17 @@
 import { useState, useEffect } from "react";
-import { submitScore, fetchTop3, hasPlayedToday, todayString } from "../../lib/daily";
+import { submitScore, fetchTop3, hasPlayedToday, todayString, saveDailySubmitted, loadDailyResult } from "../../lib/daily";
 import "./DailyResult.css";
 
 // const MEDALS = ["🥇", "🥈", "🥉"];
 
 export default function DailyResult({ won, guessCount, hintUsed, target, alreadyCompleted = false, onScoreSubmitted, rows, animate = true }) {
-  const [username,    setUsername]    = useState(() => localStorage.getItem("aw_username") ?? "");
-  const [submitted,   setSubmitted]   = useState(alreadyCompleted);
-  const [alreadyDone, setAlreadyDone] = useState(alreadyCompleted);
-  const [loading,     setLoading]     = useState(false);
-  const [error,       setError]       = useState(null);
+  const persistedResult = loadDailyResult();
+  const [username, setUsername] = useState(() => localStorage.getItem("aw_username") ?? "");
+  const [submitted, setSubmitted] = useState(!!persistedResult?.submitted);
+  const [justSubmitted, setJustSubmitted] = useState(false);
+  const [alreadyDone, setAlreadyDone] = useState(!!persistedResult?.submitted);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState(null);
 
 
   const [countdown, setCountdown] = useState("");
@@ -42,7 +44,7 @@ export default function DailyResult({ won, guessCount, hintUsed, target, already
 
   function buildShareText(guessCount, hintUsed, rows) {
     const header = `Anime Wordle ${todayString()}`;
-    const result =`✅ ${guessCount} guess${guessCount > 1 ? "es" : ""}${hintUsed ? " (hint)" : ""}`;
+    const result = `✅ ${guessCount} guess${guessCount > 1 ? "es" : ""}${hintUsed ? " (hint)" : ""}`;
     console.log(rows)
     const grid = rows.slice().map(({ cells }) =>
       cells.map((c) => {
@@ -68,7 +70,7 @@ export default function DailyResult({ won, guessCount, hintUsed, target, already
     localStorage.setItem("aw_username", username.trim());
 
     if (alreadyDone) { setSubmitted(true); setLoading(false); return; } // skip query if mount already checked
-  
+
     const already = await hasPlayedToday(username);
     if (already) {
       setAlreadyDone(true);
@@ -86,7 +88,9 @@ export default function DailyResult({ won, guessCount, hintUsed, target, already
     if (error) {
       setError("Could not save score. Try again.");
     } else {
+      setJustSubmitted(true);
       setSubmitted(true);
+      saveDailySubmitted();
       onScoreSubmitted?.();
       // await loadTop3();
     }
@@ -110,9 +114,11 @@ export default function DailyResult({ won, guessCount, hintUsed, target, already
         <div className="daily-result__submit">
           {submitted ? (
             <p className="daily-result__submitted-msg">
-              {alreadyCompleted
-                ? "You already played today's challenge."
-                :alreadyDone ? "You already submitted today." : "Score saved!"}
+              {justSubmitted
+                ? "Score saved!"
+                : alreadyCompleted || alreadyDone
+                  ? "You already submitted today."
+                  : "Score saved!"}
             </p>
           ) : (
             <>
