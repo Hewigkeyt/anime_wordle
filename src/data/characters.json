@@ -8,7 +8,9 @@
     },
     "age": 17,
     "height": 172,
-    "hair_color": "Black"
+    "hair_color": "Black",
+    "sex": "♂️",
+    "seiyuu": "Mayumi Tanaka"
   },
   {
     "name": "Roronoa Zoro",
@@ -19,7 +21,9 @@
     },
     "age": 19,
     "height": 178,
-    "hair_color": "Green"
+    "hair_color": "Green",
+    "sex": "♂️",
+    "seiyuu": "Kazuya Nakai"
   },
   {
     "name": "Naruto Uzumaki",
@@ -30,7 +34,9 @@
     },
     "age": 12,
     "height": 145,
-    "hair_color": "Blonde"
+    "hair_color": "Blonde",
+    "sex": "♂️",
+    "seiyuu": "Junko Takeuchi"
   },
   {
     "name": "Sasuke Uchiha",
@@ -41,7 +47,9 @@
     },
     "age": 12,
     "height": 150,
-    "hair_color": "Black"
+    "hair_color": "Black",
+    "sex": "♂️",
+    "seiyuu": "Noriaki Sugiyama"
   },
   {
     "name": "Sakura Haruno",
@@ -52,7 +60,9 @@
     },
     "age": 12,
     "height": 148,
-    "hair_color": "Pink"
+    "hair_color": "Pink",
+    "sex": "♀️",
+    "seiyuu": "Chie Nakamura"
   },
   {
     "name": "Kakashi Hatake",
@@ -63,7 +73,9 @@
     },
     "age": 26,
     "height": 181,
-    "hair_color": "Silver"
+    "hair_color": "Silver",
+    "sex": "♂️",
+    "seiyuu": "Kazuhiko Inoue"
   },
   {
     "name": "Son Goku (adult)",
@@ -74,7 +86,9 @@
     },
     "age": 24,
     "height": 175,
-    "hair_color": "Black"
+    "hair_color": "Black",
+    "sex": "♂️",
+    "seiyuu": "Masako Nozawa"
   },
   {
     "name": "Vegeta",
@@ -85,7 +99,9 @@
     },
     "age": 29,
     "height": 164,
-    "hair_color": "Black"
+    "hair_color": "Black",
+    "sex": "♂️",
+    "seiyuu": "Ryo Horikawa"
   },
   {
     "name": "Izuku Midoriya",
@@ -96,7 +112,9 @@
     },
     "age": 16,
     "height": 166,
-    "hair_color": "Green"
+    "hair_color": "Green",
+    "sex": "♂️",
+    "seiyuu": "Daiki Yamashita"
   },
   {
     "name": "Katsuki Bakugo",
@@ -107,7 +125,9 @@
     },
     "age": 16,
     "height": 172,
-    "hair_color": "Blonde"
+    "hair_color": "Blonde",
+    "sex": "♂️",
+    "seiyuu": "Nobuhiko Okamoto"
   },
   {
     "name": "Shoto Todoroki",
@@ -118,7 +138,9 @@
     },
     "age": 16,
     "height": 176,
-    "hair_color": "Bicolor"
+    "hair_color": "Bicolor",
+    "sex": "♂️",
+    "seiyuu": "Yuki Kaji"
   },
   {
     "name": "Eren Yeager",
@@ -129,7 +151,9 @@
     },
     "age": 15,
     "height": 170,
-    "hair_color": "Brown"
+    "hair_color": "Brown",
+    "sex": "♂️",
+    "seiyuu": "Yuki Kaji"
   },
   {
     "name": "Mikasa Ackerman",
@@ -140,7 +164,9 @@
     },
     "age": 15,
     "height": 170,
-    "hair_color": "Black"
+    "hair_color": "Black",
+    "sex": "♀️",
+    "seiyuu": "Yui Ishikawa"
   },
   {
     "name": "Levi Ackerman",
@@ -151,7 +177,9 @@
     },
     "age": 30,
     "height": 160,
-    "hair_color": "Black"
+    "hair_color": "Black",
+    "sex": "♂️",
+    "seiyuu": "Hiroshi Kamiya"
   },
   {
     "name": "Tanjiro Kamado",
@@ -162,7 +190,9 @@
     },
     "age": 16,
     "height": 165,
-    "hair_color": "Red"
+    "hair_color": "Red",
+    "sex": "♂️",
+    "seiyuu": "Natsuki Hanae"
   },
   {
     "name": "Nezuko Kamado",
@@ -173,7 +203,9 @@
     },
     "age": 14,
     "height": 153,
-    "hair_color": "Black"
+    "hair_color": "Black",
+    "sex": "♀️",
+    "seiyuu": "Akari Kito"
   },
   {
     "name": "Zenitsu Agatsuma",
@@ -184,7 +216,9 @@
     },
     "age": 16,
     "height": 164,
-    "hair_color": "Blonde"
+    "hair_color": "Blonde",
+    "sex": "♂️",
+    "seiyuu": "Hiro Shimono"
   },
   {
     "name": "Inosuke Hashibira",
@@ -195,7 +229,9 @@
     },
     "age": 15,
     "height": 164,
-    "hair_color": "Blue"
+    "hair_color": "Blue",
+    "sex": "♂️",
+    "seiyuu": "Yoshitsugu Matsuoka"
   },
   {
     "name": "Giyu Tomioka",
@@ -206,7 +242,9 @@
     },
     "age": 21,
     "height": 176,
-    "hair_color": "Black"
+    "hair_color": "Black",
+    "sex": "♂️",
+    "seiyuu": "Takahiro Sakurai"
   },
   {
     "name": "Kyojuro Rengoku",
@@ -217,7 +255,9 @@
     },
     "age": 20,
     "height": 177,
-    "hair_color": "Bicolor"
+    "hair_color": "Bicolor",
+    "sex": "♂️",
+    "seiyuu": "Satoshi Hino"
   },
   {
     "name": "Satoru Gojo",
@@ -228,7 +268,9 @@
     },
     "age": 28,
     "height": 190,
-    "hair_color": "White"
+    "hair_color": "White",
+    "sex": "♂️",
+    "seiyuu": "Yuichi Nakamura"
   },
   {
     "name": "Yuji Itadori",
@@ -239,7 +281,9 @@
     },
     "age": 15,
     "height": 173,
-    "hair_color": "Pink"
+    "hair_color": "Pink",
+    "sex": "♂️",
+    "seiyuu": "Junya Enoki"
   },
   {
     "name": "Megumi Fushiguro",
@@ -250,7 +294,9 @@
     },
     "age": 15,
     "height": 175,
-    "hair_color": "Black"
+    "hair_color": "Black",
+    "sex": "♂️",
+    "seiyuu": "Yuma Uchida"
   },
   {
     "name": "Nobara Kugisaki",
@@ -261,7 +307,9 @@
     },
     "age": 16,
     "height": 160,
-    "hair_color": "Orange"
+    "hair_color": "Orange",
+    "sex": "♀️",
+    "seiyuu": "Asami Seto"
   },
   {
     "name": "Kento Nanami",
@@ -272,7 +320,9 @@
     },
     "age": 28,
     "height": 184,
-    "hair_color": "Blonde"
+    "hair_color": "Blonde",
+    "sex": "♂️",
+    "seiyuu": "Kenjiro Tsuda"
   },
   {
     "name": "Light Yagami",
@@ -283,7 +333,9 @@
     },
     "age": 17,
     "height": 179,
-    "hair_color": "Brown"
+    "hair_color": "Brown",
+    "sex": "♂️",
+    "seiyuu": "Mamoru Miyano"
   },
   {
     "name": "L Lawliet",
@@ -294,7 +346,9 @@
     },
     "age": 24,
     "height": 179,
-    "hair_color": "Black"
+    "hair_color": "Black",
+    "sex": "♂️",
+    "seiyuu": "Kappei Yamaguchi"
   },
   {
     "name": "Gon Freecss",
@@ -305,7 +359,9 @@
     },
     "age": 12,
     "height": 154,
-    "hair_color": "Black"
+    "hair_color": "Black",
+    "sex": "♂️",
+    "seiyuu": "Junko Takeuchi"
   },
   {
     "name": "Kirua Zoldik",
@@ -316,7 +372,9 @@
     },
     "age": 12,
     "height": 160,
-    "hair_color": "White"
+    "hair_color": "White",
+    "sex": "♂️",
+    "seiyuu": "Kanako Mitsuhashi"
   },
   {
     "name": "Hisoka Morow",
@@ -327,7 +385,9 @@
     },
     "age": 28,
     "height": 197,
-    "hair_color": "Blue"
+    "hair_color": "Blue",
+    "sex": "♂️",
+    "seiyuu": "Hiroki Takahashi"
   },
   {
     "name": "Kurapika",
@@ -338,7 +398,9 @@
     },
     "age": 17,
     "height": 171,
-    "hair_color": "Blonde"
+    "hair_color": "Blonde",
+    "sex": "♂️",
+    "seiyuu": "Yuki Kaida"
   },
   {
     "name": "Edward Elric",
@@ -349,7 +411,9 @@
     },
     "age": 14,
     "height": 149,
-    "hair_color": "Blonde"
+    "hair_color": "Blonde",
+    "sex": "♂️",
+    "seiyuu": "Romi Park"
   },
   {
     "name": "Alphonse Elric",
@@ -360,7 +424,9 @@
     },
     "age": 14,
     "height": 224,
-    "hair_color": "None"
+    "hair_color": "None",
+    "sex": "♂️",
+    "seiyuu": "Rie Kugimiya"
   },
   {
     "name": "Roy Mustang",
@@ -371,7 +437,9 @@
     },
     "age": 29,
     "height": 173,
-    "hair_color": "Black"
+    "hair_color": "Black",
+    "sex": "♂️",
+    "seiyuu": "Toru Okawa"
   },
   {
     "name": "Saitama",
@@ -382,7 +450,9 @@
     },
     "age": 25,
     "height": 175,
-    "hair_color": "Bald"
+    "hair_color": "Bald",
+    "sex": "♂️",
+    "seiyuu": "Makoto Furukawa"
   },
   {
     "name": "Genos",
@@ -393,7 +463,9 @@
     },
     "age": 19,
     "height": 178,
-    "hair_color": "Blonde"
+    "hair_color": "Blonde",
+    "sex": "♂️",
+    "seiyuu": "Kaito Ishikawa"
   },
   {
     "name": "Rimuru Tempest",
@@ -404,7 +476,9 @@
     },
     "age": 39,
     "height": 140,
-    "hair_color": "Blue"
+    "hair_color": "Blue",
+    "sex": null,
+    "seiyuu": "Miho Okasaki"
   },
   {
     "name": "Subaru Natsuki",
@@ -415,7 +489,9 @@
     },
     "age": 18,
     "height": 173,
-    "hair_color": "Black"
+    "hair_color": "Black",
+    "sex": "♂️",
+    "seiyuu": "Yusuke Kobayashi"
   },
   {
     "name": "Emilia",
@@ -426,7 +502,9 @@
     },
     "age": 115,
     "height": 160,
-    "hair_color": "Silver"
+    "hair_color": "Silver",
+    "sex": "♀️",
+    "seiyuu": "Rie Takahashi"
   },
   {
     "name": "Rem",
@@ -437,7 +515,9 @@
     },
     "age": 17,
     "height": 154,
-    "hair_color": "Blue"
+    "hair_color": "Blue",
+    "sex": "♀️",
+    "seiyuu": "Inori Minase"
   },
   {
     "name": "Kazuma Satou",
@@ -448,7 +528,9 @@
     },
     "age": 17,
     "height": 165,
-    "hair_color": "Brown"
+    "hair_color": "Brown",
+    "sex": "♂️",
+    "seiyuu": "Jun Fukushima"
   },
   {
     "name": "Aqua",
@@ -459,7 +541,9 @@
     },
     "age": 1000,
     "height": 158,
-    "hair_color": "Blue"
+    "hair_color": "Blue",
+    "sex": "♀️",
+    "seiyuu": "Sora Amamiya"
   },
   {
     "name": "Megumin",
@@ -470,7 +554,9 @@
     },
     "age": 14,
     "height": 150,
-    "hair_color": "Brown"
+    "hair_color": "Brown",
+    "sex": "♀️",
+    "seiyuu": "Rie Takahashi"
   },
   {
     "name": "Kirito",
@@ -481,7 +567,9 @@
     },
     "age": 16,
     "height": 172,
-    "hair_color": "Black"
+    "hair_color": "Black",
+    "sex": "♂️",
+    "seiyuu": "Yoshitsugu Matsuoka"
   },
   {
     "name": "Asuna",
@@ -492,7 +580,9 @@
     },
     "age": 17,
     "height": 168,
-    "hair_color": "Blonde"
+    "hair_color": "Blonde",
+    "sex": "♀️",
+    "seiyuu": "Haruka Tomatsu"
   },
   {
     "name": "Rei Ayanami",
@@ -503,7 +593,9 @@
     },
     "age": 14,
     "height": 152,
-    "hair_color": "Blue"
+    "hair_color": "Blue",
+    "sex": "♀️",
+    "seiyuu": "Megumi Hayashibara"
   },
   {
     "name": "Shinji Ikari",
@@ -514,7 +606,9 @@
     },
     "age": 14,
     "height": 157,
-    "hair_color": "Brown"
+    "hair_color": "Brown",
+    "sex": "♂️",
+    "seiyuu": "Megumi Ogata"
   },
   {
     "name": "Asuka Langley Soryu",
@@ -525,7 +619,9 @@
     },
     "age": 14,
     "height": 157,
-    "hair_color": "Red"
+    "hair_color": "Red",
+    "sex": "♀️",
+    "seiyuu": "Yuko Miyamura"
   },
   {
     "name": "Lelouch Lamperouge",
@@ -536,7 +632,9 @@
     },
     "age": 17,
     "height": 178,
-    "hair_color": "Black"
+    "hair_color": "Black",
+    "sex": "♂️",
+    "seiyuu": "Jun Fukuyama"
   },
   {
     "name": "Suzaku Kururugi",
@@ -547,7 +645,9 @@
     },
     "age": 17,
     "height": 179,
-    "hair_color": "Brown"
+    "hair_color": "Brown",
+    "sex": "♂️",
+    "seiyuu": "Takahiro Sakurai"
   },
   {
     "name": "Guts",
@@ -558,7 +658,9 @@
     },
     "age": 15,
     "height": 185,
-    "hair_color": "Black"
+    "hair_color": "Black",
+    "sex": "♂️",
+    "seiyuu": "Nobutoshi Canna"
   },
   {
     "name": "Griffith",
@@ -569,7 +671,9 @@
     },
     "age": 18,
     "height": 178,
-    "hair_color": "White"
+    "hair_color": "White",
+    "sex": "♂️",
+    "seiyuu": "Toshiyuki Morikawa"
   },
   {
     "name": "Ichigo Kurosaki",
@@ -580,7 +684,9 @@
     },
     "age": 15,
     "height": 174,
-    "hair_color": "Orange"
+    "hair_color": "Orange",
+    "sex": "♂️",
+    "seiyuu": "Masakazu Morita"
   },
   {
     "name": "Rukia Kuchiki",
@@ -591,7 +697,9 @@
     },
     "age": 150,
     "height": 144,
-    "hair_color": "Black"
+    "hair_color": "Black",
+    "sex": "♀️",
+    "seiyuu": "Fumiko Orikasa"
   },
   {
     "name": "Sosuke Aizen",
@@ -602,7 +710,9 @@
     },
     "age": 300,
     "height": 186,
-    "hair_color": "Brown"
+    "hair_color": "Brown",
+    "sex": "♂️",
+    "seiyuu": "Sho Hayami"
   },
   {
     "name": "Natsu Dragneel",
@@ -613,7 +723,9 @@
     },
     "age": 18,
     "height": 172,
-    "hair_color": "Pink"
+    "hair_color": "Pink",
+    "sex": "♂️",
+    "seiyuu": "Tetsuya Kakihara"
   },
   {
     "name": "Lucy Heartfilia",
@@ -624,7 +736,9 @@
     },
     "age": 17,
     "height": 165,
-    "hair_color": "Blonde"
+    "hair_color": "Blonde",
+    "sex": "♀️",
+    "seiyuu": "Aya Hirano"
   },
   {
     "name": "Erza Scarlet",
@@ -635,7 +749,9 @@
     },
     "age": 19,
     "height": 169,
-    "hair_color": "Red"
+    "hair_color": "Red",
+    "sex": "♀️",
+    "seiyuu": "Sayaka Ohara"
   },
   {
     "name": "Ken Kaneki",
@@ -646,7 +762,9 @@
     },
     "age": 19,
     "height": 169,
-    "hair_color": "White"
+    "hair_color": "White",
+    "sex": "♂️",
+    "seiyuu": "Natsuki Hanae"
   },
   {
     "name": "Touka Kirishima",
@@ -657,7 +775,9 @@
     },
     "age": 18,
     "height": 156,
-    "hair_color": "Blue"
+    "hair_color": "Blue",
+    "sex": "♀️",
+    "seiyuu": "Sora Amamiya"
   },
   {
     "name": "Jotaro Kujo",
@@ -668,7 +788,9 @@
     },
     "age": 17,
     "height": 195,
-    "hair_color": "Black"
+    "hair_color": "Black",
+    "sex": "♂️",
+    "seiyuu": "Daisuke Ono"
   },
   {
     "name": "Dio Brando",
@@ -679,7 +801,9 @@
     },
     "age": 119,
     "height": 195,
-    "hair_color": "Blonde"
+    "hair_color": "Blonde",
+    "sex": "♂️",
+    "seiyuu": "Takehito Koyasu"
   },
   {
     "name": "Joseph Joestar",
@@ -690,10 +814,12 @@
     },
     "age": 18,
     "height": 195,
-    "hair_color": "Brown"
+    "hair_color": "Brown",
+    "sex": "♂️",
+    "seiyuu": "Tomokazu Sugita"
   },
   {
-    "name": "Mob",
+    "name": "Kageyama Shigeo",
     "anime": {
       "name": "Mob Psycho 100",
       "year": 2016,
@@ -701,7 +827,9 @@
     },
     "age": 14,
     "height": 157,
-    "hair_color": "Black"
+    "hair_color": "Black",
+    "sex": "♂️",
+    "seiyuu": "Setsuo Ito"
   },
   {
     "name": "Reigen Arataka",
@@ -712,7 +840,9 @@
     },
     "age": 28,
     "height": 179,
-    "hair_color": "Blonde"
+    "hair_color": "Blonde",
+    "sex": "♂️",
+    "seiyuu": "Takahiro Sakurai"
   },
   {
     "name": "Meliodas",
@@ -723,7 +853,9 @@
     },
     "age": 3000,
     "height": 152,
-    "hair_color": "Blonde"
+    "hair_color": "Blonde",
+    "sex": "♂️",
+    "seiyuu": "Yuki Kaji"
   },
   {
     "name": "Escanor",
@@ -734,7 +866,9 @@
     },
     "age": 40,
     "height": 165,
-    "hair_color": "Orange"
+    "hair_color": "Orange",
+    "sex": "♂️",
+    "seiyuu": "Tomokazu Sugita"
   },
   {
     "name": "Soma Yukihira",
@@ -745,7 +879,9 @@
     },
     "age": 15,
     "height": 171,
-    "hair_color": "Red"
+    "hair_color": "Red",
+    "sex": "♂️",
+    "seiyuu": "Yoshitsugu Matsuoka"
   },
   {
     "name": "Senku Ishigami",
@@ -756,7 +892,9 @@
     },
     "age": 18,
     "height": 175,
-    "hair_color": "Bicolor"
+    "hair_color": "Bicolor",
+    "sex": "♂️",
+    "seiyuu": "Yusuke Kobayashi"
   },
   {
     "name": "Tatsumaki",
@@ -767,7 +905,9 @@
     },
     "age": 28,
     "height": 142,
-    "hair_color": "Green"
+    "hair_color": "Green",
+    "sex": "♀️",
+    "seiyuu": "Aoi Yuki"
   },
   {
     "name": "Baki Hanma",
@@ -778,7 +918,9 @@
     },
     "age": 13,
     "height": 157,
-    "hair_color": "Orange"
+    "hair_color": "Orange",
+    "sex": "♂️",
+    "seiyuu": "Masami Kikuchi"
   },
   {
     "name": "Asta",
@@ -789,7 +931,9 @@
     },
     "age": 16,
     "height": 155,
-    "hair_color": "Silver"
+    "hair_color": "Silver",
+    "sex": "♂️",
+    "seiyuu": "Gakuto Kajiwara"
   },
   {
     "name": "Yuno",
@@ -800,7 +944,9 @@
     },
     "age": 16,
     "height": 172,
-    "hair_color": "Black"
+    "hair_color": "Black",
+    "sex": "♂️",
+    "seiyuu": "Nobunaga Shimazaki"
   },
   {
     "name": "Yami Sukehiro",
@@ -811,18 +957,22 @@
     },
     "age": 28,
     "height": 183,
-    "hair_color": "Black"
+    "hair_color": "Black",
+    "sex": "♂️",
+    "seiyuu": "Junichi Suwabe"
   },
   {
     "name": "Shino Asada",
     "anime": {
-      "name": "Sword Art Online",
-      "year": 2012,
+      "name": "Sword Art Online II",
+      "year": 2014,
       "studio": "A-1 Pictures"
     },
     "age": 16,
     "height": 161,
-    "hair_color": "Blue"
+    "hair_color": "Blue",
+    "sex": "♀️",
+    "seiyuu": "Miyuki Sawashiro"
   },
   {
     "name": "Sanji",
@@ -833,7 +983,9 @@
     },
     "age": 21,
     "height": 180,
-    "hair_color": "Blonde"
+    "hair_color": "Blonde",
+    "sex": "♂️",
+    "seiyuu": "Hiroaki Hirata"
   },
   {
     "name": "Tony Tony Chopper",
@@ -844,7 +996,9 @@
     },
     "age": 17,
     "height": 90,
-    "hair_color": "Brown"
+    "hair_color": "Brown",
+    "sex": "♂️",
+    "seiyuu": "Ikue Otani"
   },
   {
     "name": "Nami",
@@ -855,7 +1009,9 @@
     },
     "age": 20,
     "height": 170,
-    "hair_color": "Orange"
+    "hair_color": "Orange",
+    "sex": "♀️",
+    "seiyuu": "Akemi Okamura"
   },
   {
     "name": "Nico Robin",
@@ -866,7 +1022,9 @@
     },
     "age": 30,
     "height": 188,
-    "hair_color": "Black"
+    "hair_color": "Black",
+    "sex": "♀️",
+    "seiyuu": "Yuriko Yamaguchi"
   },
   {
     "name": "Spike Spiegel",
@@ -877,7 +1035,9 @@
     },
     "age": 27,
     "height": 185,
-    "hair_color": "Green"
+    "hair_color": "Green",
+    "sex": "♂️",
+    "seiyuu": "Koichi Yamadera"
   },
   {
     "name": "Faye Valentine",
@@ -888,7 +1048,9 @@
     },
     "age": 23,
     "height": 168,
-    "hair_color": "Purple"
+    "hair_color": "Purple",
+    "sex": "♀️",
+    "seiyuu": "Megumi Hayashibara"
   },
   {
     "name": "Violet Evergarden",
@@ -899,7 +1061,9 @@
     },
     "age": 14,
     "height": 161,
-    "hair_color": "Blonde"
+    "hair_color": "Blonde",
+    "sex": "♀️",
+    "seiyuu": "Yui Ishikawa"
   },
   {
     "name": "Denji",
@@ -910,7 +1074,9 @@
     },
     "age": 16,
     "height": 173,
-    "hair_color": "Blonde"
+    "hair_color": "Blonde",
+    "sex": "♂️",
+    "seiyuu": "Kikonosuke Toya"
   },
   {
     "name": "Power",
@@ -921,7 +1087,9 @@
     },
     "age": 100,
     "height": 168,
-    "hair_color": "Blonde"
+    "hair_color": "Blonde",
+    "sex": "♀️",
+    "seiyuu": "Fairouz Ai"
   },
   {
     "name": "Aki Hayakawa",
@@ -932,7 +1100,9 @@
     },
     "age": 22,
     "height": 180,
-    "hair_color": "Black"
+    "hair_color": "Black",
+    "sex": "♂️",
+    "seiyuu": "Shogo Sakata"
   },
   {
     "name": "Makima",
@@ -943,7 +1113,9 @@
     },
     "age": 30,
     "height": 168,
-    "hair_color": "Red"
+    "hair_color": "Red",
+    "sex": "♀️",
+    "seiyuu": "Tomori Kusunoki"
   },
   {
     "name": "Loid Forger",
@@ -954,7 +1126,9 @@
     },
     "age": 28,
     "height": 187,
-    "hair_color": "Blonde"
+    "hair_color": "Blonde",
+    "sex": "♂️",
+    "seiyuu": "Takuya Eguchi"
   },
   {
     "name": "Yor Forger",
@@ -965,7 +1139,9 @@
     },
     "age": 27,
     "height": 170,
-    "hair_color": "Black"
+    "hair_color": "Black",
+    "sex": "♀️",
+    "seiyuu": "Saori Hayami"
   },
   {
     "name": "Anya Forger",
@@ -976,7 +1152,9 @@
     },
     "age": 6,
     "height": 99,
-    "hair_color": "Pink"
+    "hair_color": "Pink",
+    "sex": "♀️",
+    "seiyuu": "Atsumi Tanezaki"
   },
   {
     "name": "Kageyama Tobio",
@@ -987,7 +1165,9 @@
     },
     "age": 16,
     "height": 181,
-    "hair_color": "Black"
+    "hair_color": "Black",
+    "sex": "♂️",
+    "seiyuu": "Kaito Ishikawa"
   },
   {
     "name": "Hinata Shoyo",
@@ -998,7 +1178,9 @@
     },
     "age": 16,
     "height": 164,
-    "hair_color": "Orange"
+    "hair_color": "Orange",
+    "sex": "♂️",
+    "seiyuu": "Ayumu Murase"
   },
   {
     "name": "Marin Kitagawa",
@@ -1009,7 +1191,9 @@
     },
     "age": 15,
     "height": 164,
-    "hair_color": "Blonde"
+    "hair_color": "Blonde",
+    "sex": "♀️",
+    "seiyuu": "Hina Suguta"
   },
   {
     "name": "Hachimann Hikigaya",
@@ -1020,7 +1204,9 @@
     },
     "age": 17,
     "height": 172,
-    "hair_color": "Black"
+    "hair_color": "Black",
+    "sex": "♂️",
+    "seiyuu": "Takuya Eguchi"
   },
   {
     "name": "Ryuko Matoi",
@@ -1031,7 +1217,9 @@
     },
     "age": 17,
     "height": 160,
-    "hair_color": "Black"
+    "hair_color": "Black",
+    "sex": "♀️",
+    "seiyuu": "Ami Koshimizu"
   },
   {
     "name": "Miku Nakano",
@@ -1042,7 +1230,9 @@
     },
     "age": 17,
     "height": 159,
-    "hair_color": "Auburn"
+    "hair_color": "Auburn",
+    "sex": "♀️",
+    "seiyuu": "Miku Ito"
   },
   {
     "name": "Rintarou Okabe",
@@ -1053,7 +1243,9 @@
     },
     "age": 18,
     "height": 177,
-    "hair_color": "Brown"
+    "hair_color": "Brown",
+    "sex": "♂️",
+    "seiyuu": "Mamoru Miyano"
   },
   {
     "name": "Kurisu Makise",
@@ -1064,7 +1256,9 @@
     },
     "age": 18,
     "height": 160,
-    "hair_color": "Red"
+    "hair_color": "Red",
+    "sex": "♀️",
+    "seiyuu": "Asami Imai"
   },
   {
     "name": "Frieren",
@@ -1073,9 +1267,11 @@
       "year": 2023,
       "studio": "Madhouse"
     },
-    "age": 1000,
+    "age": null,
     "height": 150,
-    "hair_color": "White"
+    "hair_color": "White",
+    "sex": "♀️",
+    "seiyuu": "Atsumi Tanezaki"
   },
   {
     "name": "Yujiro Hanma",
@@ -1086,7 +1282,9 @@
     },
     "age": 32,
     "height": 191,
-    "hair_color": "Red"
+    "hair_color": "Red",
+    "sex": "♂️",
+    "seiyuu": "Kenji Nomura"
   },
   {
     "name": "Son Gohan (kid)",
@@ -1097,7 +1295,9 @@
     },
     "age": 5,
     "height": 115,
-    "hair_color": "Black"
+    "hair_color": "Black",
+    "sex": "♂️",
+    "seiyuu": "Masako Nozawa"
   },
   {
     "name": "Freezer",
@@ -1108,7 +1308,9 @@
     },
     "age": 32,
     "height": 152,
-    "hair_color": "None"
+    "hair_color": "None",
+    "sex": "♂️",
+    "seiyuu": "Ryusei Nakao"
   },
   {
     "name": "Nunnally Lamperouge",
@@ -1119,7 +1321,9 @@
     },
     "age": 14,
     "height": 160,
-    "hair_color": "Blonde"
+    "hair_color": "Blonde",
+    "sex": "♀️",
+    "seiyuu": "Kaori Nazuka"
   },
   {
     "name": "Karen Stadtfeld",
@@ -1130,7 +1334,9 @@
     },
     "age": 17,
     "height": 160,
-    "hair_color": "Pink"
+    "hair_color": "Pink",
+    "sex": "♀️",
+    "seiyuu": "Ami Koshimizu"
   },
   {
     "name": "C.C.",
@@ -1141,7 +1347,9 @@
     },
     "age": null,
     "height": 168,
-    "hair_color": "Green"
+    "hair_color": "Green",
+    "sex": "♀️",
+    "seiyuu": "Yukana"
   },
   {
     "name": "Satsuki Kiryuin",
@@ -1152,7 +1360,9 @@
     },
     "age": 18,
     "height": 175,
-    "hair_color": "Black"
+    "hair_color": "Black",
+    "sex": "♀️",
+    "seiyuu": "Ryoka Yuzuki"
   },
   {
     "name": "Wakana Gojo",
@@ -1163,7 +1373,9 @@
     },
     "age": 15,
     "height": 185,
-    "hair_color": "Black"
+    "hair_color": "Black",
+    "sex": "♂️",
+    "seiyuu": "Shoya Ishige"
   },
   {
     "name": "Misato Katsuragi",
@@ -1174,7 +1386,9 @@
     },
     "age": 29,
     "height": 163,
-    "hair_color": "Blue"
+    "hair_color": "Blue",
+    "sex": "♀️",
+    "seiyuu": "Kotono Mitsuishi"
   },
   {
     "name": "Bulma",
@@ -1185,7 +1399,9 @@
     },
     "age": 16,
     "height": 165,
-    "hair_color": "Blue"
+    "hair_color": "Blue",
+    "sex": "♀️",
+    "seiyuu": "Hiromi Tsuru"
   },
   {
     "name": "Son Goku (kid)",
@@ -1196,7 +1412,9 @@
     },
     "age": 12,
     "height": 145,
-    "hair_color": "Black"
+    "hair_color": "Black",
+    "sex": "♂️",
+    "seiyuu": "Masako Nozawa"
   },
   {
     "name": "Haruhi Suzumiya",
@@ -1207,7 +1425,9 @@
     },
     "age": 15,
     "height": 158,
-    "hair_color": "Brown"
+    "hair_color": "Brown",
+    "sex": "♀️",
+    "seiyuu": "Aya Hirano"
   },
   {
     "name": "Kyon",
@@ -1218,7 +1438,9 @@
     },
     "age": 15,
     "height": 170,
-    "hair_color": "Brown"
+    "hair_color": "Brown",
+    "sex": "♂️",
+    "seiyuu": "Tomokazu Sugita"
   },
   {
     "name": "Yuki Nagato",
@@ -1229,7 +1451,9 @@
     },
     "age": 15,
     "height": 154,
-    "hair_color": "Purple"
+    "hair_color": "Purple",
+    "sex": "♀️",
+    "seiyuu": "Minori Chihara"
   },
   {
     "name": "Mikuru Asahina",
@@ -1240,7 +1464,9 @@
     },
     "age": 15,
     "height": 152,
-    "hair_color": "Brown"
+    "hair_color": "Brown",
+    "sex": "♀️",
+    "seiyuu": "Yuko Goto"
   },
   {
     "name": "Itsuki Koizumi",
@@ -1251,7 +1477,9 @@
     },
     "age": 15,
     "height": 178,
-    "hair_color": "Brown"
+    "hair_color": "Brown",
+    "sex": "♂️",
+    "seiyuu": "Daisuke Ono"
   },
   {
     "name": "Sakura Kinomoto",
@@ -1262,7 +1490,9 @@
     },
     "age": 10,
     "height": 141,
-    "hair_color": "Brown"
+    "hair_color": "Brown",
+    "sex": "♀️",
+    "seiyuu": "Sakura Tange"
   },
   {
     "name": "Shaolan Li",
@@ -1273,7 +1503,9 @@
     },
     "age": 10,
     "height": 143,
-    "hair_color": "Brown"
+    "hair_color": "Brown",
+    "sex": "♂️",
+    "seiyuu": "Motoko Kumai"
   },
   {
     "name": "Hitomi Kanzaki",
@@ -1284,7 +1516,9 @@
     },
     "age": 15,
     "height": 160,
-    "hair_color": "Brown"
+    "hair_color": "Brown",
+    "sex": "♀️",
+    "seiyuu": "Maaya Sakamoto"
   },
   {
     "name": "Van Fanel",
@@ -1295,7 +1529,9 @@
     },
     "age": 15,
     "height": 173,
-    "hair_color": "Black"
+    "hair_color": "Black",
+    "sex": "♂️",
+    "seiyuu": "Tomokazu Seki"
   },
   {
     "name": "Allen Schezar",
@@ -1306,7 +1542,9 @@
     },
     "age": 24,
     "height": 182,
-    "hair_color": "Blonde"
+    "hair_color": "Blonde",
+    "sex": "♂️",
+    "seiyuu": "Shin-ichiro Miki"
   },
   {
     "name": "Dilandau Albatou",
@@ -1317,7 +1555,9 @@
     },
     "age": 15,
     "height": 171,
-    "hair_color": "Silver"
+    "hair_color": "Silver",
+    "sex": "♂️",
+    "seiyuu": "Minami Takayama"
   },
   {
     "name": "Ayato Kamina",
@@ -1328,7 +1568,9 @@
     },
     "age": 17,
     "height": 170,
-    "hair_color": "Grey"
+    "hair_color": "Grey",
+    "sex": "♂️",
+    "seiyuu": "Hiro Shimono"
   },
   {
     "name": "Haruka Shitow",
@@ -1339,7 +1581,9 @@
     },
     "age": 29,
     "height": 167,
-    "hair_color": "Black"
+    "hair_color": "Black",
+    "sex": "♀️",
+    "seiyuu": "Aya Hisakawa"
   },
   {
     "name": "Quon Kisaragi",
@@ -1350,7 +1594,9 @@
     },
     "age": 15,
     "height": 155,
-    "hair_color": "Pink"
+    "hair_color": "Pink",
+    "sex": "♀️",
+    "seiyuu": "Houko Kuwashima"
   },
   {
     "name": "Reika Mishima",
@@ -1361,7 +1607,9 @@
     },
     "age": 17,
     "height": 155,
-    "hair_color": "Brown"
+    "hair_color": "Brown",
+    "sex": "♀️",
+    "seiyuu": "Maaya Sakamoto"
   },
   {
     "name": "Tiger Mask",
@@ -1372,7 +1620,9 @@
     },
     "age": 22,
     "height": 185,
-    "hair_color": "Other"
+    "hair_color": "Other",
+    "sex": "♂️",
+    "seiyuu": "Kei Tomiyama"
   },
   {
     "name": "Captain Herlock",
@@ -1383,18 +1633,22 @@
     },
     "age": 28,
     "height": 185,
-    "hair_color": "Brown"
+    "hair_color": "Brown",
+    "sex": "♂️",
+    "seiyuu": "Makio Inoue"
   },
   {
     "name": "Emeraldas",
     "anime": {
-      "name": "Space Pirate Captain Harlock",
+      "name": "Galaxy Express 999",
       "year": 1978,
       "studio": "Toei Animation"
     },
     "age": null,
     "height": 175,
-    "hair_color": "Blonde"
+    "hair_color": "Blonde",
+    "sex": "♀️",
+    "seiyuu": "Reiko Tajima"
   },
   {
     "name": "Maetel",
@@ -1405,7 +1659,9 @@
     },
     "age": null,
     "height": 175,
-    "hair_color": "Blonde"
+    "hair_color": "Blonde",
+    "sex": "♀️",
+    "seiyuu": "Masako Ikeda"
   },
   {
     "name": "Nayuki Minase",
@@ -1416,7 +1672,9 @@
     },
     "age": 17,
     "height": 164,
-    "hair_color": "Blue"
+    "hair_color": "Blue",
+    "sex": "♀️",
+    "seiyuu": "Mariko Kouda"
   },
   {
     "name": "Akiko Minase",
@@ -1427,7 +1685,9 @@
     },
     "age": null,
     "height": 165,
-    "hair_color": "Blue"
+    "hair_color": "Blue",
+    "sex": "♀️",
+    "seiyuu": "Yuko Minaguchi"
   },
   {
     "name": "Yuuichi Aizawa",
@@ -1438,7 +1698,9 @@
     },
     "age": 17,
     "height": 173,
-    "hair_color": "Brown"
+    "hair_color": "Brown",
+    "sex": "♂️",
+    "seiyuu": "Atsushi Kisaichi"
   },
   {
     "name": "Ayu Tsukimiya",
@@ -1449,7 +1711,9 @@
     },
     "age": 17,
     "height": 157,
-    "hair_color": "Orange"
+    "hair_color": "Orange",
+    "sex": "♀️",
+    "seiyuu": "Yui Horie"
   },
   {
     "name": "Makoto Sawatari",
@@ -1460,7 +1724,9 @@
     },
     "age": null,
     "height": 159,
-    "hair_color": "Orange"
+    "hair_color": "Orange",
+    "sex": "♀️",
+    "seiyuu": "Mayumi Iizuka"
   },
   {
     "name": "Mai Kawasum",
@@ -1471,7 +1737,9 @@
     },
     "age": 18,
     "height": 167,
-    "hair_color": "Blue"
+    "hair_color": "Blue",
+    "sex": "♀️",
+    "seiyuu": "Yukari Tamura"
   },
   {
     "name": "Seiya",
@@ -1482,7 +1750,9 @@
     },
     "age": 13,
     "height": 165,
-    "hair_color": "Brown"
+    "hair_color": "Brown",
+    "sex": "♂️",
+    "seiyuu": "Toru Furuya"
   },
   {
     "name": "Shiryuu",
@@ -1493,7 +1763,9 @@
     },
     "age": 14,
     "height": 172,
-    "hair_color": "Black"
+    "hair_color": "Black",
+    "sex": "♂️",
+    "seiyuu": "Hirotaka Suzuoki"
   },
   {
     "name": "Ikki",
@@ -1504,7 +1776,9 @@
     },
     "age": 15,
     "height": 175,
-    "hair_color": "Blue"
+    "hair_color": "Blue",
+    "sex": "♂️",
+    "seiyuu": "Hideyuki Hori"
   },
   {
     "name": "Shun",
@@ -1515,7 +1789,9 @@
     },
     "age": 13,
     "height": 162,
-    "hair_color": "Green"
+    "hair_color": "Green",
+    "sex": "♂️",
+    "seiyuu": "Ryo Horikawa"
   },
   {
     "name": "Hyoga",
@@ -1526,7 +1802,9 @@
     },
     "age": 14,
     "height": 173,
-    "hair_color": "Blonde"
+    "hair_color": "Blonde",
+    "sex": "♂️",
+    "seiyuu": "Koichi Hashimoto"
   },
   {
     "name": "Saori Kido",
@@ -1537,7 +1815,9 @@
     },
     "age": 13,
     "height": 155,
-    "hair_color": "Purple"
+    "hair_color": "Purple",
+    "sex": "♀️",
+    "seiyuu": "Keiko Han"
   },
   {
     "name": "Gintoki Sakata",
@@ -1548,7 +1828,9 @@
     },
     "age": 27,
     "height": 177,
-    "hair_color": "White"
+    "hair_color": "White",
+    "sex": "♂️",
+    "seiyuu": "Tomokazu Sugita"
   },
   {
     "name": "Kagura",
@@ -1559,7 +1841,9 @@
     },
     "age": 14,
     "height": 155,
-    "hair_color": "Orange"
+    "hair_color": "Orange",
+    "sex": "♀️",
+    "seiyuu": "Rie Kugimiya"
   },
   {
     "name": "Shinpachi Shimura",
@@ -1570,7 +1854,9 @@
     },
     "age": 16,
     "height": 166,
-    "hair_color": "Black"
+    "hair_color": "Black",
+    "sex": "♂️",
+    "seiyuu": "Daisuke Sakaguchi"
   },
   {
     "name": "Yui Hirasawa",
@@ -1581,7 +1867,9 @@
     },
     "age": 15,
     "height": 156,
-    "hair_color": "Brown"
+    "hair_color": "Brown",
+    "sex": "♀️",
+    "seiyuu": "Aki Toyosaki"
   },
   {
     "name": "Mio Akiyama",
@@ -1592,7 +1880,9 @@
     },
     "age": 15,
     "height": 160,
-    "hair_color": "Black"
+    "hair_color": "Black",
+    "sex": "♀️",
+    "seiyuu": "Yoko Hikasa"
   },
   {
     "name": "Ritsu Tainaka",
@@ -1603,7 +1893,9 @@
     },
     "age": 15,
     "height": 154,
-    "hair_color": "Brown"
+    "hair_color": "Brown",
+    "sex": "♀️",
+    "seiyuu": "Satomi Sato"
   },
   {
     "name": "Tsumugi Kotobuki",
@@ -1614,7 +1906,9 @@
     },
     "age": 15,
     "height": 157,
-    "hair_color": "Blonde"
+    "hair_color": "Blonde",
+    "sex": "♀️",
+    "seiyuu": "Minako Kotobuki"
   },
   {
     "name": "Azusa Nakano",
@@ -1625,7 +1919,9 @@
     },
     "age": 15,
     "height": 150,
-    "hair_color": "Black"
+    "hair_color": "Black",
+    "sex": "♀️",
+    "seiyuu": "Ayana Taketatsu"
   },
   {
     "name": "Tomoya Okazaki",
@@ -1636,7 +1932,9 @@
     },
     "age": 17,
     "height": 173,
-    "hair_color": "Blue"
+    "hair_color": "Blue",
+    "sex": "♂️",
+    "seiyuu": "Yuichi Nakamura"
   },
   {
     "name": "Nagisa Furukawa",
@@ -1647,7 +1945,9 @@
     },
     "age": 18,
     "height": 155,
-    "hair_color": "Brown"
+    "hair_color": "Brown",
+    "sex": "♀️",
+    "seiyuu": "Mai Nakahara"
   },
   {
     "name": "Kyou Fujibayashi",
@@ -1658,7 +1958,9 @@
     },
     "age": 17,
     "height": 160,
-    "hair_color": "Purple"
+    "hair_color": "Purple",
+    "sex": "♀️",
+    "seiyuu": "Ryou Hirohashi"
   },
   {
     "name": "Ryou Fujibayashi",
@@ -1669,7 +1971,9 @@
     },
     "age": 17,
     "height": 159,
-    "hair_color": "Purple"
+    "hair_color": "Purple",
+    "sex": "♀️",
+    "seiyuu": "Akiko Kanda"
   },
   {
     "name": "Kotomi Ichinose",
@@ -1680,7 +1984,9 @@
     },
     "age": 17,
     "height": 160,
-    "hair_color": "Blue"
+    "hair_color": "Blue",
+    "sex": "♀️",
+    "seiyuu": "Mamiko Noto"
   },
   {
     "name": "Tomoyo Sakagami",
@@ -1691,7 +1997,9 @@
     },
     "age": 16,
     "height": 161,
-    "hair_color": "Silver"
+    "hair_color": "Silver",
+    "sex": "♀️",
+    "seiyuu": "Houko Kuwashima"
   },
   {
     "name": "Fuko Ibuki",
@@ -1702,7 +2010,9 @@
     },
     "age": 15,
     "height": 150,
-    "hair_color": "Grey"
+    "hair_color": "Grey",
+    "sex": "♀️",
+    "seiyuu": "Ai Nonaka"
   },
   {
     "name": "Kenshiro",
@@ -1713,7 +2023,9 @@
     },
     "age": 26,
     "height": 185,
-    "hair_color": "Black"
+    "hair_color": "Black",
+    "sex": "♂️",
+    "seiyuu": "Akira Kamiya"
   },
   {
     "name": "Raoh",
@@ -1724,7 +2036,9 @@
     },
     "age": 30,
     "height": 210,
-    "hair_color": "Black"
+    "hair_color": "Black",
+    "sex": "♂️",
+    "seiyuu": "Kenji Utsumi"
   },
   {
     "name": "Toki",
@@ -1735,7 +2049,9 @@
     },
     "age": 28,
     "height": 188,
-    "hair_color": "White"
+    "hair_color": "White",
+    "sex": "♂️",
+    "seiyuu": "Takaya Hashi"
   },
   {
     "name": "Yuria",
@@ -1746,7 +2062,9 @@
     },
     "age": 21,
     "height": 168,
-    "hair_color": "Orange"
+    "hair_color": "Orange",
+    "sex": "♀️",
+    "seiyuu": "Yuriko Yamamoto"
   },
   {
     "name": "Rei",
@@ -1757,7 +2075,9 @@
     },
     "age": 25,
     "height": 180,
-    "hair_color": "Green"
+    "hair_color": "Green",
+    "sex": "♂️",
+    "seiyuu": "Kaneto Shiozawa"
   },
   {
     "name": "Satoshi",
@@ -1768,7 +2088,9 @@
     },
     "age": 10,
     "height": 140,
-    "hair_color": "Black"
+    "hair_color": "Black",
+    "sex": "♂️",
+    "seiyuu": "Rica Matsumoto"
   },
   {
     "name": "Kasumi",
@@ -1779,7 +2101,9 @@
     },
     "age": 10,
     "height": 155,
-    "hair_color": "Orange"
+    "hair_color": "Orange",
+    "sex": "♀️",
+    "seiyuu": "Mayumi Iizuka"
   },
   {
     "name": "Takeshi",
@@ -1790,7 +2114,9 @@
     },
     "age": 15,
     "height": 172,
-    "hair_color": "Brown"
+    "hair_color": "Brown",
+    "sex": "♂️",
+    "seiyuu": "Yuji Ueda"
   },
   {
     "name": "Taichi Yagami",
@@ -1801,7 +2127,9 @@
     },
     "age": 11,
     "height": 145,
-    "hair_color": "Brown"
+    "hair_color": "Brown",
+    "sex": "♂️",
+    "seiyuu": "Toshiko Fujita"
   },
   {
     "name": "Yamato Ishida",
@@ -1812,7 +2140,9 @@
     },
     "age": 11,
     "height": 147,
-    "hair_color": "Blonde"
+    "hair_color": "Blonde",
+    "sex": "♂️",
+    "seiyuu": "Yuuto Kazama"
   },
   {
     "name": "Sora Takenouchi",
@@ -1823,7 +2153,9 @@
     },
     "age": 11,
     "height": 150,
-    "hair_color": "Orange"
+    "hair_color": "Orange",
+    "sex": "♀️",
+    "seiyuu": "Yuko Mizutani"
   },
   {
     "name": "Koushiro Izumi",
@@ -1834,7 +2166,9 @@
     },
     "age": 10,
     "height": 135,
-    "hair_color": "Orange"
+    "hair_color": "Orange",
+    "sex": "♂️",
+    "seiyuu": "Umi Tenjin"
   },
   {
     "name": "Mimi Tachikawa",
@@ -1845,7 +2179,9 @@
     },
     "age": 10,
     "height": 142,
-    "hair_color": "Brown"
+    "hair_color": "Brown",
+    "sex": "♀️",
+    "seiyuu": "Ai Maeda"
   },
   {
     "name": "Joe Kido",
@@ -1856,7 +2192,9 @@
     },
     "age": 12,
     "height": 158,
-    "hair_color": "Black"
+    "hair_color": "Black",
+    "sex": "♂️",
+    "seiyuu": "Masami Kikuchi"
   },
   {
     "name": "Takeru Takaishi",
@@ -1867,7 +2205,9 @@
     },
     "age": 8,
     "height": 125,
-    "hair_color": "Blonde"
+    "hair_color": "Blonde",
+    "sex": "♂️",
+    "seiyuu": "Hiroko Konishi"
   },
   {
     "name": "Hikari Yagami",
@@ -1878,7 +2218,9 @@
     },
     "age": 8,
     "height": 123,
-    "hair_color": "Brown"
+    "hair_color": "Brown",
+    "sex": "♀️",
+    "seiyuu": "Kae Araki"
   },
   {
     "name": "Tsubasa Ozora",
@@ -1889,7 +2231,9 @@
     },
     "age": 11,
     "height": 145,
-    "hair_color": "Brown"
+    "hair_color": "Brown",
+    "sex": "♂️",
+    "seiyuu": "Yoko Ogai"
   },
   {
     "name": "Genzo Wakabayashi",
@@ -1900,7 +2244,9 @@
     },
     "age": 11,
     "height": 147,
-    "hair_color": "Black"
+    "hair_color": "Black",
+    "sex": "♂️",
+    "seiyuu": "Koichi Hashimoto"
   },
   {
     "name": "Kojiro Hyuga",
@@ -1911,7 +2257,9 @@
     },
     "age": 11,
     "height": 148,
-    "hair_color": "Black"
+    "hair_color": "Black",
+    "sex": "♂️",
+    "seiyuu": "Hirotaka Suzuoki"
   },
   {
     "name": "Fern",
@@ -1922,7 +2270,9 @@
     },
     "age": 18,
     "height": 162,
-    "hair_color": "Purple"
+    "hair_color": "Purple",
+    "sex": "♀️",
+    "seiyuu": "Kana Ichinose"
   },
   {
     "name": "Stark",
@@ -1933,7 +2283,9 @@
     },
     "age": 17,
     "height": 175,
-    "hair_color": "Red"
+    "hair_color": "Red",
+    "sex": "♂️",
+    "seiyuu": "Chiaki Kobayashi"
   },
   {
     "name": "Sung Jinwoo",
@@ -1944,7 +2296,9 @@
     },
     "age": 24,
     "height": 170,
-    "hair_color": "Black"
+    "hair_color": "Black",
+    "sex": "♂️",
+    "seiyuu": "Taito Ban"
   },
   {
     "name": "Momo Ayase",
@@ -1955,7 +2309,9 @@
     },
     "age": 16,
     "height": 157,
-    "hair_color": "Brown"
+    "hair_color": "Brown",
+    "sex": "♀️",
+    "seiyuu": "Shion Wakayama"
   },
   {
     "name": "Ken Takakura",
@@ -1966,7 +2322,9 @@
     },
     "age": 16,
     "height": 165,
-    "hair_color": "Black"
+    "hair_color": "Black",
+    "sex": "♂️",
+    "seiyuu": "Natsuki Hanae"
   },
   {
     "name": "Ranma Saotome ♂️",
@@ -1977,7 +2335,9 @@
     },
     "age": 16,
     "height": 165,
-    "hair_color": "Black"
+    "hair_color": "Black",
+    "sex": "♂️",
+    "seiyuu": "Kappei Yamaguchi"
   },
   {
     "name": "Ranma Saotome ♀️",
@@ -1988,7 +2348,9 @@
     },
     "age": 16,
     "height": 150,
-    "hair_color": "Red"
+    "hair_color": "Red",
+    "sex": "♀️",
+    "seiyuu": "Megumi Hayashibara"
   },
   {
     "name": "Akane Tendo",
@@ -1999,7 +2361,9 @@
     },
     "age": 16,
     "height": 156,
-    "hair_color": "Black"
+    "hair_color": "Black",
+    "sex": "♀️",
+    "seiyuu": "Noriko Hidaka"
   },
   {
     "name": "Ryoga Hibiki",
@@ -2010,7 +2374,9 @@
     },
     "age": 16,
     "height": 167,
-    "hair_color": "Black"
+    "hair_color": "Black",
+    "sex": "♂️",
+    "seiyuu": "Koichi Yamadera"
   },
   {
     "name": "Shampoo",
@@ -2021,7 +2387,9 @@
     },
     "age": 16,
     "height": 155,
-    "hair_color": "Purple"
+    "hair_color": "Purple",
+    "sex": "♀️",
+    "seiyuu": "Rei Sakuma"
   },
   {
     "name": "Takemichi Hanagaki",
@@ -2032,7 +2400,9 @@
     },
     "age": 14,
     "height": 165,
-    "hair_color": "Blonde"
+    "hair_color": "Blonde",
+    "sex": "♂️",
+    "seiyuu": "Yuki Shin"
   },
   {
     "name": "Manjiro Sano",
@@ -2043,7 +2413,9 @@
     },
     "age": 15,
     "height": 162,
-    "hair_color": "Blonde"
+    "hair_color": "Blonde",
+    "sex": "♂️",
+    "seiyuu": "Yu Hayashi"
   },
   {
     "name": "Ken Ryuguji",
@@ -2054,7 +2426,9 @@
     },
     "age": 15,
     "height": 185,
-    "hair_color": "Blonde"
+    "hair_color": "Blonde",
+    "sex": "♂️",
+    "seiyuu": "Tatsuhisa Suzuki"
   },
   {
     "name": "Futaro Uesugi",
@@ -2065,7 +2439,9 @@
     },
     "age": 17,
     "height": 178,
-    "hair_color": "Black"
+    "hair_color": "Black",
+    "sex": "♂️",
+    "seiyuu": "Yoshitsugu Matsuoka"
   },
   {
     "name": "Ichika Nakano",
@@ -2076,7 +2452,9 @@
     },
     "age": 17,
     "height": 159,
-    "hair_color": "Pink"
+    "hair_color": "Pink",
+    "sex": "♀️",
+    "seiyuu": "Kana Hanazawa"
   },
   {
     "name": "Nino Nakano",
@@ -2087,7 +2465,9 @@
     },
     "age": 17,
     "height": 159,
-    "hair_color": "Pink"
+    "hair_color": "Pink",
+    "sex": "♀️",
+    "seiyuu": "Ayana Taketatsu"
   },
   {
     "name": "Yotsuba Nakano",
@@ -2098,7 +2478,9 @@
     },
     "age": 15,
     "height": 159,
-    "hair_color": "Orange"
+    "hair_color": "Orange",
+    "sex": "♀️",
+    "seiyuu": "Ayane Sakura"
   },
   {
     "name": "Itsuki Nakano",
@@ -2109,7 +2491,9 @@
     },
     "age": 15,
     "height": 159,
-    "hair_color": "Red"
+    "hair_color": "Red",
+    "sex": "♀️",
+    "seiyuu": "Inori Minase"
   },
   {
     "name": "Erina Nakiri",
@@ -2120,7 +2504,9 @@
     },
     "age": 15,
     "height": 162,
-    "hair_color": "Blonde"
+    "hair_color": "Blonde",
+    "sex": "♀️",
+    "seiyuu": "Risa Taneda"
   },
   {
     "name": "Megumi Tadokoro",
@@ -2131,7 +2517,9 @@
     },
     "age": 15,
     "height": 154,
-    "hair_color": "Black"
+    "hair_color": "Black",
+    "sex": "♀️",
+    "seiyuu": "Minami Takahashi"
   },
   {
     "name": "Riko",
@@ -2142,7 +2530,9 @@
     },
     "age": 12,
     "height": 140,
-    "hair_color": "Blonde"
+    "hair_color": "Blonde",
+    "sex": "♀️",
+    "seiyuu": "Miyu Tomita"
   },
   {
     "name": "Reg",
@@ -2153,7 +2543,9 @@
     },
     "age": null,
     "height": 135,
-    "hair_color": "Black"
+    "hair_color": "Black",
+    "sex": "♂️",
+    "seiyuu": "Mariya Ise"
   },
   {
     "name": "Toyohisa Shimazu",
@@ -2164,7 +2556,9 @@
     },
     "age": 30,
     "height": 175,
-    "hair_color": "Black"
+    "hair_color": "Black",
+    "sex": "♂️",
+    "seiyuu": "Yuichi Nakamura"
   },
   {
     "name": "Phosphophyllite",
@@ -2175,7 +2569,9 @@
     },
     "age": null,
     "height": 160,
-    "hair_color": "Green"
+    "hair_color": "Green",
+    "sex": null,
+    "seiyuu": "Tomoyo Kurosawa"
   },
   {
     "name": "Oda Nobunaga",
@@ -2186,7 +2582,9 @@
     },
     "age": 50,
     "height": 165,
-    "hair_color": "Black"
+    "hair_color": "Black",
+    "sex": "♂️",
+    "seiyuu": "Naoya Uchida"
   },
   {
     "name": "Nasu no Yoichi",
@@ -2197,7 +2595,9 @@
     },
     "age": 19,
     "height": 155,
-    "hair_color": "Black"
+    "hair_color": "Black",
+    "sex": "♂️",
+    "seiyuu": "Mitsuki Saiga"
   },
   {
     "name": "Cinabre",
@@ -2208,7 +2608,9 @@
     },
     "age": null,
     "height": 165,
-    "hair_color": "Red"
+    "hair_color": "Red",
+    "sex": null,
+    "seiyuu": "Mikako Komatsu"
   },
   {
     "name": "Oscar François de Jarjayes",
@@ -2219,7 +2621,9 @@
     },
     "age": 14,
     "height": 178,
-    "hair_color": "Blonde"
+    "hair_color": "Blonde",
+    "sex": "♀️",
+    "seiyuu": "Reiko Tajima"
   },
   {
     "name": "Shinichi Kudo",
@@ -2230,7 +2634,9 @@
     },
     "age": 17,
     "height": 174,
-    "hair_color": "Black"
+    "hair_color": "Black",
+    "sex": "♂️",
+    "seiyuu": "Kappei Yamaguchi"
   },
   {
     "name": "Conan Edogawa",
@@ -2241,7 +2647,9 @@
     },
     "age": 7,
     "height": 95,
-    "hair_color": "Black"
+    "hair_color": "Black",
+    "sex": "♂️",
+    "seiyuu": "Minami Takayama"
   },
   {
     "name": "Ai Haibara",
@@ -2252,7 +2660,9 @@
     },
     "age": 7,
     "height": 95,
-    "hair_color": "Brown"
+    "hair_color": "Brown",
+    "sex": "♀️",
+    "seiyuu": "Megumi Hayashibara"
   },
   {
     "name": "Ran Mouri",
@@ -2263,7 +2673,9 @@
     },
     "age": 16,
     "height": 160,
-    "hair_color": "Brown"
+    "hair_color": "Brown",
+    "sex": "♀️",
+    "seiyuu": "Wakana Yamazaki"
   },
   {
     "name": "Gin",
@@ -2274,7 +2686,9 @@
     },
     "age": null,
     "height": 190,
-    "hair_color": "Blonde"
+    "hair_color": "Blonde",
+    "sex": "♂️",
+    "seiyuu": "Yukitoshi Hori"
   },
   {
     "name": "Vermouth",
@@ -2285,7 +2699,9 @@
     },
     "age": null,
     "height": 170,
-    "hair_color": "Blonde"
+    "hair_color": "Blonde",
+    "sex": "♀️",
+    "seiyuu": "Mami Koyama"
   },
   {
     "name": "André Grandier",
@@ -2296,7 +2712,9 @@
     },
     "age": 15,
     "height": 183,
-    "hair_color": "Brown"
+    "hair_color": "Brown",
+    "sex": "♂️",
+    "seiyuu": "Taro Shigaki"
   },
   {
     "name": "Marie-Antoinette d'Autriche",
@@ -2307,7 +2725,9 @@
     },
     "age": 14,
     "height": 165,
-    "hair_color": "Blonde"
+    "hair_color": "Blonde",
+    "sex": "♀️",
+    "seiyuu": "Miyuki Ueda"
   },
   {
     "name": "Utena Tenjou",
@@ -2318,7 +2738,9 @@
     },
     "age": 14,
     "height": 164,
-    "hair_color": "Pink"
+    "hair_color": "Pink",
+    "sex": "♀️",
+    "seiyuu": "Tomoko Kawakami"
   },
   {
     "name": "Anthy Himemiya",
@@ -2329,7 +2751,9 @@
     },
     "age": 14,
     "height": 157,
-    "hair_color": "Purple"
+    "hair_color": "Purple",
+    "sex": "♀️",
+    "seiyuu": "Yuriko Fuchizaki"
   },
   {
     "name": "Kamui Shiro",
@@ -2340,7 +2764,9 @@
     },
     "age": 15,
     "height": 170,
-    "hair_color": "Black"
+    "hair_color": "Black",
+    "sex": "♂️",
+    "seiyuu": "Kenichi Suzumura"
   },
   {
     "name": "Fuma Monou",
@@ -2351,7 +2777,9 @@
     },
     "age": 16,
     "height": 180,
-    "hair_color": "Black"
+    "hair_color": "Black",
+    "sex": "♂️",
+    "seiyuu": "Junichi Suwabe"
   },
   {
     "name": "Kotori Monou",
@@ -2362,7 +2790,9 @@
     },
     "age": 15,
     "height": 158,
-    "hair_color": "Brown"
+    "hair_color": "Brown",
+    "sex": "♀️",
+    "seiyuu": "Yui Horie"
   },
   {
     "name": "Honoka Kosaka",
@@ -2373,7 +2803,9 @@
     },
     "age": 16,
     "height": 157,
-    "hair_color": "Orange"
+    "hair_color": "Orange",
+    "sex": "♀️",
+    "seiyuu": "Emi Nitta"
   },
   {
     "name": "Kotori Minami",
@@ -2384,7 +2816,9 @@
     },
     "age": 16,
     "height": 159,
-    "hair_color": "Grey"
+    "hair_color": "Grey",
+    "sex": "♀️",
+    "seiyuu": "Aya Uchida"
   },
   {
     "name": "Umi Sonoda",
@@ -2395,7 +2829,9 @@
     },
     "age": 16,
     "height": 159,
-    "hair_color": "Blue"
+    "hair_color": "Blue",
+    "sex": "♀️",
+    "seiyuu": "Suzuko Mimori"
   },
   {
     "name": "Maki Nishikino",
@@ -2406,7 +2842,9 @@
     },
     "age": 15,
     "height": 161,
-    "hair_color": "Red"
+    "hair_color": "Red",
+    "sex": "♀️",
+    "seiyuu": "Pile"
   },
   {
     "name": "Rin Hoshizora",
@@ -2417,7 +2855,9 @@
     },
     "age": 15,
     "height": 155,
-    "hair_color": "Orange"
+    "hair_color": "Orange",
+    "sex": "♀️",
+    "seiyuu": "Riho Iida"
   },
   {
     "name": "Hanayo Koizumi",
@@ -2428,10 +2868,12 @@
     },
     "age": 15,
     "height": 156,
-    "hair_color": "Brown"
+    "hair_color": "Brown",
+    "sex": "♀️",
+    "seiyuu": "Yurika Kubo"
   },
   {
-    "name": "Eli Ayase",
+    "name": "Eri Ayase",
     "anime": {
       "name": "Love Live!",
       "year": 2013,
@@ -2439,7 +2881,9 @@
     },
     "age": 17,
     "height": 162,
-    "hair_color": "Blonde"
+    "hair_color": "Blonde",
+    "sex": "♀️",
+    "seiyuu": "Yoshino Nanjo"
   },
   {
     "name": "Nozomi Tojo",
@@ -2450,7 +2894,9 @@
     },
     "age": 17,
     "height": 159,
-    "hair_color": "Purple"
+    "hair_color": "Purple",
+    "sex": "♀️",
+    "seiyuu": "Aina Kusuda"
   },
   {
     "name": "Nico Yazawa",
@@ -2461,7 +2907,9 @@
     },
     "age": 17,
     "height": 154,
-    "hair_color": "Black"
+    "hair_color": "Black",
+    "sex": "♀️",
+    "seiyuu": "Sora Tokui"
   },
   {
     "name": "Nagisa Misumi",
@@ -2472,7 +2920,9 @@
     },
     "age": 14,
     "height": 155,
-    "hair_color": "Brown"
+    "hair_color": "Brown",
+    "sex": "♀️",
+    "seiyuu": "Yoko Honna"
   },
   {
     "name": "Honoka Yukishiro",
@@ -2483,7 +2933,9 @@
     },
     "age": 14,
     "height": 156,
-    "hair_color": "Blue"
+    "hair_color": "Blue",
+    "sex": "♀️",
+    "seiyuu": "Yukana"
   },
   {
     "name": "Hikari Kujou",
@@ -2494,7 +2946,9 @@
     },
     "age": 13,
     "height": 147,
-    "hair_color": "Blonde"
+    "hair_color": "Blonde",
+    "sex": "♀️",
+    "seiyuu": "Rie Tanaka"
   },
   {
     "name": "Shinra Kusakabe",
@@ -2505,7 +2959,9 @@
     },
     "age": 17,
     "height": 173,
-    "hair_color": "Black"
+    "hair_color": "Black",
+    "sex": "♂️",
+    "seiyuu": "Gakuto Kajiwara"
   },
   {
     "name": "Arthur Boyle",
@@ -2516,7 +2972,9 @@
     },
     "age": 17,
     "height": 174,
-    "hair_color": "Blonde"
+    "hair_color": "Blonde",
+    "sex": "♂️",
+    "seiyuu": "Yusuke Kobayashi"
   },
   {
     "name": "Maki Oze",
@@ -2527,7 +2985,9 @@
     },
     "age": 19,
     "height": 167,
-    "hair_color": "Black"
+    "hair_color": "Black",
+    "sex": "♀️",
+    "seiyuu": "Saeko Kamijo"
   },
   {
     "name": "Iris",
@@ -2538,7 +2998,9 @@
     },
     "age": 16,
     "height": 154,
-    "hair_color": "Blonde"
+    "hair_color": "Blonde",
+    "sex": "♀️",
+    "seiyuu": "M.A.O"
   },
   {
     "name": "Tamaki Kotatsu",
@@ -2549,7 +3011,9 @@
     },
     "age": 17,
     "height": 156,
-    "hair_color": "Black"
+    "hair_color": "Black",
+    "sex": "♀️",
+    "seiyuu": "Aoi Yuki"
   },
   {
     "name": "Akitaru Obi",
@@ -2560,7 +3024,9 @@
     },
     "age": 31,
     "height": 189,
-    "hair_color": "Black"
+    "hair_color": "Black",
+    "sex": "♂️",
+    "seiyuu": "Kazuya Nakai"
   },
   {
     "name": "Takehisa Hinawa",
@@ -2571,7 +3037,9 @@
     },
     "age": 28,
     "height": 180,
-    "hair_color": "Brown"
+    "hair_color": "Brown",
+    "sex": "♂️",
+    "seiyuu": "Kenichi Suzumura"
   },
   {
     "name": "Boruto Uzumaki",
@@ -2582,7 +3050,9 @@
     },
     "age": 12,
     "height": 145,
-    "hair_color": "Blonde"
+    "hair_color": "Blonde",
+    "sex": "♂️",
+    "seiyuu": "Yuko Sanpei"
   },
   {
     "name": "Sarada Uchiha",
@@ -2593,7 +3063,9 @@
     },
     "age": 12,
     "height": 147,
-    "hair_color": "Black"
+    "hair_color": "Black",
+    "sex": "♀️",
+    "seiyuu": "Kokoro Kikuchi"
   },
   {
     "name": "Mitsuki",
@@ -2604,7 +3076,9 @@
     },
     "age": 12,
     "height": 149,
-    "hair_color": "Blue"
+    "hair_color": "Blue",
+    "sex": "♂️",
+    "seiyuu": "Ryuichi Kijima"
   },
   {
     "name": "Kenshin Himura",
@@ -2615,7 +3089,9 @@
     },
     "age": 28,
     "height": 158,
-    "hair_color": "Orange"
+    "hair_color": "Orange",
+    "sex": "♂️",
+    "seiyuu": "Mayo Suzukaze"
   },
   {
     "name": "Kaoru Kamiya",
@@ -2626,7 +3102,9 @@
     },
     "age": 17,
     "height": 155,
-    "hair_color": "Black"
+    "hair_color": "Black",
+    "sex": "♀️",
+    "seiyuu": "Miki Fujitani"
   },
   {
     "name": "Sanosuke Sagara",
@@ -2637,7 +3115,9 @@
     },
     "age": 19,
     "height": 179,
-    "hair_color": "Black"
+    "hair_color": "Black",
+    "sex": "♂️",
+    "seiyuu": "Yuji Ueda"
   },
   {
     "name": "Yahiko Myojin",
@@ -2648,7 +3128,9 @@
     },
     "age": 10,
     "height": 128,
-    "hair_color": "Black"
+    "hair_color": "Black",
+    "sex": "♂️",
+    "seiyuu": "Mina Tominaga"
   },
   {
     "name": "Ash Lynx",
@@ -2659,7 +3141,9 @@
     },
     "age": 17,
     "height": 180,
-    "hair_color": "Blonde"
+    "hair_color": "Blonde",
+    "sex": "♂️",
+    "seiyuu": "Yuma Uchida"
   },
   {
     "name": "Eiji Okumura",
@@ -2670,7 +3154,9 @@
     },
     "age": 19,
     "height": 170,
-    "hair_color": "Black"
+    "hair_color": "Black",
+    "sex": "♂️",
+    "seiyuu": "Kenji Nojima"
   },
   {
     "name": "Kaiji Itou",
@@ -2681,7 +3167,9 @@
     },
     "age": 22,
     "height": 178,
-    "hair_color": "Black"
+    "hair_color": "Black",
+    "sex": "♂️",
+    "seiyuu": "Masato Hagiwara"
   },
   {
     "name": "Kyousuke Kousaka",
@@ -2692,7 +3180,9 @@
     },
     "age": 17,
     "height": 175,
-    "hair_color": "Black"
+    "hair_color": "Black",
+    "sex": "♂️",
+    "seiyuu": "Yuichi Nakamura"
   },
   {
     "name": "Kirino Kousaka",
@@ -2703,7 +3193,9 @@
     },
     "age": 14,
     "height": 165,
-    "hair_color": "Brown"
+    "hair_color": "Brown",
+    "sex": "♀️",
+    "seiyuu": "Ayana Taketatsu"
   },
   {
     "name": "Ruri Goko",
@@ -2714,7 +3206,9 @@
     },
     "age": 15,
     "height": 155,
-    "hair_color": "Black"
+    "hair_color": "Black",
+    "sex": "♀️",
+    "seiyuu": "Kana Hanazawa"
   },
   {
     "name": "Ayase Aragaki",
@@ -2725,7 +3219,9 @@
     },
     "age": 14,
     "height": 166,
-    "hair_color": "Blue"
+    "hair_color": "Blue",
+    "sex": "♀️",
+    "seiyuu": "Saori Hayami"
   },
   {
     "name": "Yuki Morikawa",
@@ -2736,7 +3232,9 @@
     },
     "age": 19,
     "height": 160,
-    "hair_color": "Auburn"
+    "hair_color": "Auburn",
+    "sex": "♀️",
+    "seiyuu": "Aya Hirano"
   },
   {
     "name": "Rina Ogata",
@@ -2747,7 +3245,9 @@
     },
     "age": 19,
     "height": 161,
-    "hair_color": "Brown"
+    "hair_color": "Brown",
+    "sex": "♀️",
+    "seiyuu": "Nana Mizuki"
   },
   {
     "name": "Shirou Emiya",
@@ -2758,7 +3258,9 @@
     },
     "age": 17,
     "height": 167,
-    "hair_color": "Orange"
+    "hair_color": "Orange",
+    "sex": "♂️",
+    "seiyuu": "Noriaki Sugiyama"
   },
   {
     "name": "Saber",
@@ -2769,7 +3271,9 @@
     },
     "age": 15,
     "height": 154,
-    "hair_color": "Blonde"
+    "hair_color": "Blonde",
+    "sex": "♀️",
+    "seiyuu": "Ayako Kawasumi"
   },
   {
     "name": "Rin Tousaka",
@@ -2780,7 +3284,9 @@
     },
     "age": 17,
     "height": 159,
-    "hair_color": "Black"
+    "hair_color": "Black",
+    "sex": "♀️",
+    "seiyuu": "Kana Ueda"
   },
   {
     "name": "Sakura Matou",
@@ -2791,7 +3297,9 @@
     },
     "age": 16,
     "height": 156,
-    "hair_color": "Purple"
+    "hair_color": "Purple",
+    "sex": "♀️",
+    "seiyuu": "Noriko Shitaya"
   },
   {
     "name": "Archer",
@@ -2802,7 +3310,9 @@
     },
     "age": null,
     "height": 187,
-    "hair_color": "White"
+    "hair_color": "White",
+    "sex": "♂️",
+    "seiyuu": "Junichi Suwabe"
   },
   {
     "name": "Lain Iwakura",
@@ -2813,7 +3323,9 @@
     },
     "age": 14,
     "height": 150,
-    "hair_color": "Brown"
+    "hair_color": "Brown",
+    "sex": "♀️",
+    "seiyuu": "Kaori Shimizu"
   },
   {
     "name": "Taiga Aisaka",
@@ -2824,7 +3336,9 @@
     },
     "age": 17,
     "height": 143,
-    "hair_color": "Blonde"
+    "hair_color": "Blonde",
+    "sex": "♀️",
+    "seiyuu": "Rie Kugimiya"
   },
   {
     "name": "Ryuuji Takasu",
@@ -2835,7 +3349,9 @@
     },
     "age": 17,
     "height": 173,
-    "hair_color": "Blue"
+    "hair_color": "Blue",
+    "sex": "♂️",
+    "seiyuu": "Junji Majima"
   },
   {
     "name": "Minori Kushieda",
@@ -2846,7 +3362,9 @@
     },
     "age": 17,
     "height": 163,
-    "hair_color": "Pink"
+    "hair_color": "Pink",
+    "sex": "♀️",
+    "seiyuu": "Yui Horie"
   },
   {
     "name": "Ami Kawashima",
@@ -2857,7 +3375,9 @@
     },
     "age": 17,
     "height": 165,
-    "hair_color": "Blue"
+    "hair_color": "Blue",
+    "sex": "♀️",
+    "seiyuu": "Eri Kitamura"
   },
   {
     "name": "Yusaku Kitamura",
@@ -2868,7 +3388,9 @@
     },
     "age": 17,
     "height": 176,
-    "hair_color": "Green"
+    "hair_color": "Green",
+    "sex": "♂️",
+    "seiyuu": "Hirofumi Nojima"
   },
   {
     "name": "Yukiteru Amano",
@@ -2879,7 +3401,9 @@
     },
     "age": 14,
     "height": 161,
-    "hair_color": "Black"
+    "hair_color": "Black",
+    "sex": "♂️",
+    "seiyuu": "Misuzu Togashi"
   },
   {
     "name": "Yuno Gasai",
@@ -2890,7 +3414,9 @@
     },
     "age": 14,
     "height": 159,
-    "hair_color": "Pink"
+    "hair_color": "Pink",
+    "sex": "♀️",
+    "seiyuu": "Tomosa Murata"
   },
   {
     "name": "Simon",
@@ -2901,7 +3427,9 @@
     },
     "age": 14,
     "height": 152,
-    "hair_color": "Blue"
+    "hair_color": "Blue",
+    "sex": "♂️",
+    "seiyuu": "Tetsuya Kakihara"
   },
   {
     "name": "Kamina",
@@ -2912,7 +3440,9 @@
     },
     "age": 18,
     "height": 184,
-    "hair_color": "Blue"
+    "hair_color": "Blue",
+    "sex": "♂️",
+    "seiyuu": "Katsuyuki Konishi"
   },
   {
     "name": "Yoko Littner",
@@ -2923,7 +3453,9 @@
     },
     "age": 14,
     "height": 165,
-    "hair_color": "Red"
+    "hair_color": "Red",
+    "sex": "♀️",
+    "seiyuu": "Marina Inoue"
   },
   {
     "name": "Akane Tsunemori",
@@ -2934,7 +3466,9 @@
     },
     "age": 20,
     "height": 163,
-    "hair_color": "Brown"
+    "hair_color": "Brown",
+    "sex": "♀️",
+    "seiyuu": "Kana Hanazawa"
   },
   {
     "name": "Shinya Kogami",
@@ -2945,7 +3479,9 @@
     },
     "age": 28,
     "height": 180,
-    "hair_color": "Black"
+    "hair_color": "Black",
+    "sex": "♂️",
+    "seiyuu": "Tomokazu Seki"
   },
   {
     "name": "Shogo Makishima",
@@ -2956,7 +3492,9 @@
     },
     "age": null,
     "height": 180,
-    "hair_color": "White"
+    "hair_color": "White",
+    "sex": "♂️",
+    "seiyuu": "Takahiro Sakurai"
   },
   {
     "name": "Shinichi Izumi",
@@ -2967,7 +3505,9 @@
     },
     "age": 16,
     "height": 165,
-    "hair_color": "Brown"
+    "hair_color": "Brown",
+    "sex": "♂️",
+    "seiyuu": "Nobunaga Shimazaki"
   },
   {
     "name": "Migi",
@@ -2978,7 +3518,9 @@
     },
     "age": null,
     "height": null,
-    "hair_color": "Other"
+    "hair_color": "Other",
+    "sex": null,
+    "seiyuu": "Aya Hirano"
   },
   {
     "name": "Satomi Murano",
@@ -2989,7 +3531,9 @@
     },
     "age": 16,
     "height": 158,
-    "hair_color": "Brown"
+    "hair_color": "Brown",
+    "sex": "♀️",
+    "seiyuu": "Kana Hanazawa"
   },
   {
     "name": "Shigeru Akagi",
@@ -3000,7 +3544,9 @@
     },
     "age": 13,
     "height": null,
-    "hair_color": "White"
+    "hair_color": "White",
+    "sex": "♂️",
+    "seiyuu": "Masato Hagiwara"
   },
   {
     "name": "Sora",
@@ -3011,7 +3557,9 @@
     },
     "age": 18,
     "height": 175,
-    "hair_color": "Auburn"
+    "hair_color": "Auburn",
+    "sex": "♂️",
+    "seiyuu": "Yoshitsugu Matsuoka"
   },
   {
     "name": "Shiro",
@@ -3022,7 +3570,9 @@
     },
     "age": 11,
     "height": 130,
-    "hair_color": "Bicolor"
+    "hair_color": "Bicolor",
+    "sex": "♀️",
+    "seiyuu": "Ai Kayano"
   },
   {
     "name": "Madoka Kaname",
@@ -3033,7 +3583,9 @@
     },
     "age": 14,
     "height": 152,
-    "hair_color": "Pink"
+    "hair_color": "Pink",
+    "sex": "♀️",
+    "seiyuu": "Aoi Yuki"
   },
   {
     "name": "Homura Akemi",
@@ -3044,7 +3596,9 @@
     },
     "age": 14,
     "height": 155,
-    "hair_color": "Black"
+    "hair_color": "Black",
+    "sex": "♀️",
+    "seiyuu": "Chiwa Saito"
   },
   {
     "name": "Sayaka Miki",
@@ -3055,7 +3609,9 @@
     },
     "age": 14,
     "height": 158,
-    "hair_color": "Blue"
+    "hair_color": "Blue",
+    "sex": "♀️",
+    "seiyuu": "Eri Kitamura"
   },
   {
     "name": "Mami Tomoe",
@@ -3066,7 +3622,9 @@
     },
     "age": 15,
     "height": 156,
-    "hair_color": "Blonde"
+    "hair_color": "Blonde",
+    "sex": "♀️",
+    "seiyuu": "Kaori Mizuhashi"
   },
   {
     "name": "Kyoko Sakura",
@@ -3077,7 +3635,9 @@
     },
     "age": 14,
     "height": 157,
-    "hair_color": "Red"
+    "hair_color": "Red",
+    "sex": "♀️",
+    "seiyuu": "Ai Nonaka"
   },
   {
     "name": "Hikaru Ichijyo",
@@ -3088,7 +3648,9 @@
     },
     "age": 16,
     "height": 175,
-    "hair_color": "Brown"
+    "hair_color": "Brown",
+    "sex": "♂️",
+    "seiyuu": "Arihiro Hase"
   },
   {
     "name": "Lynn Minmay",
@@ -3099,7 +3661,9 @@
     },
     "age": 15,
     "height": 158,
-    "hair_color": "Blue"
+    "hair_color": "Blue",
+    "sex": "♀️",
+    "seiyuu": "Mari Iijima"
   },
   {
     "name": "Misa Hayase",
@@ -3110,6 +3674,203 @@
     },
     "age": 19,
     "height": 168,
-    "hair_color": "Brown"
+    "hair_color": "Brown",
+    "sex": "♀️",
+    "seiyuu": "Mika Doi"
+  },
+  {
+    "name": "Casca",
+    "anime": {
+      "name": "Berserk",
+      "year": 1997,
+      "studio": "OLM"
+    },
+    "age": 16,
+    "height": 165,
+    "hair_color": "Black",
+    "sex": "♀️",
+    "seiyuu": "Yuuko Miyamura"
+  },
+  {
+    "name": "Hoshino Tetsuro",
+    "anime": {
+      "name": "Galaxy Express 999",
+      "year": 1978,
+      "studio": "Toei Animation"
+    },
+    "age": 10,
+    "height": null,
+    "hair_color": "Brown",
+    "sex": "♂️",
+    "seiyuu": "Masako Nozawa"
+  },
+  {
+    "name": "Ram",
+    "anime": {
+      "name": "Re:Zero",
+      "year": 2016,
+      "studio": "White Fox"
+    },
+    "age": 17,
+    "height": 154,
+    "hair_color": "Pink",
+    "sex": null,
+    "seiyuu": "Rie Murakawa"
+  },
+  {
+    "name": "Usagi Tsukino",
+    "anime": {
+      "name": "Pretty Soldier Sailor Moon",
+      "year": 1992,
+      "studio": "Toei Animation"
+    },
+    "age": 14,
+    "height": 150,
+    "hair_color": "Blonde",
+    "sex": "♀️",
+    "seiyuu": "Kotono Mitsuishi"
+  },
+  {
+    "name": "Ami Mizuno",
+    "anime": {
+      "name": "Pretty Soldier Sailor Moon",
+      "year": 1992,
+      "studio": "Toei Animation"
+    },
+    "age": 14,
+    "height": 158,
+    "hair_color": "Blue",
+    "sex": "♀️",
+    "seiyuu": "Aya Hisakawa"
+  },
+  {
+    "name": "Rei Hino",
+    "anime": {
+      "name": "Pretty Soldier Sailor Moon",
+      "year": 1992,
+      "studio": "Toei Animation"
+    },
+    "age": 14,
+    "height": 160,
+    "hair_color": "Black",
+    "sex": "♀️",
+    "seiyuu": "Michie Tomizawa"
+  },
+  {
+    "name": "Makoto Kino",
+    "anime": {
+      "name": "Pretty Soldier Sailor Moon",
+      "year": 1992,
+      "studio": "Toei Animation"
+    },
+    "age": 14,
+    "height": 168,
+    "hair_color": "Auburn",
+    "sex": "♀️",
+    "seiyuu": "Emi Shinohara"
+  },
+  {
+    "name": "Minako Aino",
+    "anime": {
+      "name": "Pretty Soldier Sailor Moon",
+      "year": 1992,
+      "studio": "Toei Animation"
+    },
+    "age": 14,
+    "height": 157,
+    "hair_color": "Blonde",
+    "sex": "♀️",
+    "seiyuu": "Rica Fukami"
+  },
+  {
+    "name": "Doremi Harukaze",
+    "anime": {
+      "name": "Ojamajo Doremi",
+      "year": 1999,
+      "studio": "Toei Animation"
+    },
+    "age": 8,
+    "height": 130,
+    "hair_color": "Red",
+    "sex": "♀️",
+    "seiyuu": "Chiemi Chiba"
+  },
+  {
+    "name": "Hazuki Fujiwara",
+    "anime": {
+      "name": "Ojamajo Doremi",
+      "year": 1999,
+      "studio": "Toei Animation"
+    },
+    "age": 8,
+    "height": 131,
+    "hair_color": "Brown",
+    "sex": "♀️",
+    "seiyuu": "Tomoko Akiya"
+  },
+  {
+    "name": "Aiko Senoo",
+    "anime": {
+      "name": "Ojamajo Doremi",
+      "year": 1999,
+      "studio": "Toei Animation"
+    },
+    "age": 8,
+    "height": 133,
+    "hair_color": "Blue",
+    "sex": "♀️",
+    "seiyuu": "Yuki Matsuoka"
+  },
+  {
+    "name": "Onpu Segawa",
+    "anime": {
+      "name": "Ojamajo Doremi",
+      "year": 1999,
+      "studio": "Toei Animation"
+    },
+    "age": 8,
+    "height": 131,
+    "hair_color": "Purple",
+    "sex": "♀️",
+    "seiyuu": "Rumi Shishido"
+  },
+  {
+    "name": "Toriko",
+    "anime": {
+      "name": "Toriko",
+      "year": 2011,
+      "studio": "Toei Animation"
+    },
+    "age": 25,
+    "height": 220,
+    "hair_color": "Blue",
+    "sex": "♂️",
+    "seiyuu": "Ryotaro Okiayu"
+  },
+  {
+    "name": "Komatsu",
+    "anime": {
+      "name": "Toriko",
+      "year": 2011,
+      "studio": "Toei Animation"
+    },
+    "age": 25,
+    "height": 155,
+    "hair_color": "Black",
+    "sex": "♂️",
+    "seiyuu": "Paku Romi"
+  },
+  {
+    "name": "Coco",
+    "anime": {
+      "name": "Toriko",
+      "year": 2011,
+      "studio": "Toei Animation"
+    },
+    "age": 27,
+    "height": 225,
+    "hair_color": "Black",
+    "sex": "♂️",
+    "seiyuu": "Takahiro Sakurai"
   }
 ]

@@ -1,4 +1,4 @@
-export const HEADERS = ["Character", "Anime", "Year", "Studio", "Age", "Height", "Hair color"];
+export const HEADERS = ["Character",  "Sex", "Seiyuu", "Anime", "Year", "Studio", "Age", "Height", "Hair color",];
 // export const MAX_GUESSES = 8;
 
 /**
@@ -26,6 +26,18 @@ export function buildResult(guess, target) {
         key: "name",
         display: guess.name,
         status: guess.name === target.name ? "correct" : "wrong",
+      },
+      {
+        key: "sex",
+        display: guess.sex ?? "?",
+        status: guess.sex === null && target.sex === null ? "correct"
+              : guess.sex === null || target.sex === null ? "wrong"
+              : guess.sex === target.sex ? "correct" : "wrong",
+      },
+      {
+        key: "seiyuu",
+        display: guess.seiyuu ?? "?",
+        status: guess.seiyuu === target.seiyuu ? "correct" : "wrong",
       },
       {
         key: "anime",
@@ -64,6 +76,7 @@ export function buildResult(guess, target) {
         display: guess.hair_color,
         status: guess.hair_color === target.hair_color ? "correct" : "wrong",
       },
+      
     ],
   };
 }

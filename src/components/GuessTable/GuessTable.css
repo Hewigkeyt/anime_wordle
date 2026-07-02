@@ -1,6 +1,6 @@
 .guess-table {
   width: 100%;
-  max-width: 924px;
+  /* max-width: 924px; */
   overflow-x: auto;
   padding: 0 12px;
 }
@@ -8,7 +8,7 @@
 /* Column header row */
 .guess-table__headers {
   display: grid;
-  grid-template-columns: repeat(7, minmax(80px, 1fr));
+  grid-template-columns: repeat(9, minmax(80px, 1fr));
   gap: 6px;
   margin-bottom: 6px;
 }
