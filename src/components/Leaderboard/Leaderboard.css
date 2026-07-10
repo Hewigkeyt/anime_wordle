@@ -104,7 +104,7 @@
 }
 
 .daily-result__lb-col {
-  /* flex: 1; */
+  flex-grow: 1;
   min-width: 0;
 }
 
@@ -226,5 +226,24 @@
     color: var(--color-muted);
     font-size: 16px;
     cursor: pointer;
+  }
+}
+
+.yesterday {
+  font-size: 12px;
+  font-weight: 700;
+  margin: 20px 0 10px;
+}
+
+@media (max-width: 768px) {
+  .daily-result__lb-name {
+    max-width: 12ch;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .daily-result__lb-col {
+    flex-grow: 0;
+    flex: 1;
   }
 }

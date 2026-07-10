@@ -90,11 +90,11 @@ export async function submitScore({ username, guesses, hintUsed }) {
  * Fetches today's top 3 scores.
  * Ranking: fewest guesses → no hint used → earliest submission.
  */
-export async function fetchTop3() {
+export async function fetchTop3(day = todayString()) {
   const { data, error } = await supabase
     .from("daily_scores")
     .select("username, guesses, hint_used, created_at")
-    .eq("day", todayString())
+    .eq("day", day)
     .order("hint_used",  { ascending: true })
     .order("guesses",    { ascending: true })
     .order("created_at", { ascending: true });
