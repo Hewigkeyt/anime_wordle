@@ -1,0 +1,7 @@
+.guess__count {
+    position: absolute;
+    left: 0;
+    top: -2rem;
+    padding-left: 30px;
+    font-size: 2rem;
+}

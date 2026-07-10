@@ -27,13 +27,19 @@
   border-color: #4ade80;
 }
 
+.cell--empty {
+  background: var(--color-surface);
+  border-color: var(--color-border);
+  animation: flipIn 0.5s both;
+}
+
 .cell--wrong {
   background: #7f1d1d;
   border-color: #f87171;
 }
 
 .cell--low,
-.cell--high {
+.cell--high, .cell--partial {
   background: #78350f;
   border-color: #fcd34d;
 }

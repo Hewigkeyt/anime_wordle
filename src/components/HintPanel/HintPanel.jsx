@@ -8,28 +8,39 @@ export default function HintPanel({ db, guessedRows, onHintUsed, variant = "inli
   const [selectedStudio, setSelectedStudio] = useState(null);
 
   const guessedStudios = useMemo(
-    () => new Set(guessedRows.map((r) => r.character.anime.studio)),
+    () => new Set(guessedRows.flatMap((r) => Array.isArray(r.character.anime.studio)
+      ? r.character.anime.studio
+      : [r.character.anime.studio])),
     [guessedRows]
   );
 
   // Section 1: all studios in DB → list of anime for selected one
   const allStudios = useMemo(
-    () => [...new Set(db.map((c) => c.anime.studio))].sort(),
+    () => [...new Set(db.flatMap((c) => Array.isArray(c.anime.studio) ? c.anime.studio : [c.anime.studio]
+  ))].sort(),
     [db]
   );
 
   const animeForStudio = useMemo(() => {
     if (!selectedStudio) return [];
-    return [...new Set(db.filter((c) => c.anime.studio === selectedStudio).map((c) => c.anime.name))].sort();
+    return [...new Set(db.filter((c) => Array.isArray(c.anime.studio)
+        ? c.anime.studio.includes(selectedStudio)
+        : c.anime.studio === selectedStudio).map((c) => c.anime.name))].sort();
   }, [db, selectedStudio]);
 
   // Section 2: studios not yet guessed, with character count
   const unguessedStudios = useMemo(() => {
     const map = {};
     db.forEach((c) => {
-      if (!guessedStudios.has(c.anime.studio)) {
-        if (!map[c.anime.studio]) map[c.anime.studio] = new Set();
-        map[c.anime.studio].add(c.anime.name);
+      const studios = Array.isArray(c.anime.studio) ? c.anime.studio : [c.anime.studio];
+      const allGuessed = studios.every((s) => guessedStudios.has(s));
+      if (!allGuessed) {
+        studios.forEach((s) => {
+          if (!guessedStudios.has(s)) {
+            if (!map[s]) map[s] = new Set();
+            map[s].add(c.anime.name);
+          }
+        });
       }
     });
     return Object.entries(map)

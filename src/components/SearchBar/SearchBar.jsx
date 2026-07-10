@@ -82,6 +82,15 @@ export default function SearchBar({
       </div>
       {hint && <div className="searchbar__hint-slot">{hint}</div>}
       </div>
+      <div className={`guess-table__empty${hint ? " hidden" : ""}`}>
+        <div className="db-wrapper">
+          <div className="db-arrow">
+            <div className="star">★</div>
+          </div>
+          <div className="db-arrow_outline"></div>
+        </div>
+        <p>Select a character to start!</p>
+      </div>
       {showDropdown && (
         <ul className="searchbar__dropdown">
           {suggestions.map((c, i) => (

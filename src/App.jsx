@@ -20,6 +20,7 @@ import Footer from "./components/Footer/Footer";
 
 // ── Drop your JSON file at src/data/characters.json ──────────────────────────
 import DB from "./data/characters.json";
+import GuessCount from "./components/GuessCount/GuessCount";
 
 export default function App() {
 
@@ -185,7 +186,10 @@ export default function App() {
 
       <div className={`push__footer ${((!dailyBoardVisible && mode === "daily") || (rows.length > 0 && (dailyBoardVisible || mode === "infinite"))) ? "push__footer--started" : ""}`}>
         {(mode === "infinite" || dailyBoardVisible) && (
+          <>
+          {/* <GuessCount guessCount={guessCount}/> */}
           <GuessTable rows={rows} />
+          </>
         )}
         <Leaderboard refreshKey={leaderboardRefreshKey} hidden={mode !== "daily"} open={leaderboardOpen}  onToggle={() => setLeaderboardOpen(v => !v)}  onClose={() => setLeaderboardOpen(false)}/>
       </div>

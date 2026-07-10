@@ -138,7 +138,10 @@
     },
     "age": 16,
     "height": 176,
-    "hair_color": "Bicolor",
+    "hair_color": [
+      "White",
+      "Red"
+    ],
     "sex": "♂️",
     "seiyuu": "Yuki Kaji"
   },
@@ -147,7 +150,7 @@
     "anime": {
       "name": "Attack on Titan",
       "year": 2013,
-      "studio": "WIT Studio"
+      "studio": "Wit Studio"
     },
     "age": 15,
     "height": 170,
@@ -160,7 +163,7 @@
     "anime": {
       "name": "Attack on Titan",
       "year": 2013,
-      "studio": "WIT Studio"
+      "studio": "Wit Studio"
     },
     "age": 15,
     "height": 170,
@@ -173,7 +176,7 @@
     "anime": {
       "name": "Attack on Titan",
       "year": 2013,
-      "studio": "WIT Studio"
+      "studio": "Wit Studio"
     },
     "age": 30,
     "height": 160,
@@ -255,7 +258,10 @@
     },
     "age": 20,
     "height": 177,
-    "hair_color": "Bicolor",
+    "hair_color": [
+      "Blonde",
+      "Red"
+    ],
     "sex": "♂️",
     "seiyuu": "Satoshi Hino"
   },
@@ -799,7 +805,7 @@
       "year": 2012,
       "studio": "David Production"
     },
-    "age": 119,
+    "age": 20,
     "height": 195,
     "hair_color": "Blonde",
     "sex": "♂️",
@@ -892,7 +898,10 @@
     },
     "age": 18,
     "height": 175,
-    "hair_color": "Bicolor",
+    "hair_color": [
+      "White",
+      "Green"
+    ],
     "sex": "♂️",
     "seiyuu": "Yusuke Kobayashi"
   },
@@ -1020,7 +1029,7 @@
       "year": 1999,
       "studio": "Toei Animation"
     },
-    "age": 30,
+    "age": 28,
     "height": 188,
     "hair_color": "Black",
     "sex": "♀️",
@@ -1122,7 +1131,10 @@
     "anime": {
       "name": "Spy x Family",
       "year": 2022,
-      "studio": "Wit Studio / CloverWorks"
+      "studio": [
+        "Wit Studio",
+        "CloverWorks"
+      ]
     },
     "age": 28,
     "height": 187,
@@ -1135,7 +1147,10 @@
     "anime": {
       "name": "Spy x Family",
       "year": 2022,
-      "studio": "Wit Studio / CloverWorks"
+      "studio": [
+        "Wit Studio",
+        "CloverWorks"
+      ]
     },
     "age": 27,
     "height": 170,
@@ -1148,7 +1163,10 @@
     "anime": {
       "name": "Spy x Family",
       "year": 2022,
-      "studio": "Wit Studio / CloverWorks"
+      "studio": [
+        "Wit Studio",
+        "CloverWorks"
+      ]
     },
     "age": 6,
     "height": 99,
@@ -1191,7 +1209,10 @@
     },
     "age": 15,
     "height": 164,
-    "hair_color": "Blonde",
+    "hair_color": [
+      "Blonde",
+      "Pink"
+    ],
     "sex": "♀️",
     "seiyuu": "Hina Suguta"
   },
@@ -3570,7 +3591,10 @@
     },
     "age": 11,
     "height": 130,
-    "hair_color": "Bicolor",
+    "hair_color": [
+      "White",
+      "Blue"
+    ],
     "sex": "♀️",
     "seiyuu": "Ai Kayano"
   },
@@ -3872,5 +3896,83 @@
     "hair_color": "Black",
     "sex": "♂️",
     "seiyuu": "Takahiro Sakurai"
+  },
+  {
+    "name": "Ranka Lee",
+    "anime": {
+      "name": "Macross Frontier",
+      "year": 2008,
+      "studio": "Satelight"
+    },
+    "age": 16,
+    "height": 156,
+    "hair_color": "Green",
+    "sex": "♀️",
+    "seiyuu": "Megumi Nakajima"
+  },
+  {
+    "name": "Alto Saotome",
+    "anime": {
+      "name": "Macross Frontier",
+      "year": 2008,
+      "studio": "Satelight"
+    },
+    "age": 17,
+    "height": 175,
+    "hair_color": "Blue",
+    "sex": "♂️",
+    "seiyuu": "Yuichi Nakamura"
+  },
+  {
+    "name": "Sheryl Nome",
+    "anime": {
+      "name": "Macross Frontier",
+      "year": 2008,
+      "studio": "Satelight"
+    },
+    "age": 17,
+    "height": 169,
+    "hair_color": "Blonde",
+    "sex": "♀️",
+    "seiyuu": "Aya Endo"
+  },
+  {
+    "name": "Lucia Nanami",
+    "anime": {
+      "name": "Mermaid Melody Pichi Pichi Pitch",
+      "year": 2003,
+      "studio": "Actas"
+    },
+    "age": 13,
+    "height": 156,
+    "hair_color": "Blonde",
+    "sex": "♀️",
+    "seiyuu": "Asumi Nakata"
+  },
+  {
+    "name": "Hanon Hosho",
+    "anime": {
+      "name": "Mermaid Melody Pichi Pichi Pitch",
+      "year": 2003,
+      "studio": "Actas"
+    },
+    "age": 13,
+    "height": 152,
+    "hair_color": "Blue",
+    "sex": "♀️",
+    "seiyuu": "Hitomi Terakado"
+  },
+  {
+    "name": "Rina Toin",
+    "anime": {
+      "name": "Mermaid Melody Pichi Pichi Pitch",
+      "year": 2003,
+      "studio": "Actas"
+    },
+    "age": 14,
+    "height": 163,
+    "hair_color": "Green",
+    "sex": "♀️",
+    "seiyuu": "Mayumi Asano"
   }
 ]

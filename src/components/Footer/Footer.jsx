@@ -5,7 +5,6 @@ export default function Footer() {
         <footer className="footer">
             <p>Information:</p>
             <ul>
-                <li>Use the clues from each guess to find the mystery character!</li>
                 <li>A character's data is based on their first major anime appearance.</li>
                 <li>Hair colors are simplified to basic shades (e.g., navy and cyan are both 'Blue').</li>
                 <li>Short introductions are ignored (e.g. Eren Yeager is 15 y.o.).</li>
@@ -15,8 +14,13 @@ export default function Footer() {
             <br />
             <p>Updates to come:</p>
             <ul>
-                <li>Better handling of bicolor hair. (currently bicolor is a value, not a merge of two values)</li>
                 <li>Addition/fix of characters in the database.</li>
+            </ul>
+            <br />
+            <p>Recent updates:</p>
+            <ul>
+                <li>Multi-value hair color and studio.</li>
+                <li>Seiyuu and sex in the clues.</li>
             </ul>
             <br />
             <p>Privacy Policy:</p>

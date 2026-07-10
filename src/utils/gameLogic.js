@@ -19,6 +19,21 @@ export function compareNum(guess, target) {
  * @returns {{ character: object, cells: Cell[] }}
  */
 export function buildResult(guess, target) {
+  //Logic for partial studio matching
+  const guessStudios  = Array.isArray(guess.anime.studio)  ? guess.anime.studio  : [guess.anime.studio];
+  const targetStudios = Array.isArray(target.anime.studio) ? target.anime.studio : [target.anime.studio];
+  const exactStudio   = guessStudios.length === targetStudios.length &&
+  guessStudios.every(s => targetStudios.includes(s));
+  const partialStudio = !exactStudio && guessStudios.some(s => targetStudios.includes(s));
+
+  //Logic for partial hair color matching
+  const guessHair  = Array.isArray(guess.hair_color)  ? guess.hair_color  : [guess.hair_color];
+  const targetHair = Array.isArray(target.hair_color) ? target.hair_color : [target.hair_color];
+
+  const hairExact   = guessHair.length === targetHair.length &&
+    guessHair.every(h => targetHair.includes(h));
+  const hairPartial = !hairExact && guessHair.some(h => targetHair.includes(h));
+
   return {
     character: guess,
     cells: [
@@ -52,8 +67,8 @@ export function buildResult(guess, target) {
       },
       {
         key: "studio",
-        display: guess.anime.studio,
-        status: guess.anime.studio === target.anime.studio ? "correct" : "wrong",
+        display: guessStudios.join(" / "),
+        status: exactStudio ? "correct" : partialStudio ? "partial" : "wrong",
       },
       {
         key: "age",
@@ -73,8 +88,8 @@ export function buildResult(guess, target) {
       },
       {
         key: "hair",
-        display: guess.hair_color,
-        status: guess.hair_color === target.hair_color ? "correct" : "wrong",
+        display: guessHair.join(" / "),
+        status: hairExact ? "correct" : hairPartial ? "partial" : "wrong",
       },
       
     ],

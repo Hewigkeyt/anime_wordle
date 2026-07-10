@@ -3,7 +3,7 @@ import "./Legend.css";
 const ITEMS = [
   { bg: "#166534", border: "#4ade80", label: "✓ Correct" },
   { bg: "#7f1d1d", border: "#f87171", label: "✗ Wrong" },
-  { bg: "#78350f", border: "#fcd34d", label: "▲▼ Higher / Lower" },
+  { bg: "#78350f", border: "#fcd34d", label: "▲▼ Higher / Lower or Partially correct" },
 ];
 
 export default function Legend() {

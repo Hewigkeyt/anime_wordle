@@ -21,6 +21,12 @@ export function yesterdayString() {
  * Caches in sessionStorage so it's one network call per tab per day.
  */
 export async function getDailyTarget(db) {
+
+  //override for testing
+  // if (import.meta.env.DEV && import.meta.env.VITE_DAILY_OVERRIDE) {
+  //   return { target: db.find((c) => c.name === import.meta.env.VITE_DAILY_OVERRIDE) ?? pickRandom(db),yesterday:null}
+  // }
+
   const today    = todayString();
   const yesterday = yesterdayString();
 
