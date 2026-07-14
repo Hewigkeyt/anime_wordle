@@ -19,6 +19,7 @@ export default function Footer() {
             <br />
             <p>Recent updates:</p>
             <ul>
+                <li>Update in the daily picker so that a character cannot be picked twice in 3 months.</li>
                 <li>Multi-value hair color and studio.</li>
                 <li>Seiyuu and sex in the clues.</li>
             </ul>

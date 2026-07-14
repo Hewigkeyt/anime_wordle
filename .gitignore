@@ -4,6 +4,8 @@ backoffice
 backoffice.html
 debugger.html
 .env
+.env.local
 supabase/.temp
 test.html
 memo_charatoadd
+dailypicker.ts

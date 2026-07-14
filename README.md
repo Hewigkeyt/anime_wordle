@@ -7,10 +7,12 @@ Play directly [here](https://hewigkeyt.github.io/anime_wordle/)!
 
 ## Current status
 
-There's currently no online ranking. I may add that feature soon.
+The game has a leaderboard for the daily guess. It is split between no-hint/with-hint players.
+You can also see the ranking from the previous day.
 
-The feedback you get is based on Anime, anime year, studio, height, age, hair color.
-More to come (maybe).
+The feedback you get is based on Anime, anime year, studio, height, age, hair color, seiyuu (Japanese voice actor) and sex.
+Studio and hair color may have multiple values.
+Age, height and sex may have unknown value.
 
 > ⚠️ **Note on Character Pool:** 
 > The character pool is currently limited and may contain occasional inaccuracies or formatting errors in character attributes. 
@@ -32,3 +34,5 @@ npm install
 
 # Start
 npm run dev
+```
+You would need a .env file with your own VITE_SUPABASE_URL and VITE_SUPABASE_ANON_KEY.
