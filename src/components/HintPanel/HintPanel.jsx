@@ -1,4 +1,4 @@
-import { useState, useMemo } from "react";
+import { useState, useMemo, useEffect } from "react";
 import "./HintPanel.css";
 
 export default function HintPanel({ db, guessedRows, onHintUsed, variant = "inline" }) {
@@ -60,6 +60,13 @@ export default function HintPanel({ db, guessedRows, onHintUsed, variant = "inli
     if (next) onHintUsed();
   };
 
+
+  useEffect(() => {
+    if (selectedStudio && !unguessedStudios.some(([s]) => s === selectedStudio)) {
+      setSelectedStudio(null);
+    }
+  }, [unguessedStudios, selectedStudio]);
+  
   return (
     <div className={`hint-panel hint-panel--${variant}`}>
       <button className="hint-panel__toggle" onClick={() => setOpen(v => !v)}>
@@ -76,7 +83,7 @@ export default function HintPanel({ db, guessedRows, onHintUsed, variant = "inli
           {/* Section 1 — Studio → Anime list */}
           <div className="hint-section">
             <button className="hint-section__header" onClick={handleSection1Open}>
-              <span>Anime by studio</span>
+              <span>Anime by studios not yet guessed</span>
               <span className="hint-section__chevron">{section1Open ? "▲" : "▼"}</span>
             </button>
             {section1Open && (
@@ -87,8 +94,8 @@ export default function HintPanel({ db, guessedRows, onHintUsed, variant = "inli
                   onChange={(e) => setSelectedStudio(e.target.value || null)}
                 >
                   <option value="">Select a studio…</option>
-                  {allStudios.map((s) => (
-                    <option key={s} value={s}>{s}</option>
+                  {unguessedStudios.map(([s,count]) => (
+                    <option key={s} value={s}>{s} ({count})</option>
                   ))}
                 </select>
                 {selectedStudio && (
@@ -103,7 +110,7 @@ export default function HintPanel({ db, guessedRows, onHintUsed, variant = "inli
           </div>
 
           {/* Section 2 — Unguessed studios + count */}
-          <div className="hint-section">
+          {/* <div className="hint-section">
             <button className="hint-section__header" onClick={handleSection2Open}>
               <span>Studios not yet guessed</span>
               <span className="hint-section__chevron">{section2Open ? "▲" : "▼"}</span>
@@ -124,7 +131,7 @@ export default function HintPanel({ db, guessedRows, onHintUsed, variant = "inli
                 )}
               </div>
             )}
-          </div>
+          </div> */}
         </div>
         </>
       )}

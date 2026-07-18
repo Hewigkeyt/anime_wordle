@@ -530,7 +530,7 @@
     "anime": {
       "name": "KonoSuba",
       "year": 2016,
-      "studio": "Studio Deen"
+      "studio": "Deen"
     },
     "age": 17,
     "height": 165,
@@ -543,7 +543,7 @@
     "anime": {
       "name": "KonoSuba",
       "year": 2016,
-      "studio": "Studio Deen"
+      "studio": "Deen"
     },
     "age": 1000,
     "height": 158,
@@ -556,7 +556,7 @@
     "anime": {
       "name": "KonoSuba",
       "year": 2016,
-      "studio": "Studio Deen"
+      "studio": "Deen"
     },
     "age": 14,
     "height": 150,
@@ -3275,7 +3275,7 @@
     "anime": {
       "name": "Fate/stay night",
       "year": 2006,
-      "studio": "Studio Deen"
+      "studio": "Deen"
     },
     "age": 17,
     "height": 167,
@@ -3288,7 +3288,7 @@
     "anime": {
       "name": "Fate/stay night",
       "year": 2006,
-      "studio": "Studio Deen"
+      "studio": "Deen"
     },
     "age": 15,
     "height": 154,
@@ -3301,7 +3301,7 @@
     "anime": {
       "name": "Fate/stay night",
       "year": 2006,
-      "studio": "Studio Deen"
+      "studio": "Deen"
     },
     "age": 17,
     "height": 159,
@@ -3314,7 +3314,7 @@
     "anime": {
       "name": "Fate/stay night",
       "year": 2006,
-      "studio": "Studio Deen"
+      "studio": "Deen"
     },
     "age": 16,
     "height": 156,
@@ -3327,7 +3327,7 @@
     "anime": {
       "name": "Fate/stay night",
       "year": 2006,
-      "studio": "Studio Deen"
+      "studio": "Deen"
     },
     "age": null,
     "height": 187,
@@ -3974,5 +3974,252 @@
     "hair_color": "Green",
     "sex": "♀️",
     "seiyuu": "Mayumi Asano"
+  },
+  {
+    "name": "Ryo Saeba",
+    "anime": {
+      "name": "City Hunter",
+      "year": 1987,
+      "studio": "Sunrise"
+    },
+    "age": 30,
+    "height": 186,
+    "hair_color": "Black",
+    "sex": "♂️",
+    "seiyuu": "Akira Kamiya"
+  },
+  {
+    "name": "Kaori Makimura",
+    "anime": {
+      "name": "City Hunter",
+      "year": 1987,
+      "studio": "Sunrise"
+    },
+    "age": 22,
+    "height": 168,
+    "hair_color": "Auburn",
+    "sex": "♀️",
+    "seiyuu": "Kazue Ikura"
+  },
+  {
+    "name": "Umibozu",
+    "anime": {
+      "name": "City Hunter",
+      "year": 1987,
+      "studio": "Sunrise"
+    },
+    "age": 32,
+    "height": 210,
+    "hair_color": "Bald",
+    "sex": "♂️",
+    "seiyuu": "Tessho Genda"
+  },
+  {
+    "name": "Genjo Sanzo",
+    "anime": {
+      "name": "Saiyuki",
+      "year": 2000,
+      "studio": "Pierrot"
+    },
+    "age": 24,
+    "height": 177,
+    "hair_color": "Blond",
+    "sex": "♂️",
+    "seiyuu": "Toshihiko Seki"
+  },
+  {
+    "name": "Son Goku",
+    "anime": {
+      "name": "Saiyuki",
+      "year": 2000,
+      "studio": "Pierrot"
+    },
+    "age": 18,
+    "height": 162,
+    "hair_color": "Brown",
+    "sex": "♂️",
+    "seiyuu": "Soichiro Hoshi"
+  },
+  {
+    "name": "Cho Hakkai",
+    "anime": {
+      "name": "Saiyuki",
+      "year": 2000,
+      "studio": "Pierrot"
+    },
+    "age": 22,
+    "height": 181,
+    "hair_color": "Grey",
+    "sex": "♂️",
+    "seiyuu": "Akira Ishida"
+  },
+  {
+    "name": "Sha Gojo",
+    "anime": {
+      "name": "Saiyuki",
+      "year": 2000,
+      "studio": "Pierrot"
+    },
+    "age": 22,
+    "height": 184,
+    "hair_color": "Purple",
+    "sex": "♂️",
+    "seiyuu": "Hiroaki Hirata"
+  },
+  {
+    "name": "Naru Narusegawa",
+    "anime": {
+      "name": "Love Hina",
+      "year": 2000,
+      "studio": "Xebec"
+    },
+    "age": 17,
+    "height": 160,
+    "hair_color": "Brown",
+    "sex": "♀️",
+    "seiyuu": "Yui Horie"
+  },
+  {
+    "name": "Keitaro Urashima",
+    "anime": {
+      "name": "Love Hina",
+      "year": 2000,
+      "studio": "Xebec"
+    },
+    "age": 19,
+    "height": 173,
+    "hair_color": "Brown",
+    "sex": "♂️",
+    "seiyuu": "Yuji Ueda"
+  },
+  {
+    "name": "Mitsune Konno",
+    "anime": {
+      "name": "Love Hina",
+      "year": 2000,
+      "studio": "Xebec"
+    },
+    "age": 19,
+    "height": 164,
+    "hair_color": "Grey",
+    "sex": "♀️",
+    "seiyuu": "Noda Junko"
+  },
+  {
+    "name": "Motoko Aoyama",
+    "anime": {
+      "name": "Love Hina",
+      "year": 2000,
+      "studio": "Xebec"
+    },
+    "age": 15,
+    "height": 175,
+    "hair_color": "Black",
+    "sex": "♀️",
+    "seiyuu": "Yuu Asakawa"
+  },
+  {
+    "name": "Shinobu Maehara",
+    "anime": {
+      "name": "Love Hina",
+      "year": 2000,
+      "studio": "Xebec"
+    },
+    "age": 13,
+    "height": 147,
+    "hair_color": "Blue",
+    "sex": "♀️",
+    "seiyuu": "Kurata Masayo"
+  },
+  {
+    "name": "Kaolla Su",
+    "anime": {
+      "name": "Love Hina",
+      "year": 2000,
+      "studio": "Xebec"
+    },
+    "age": 13,
+    "height": 151,
+    "hair_color": "Blond",
+    "sex": "♀️",
+    "seiyuu": "Reiko Takagi"
+  },
+  {
+    "name": "Haruka Urashima",
+    "anime": {
+      "name": "Love Hina",
+      "year": 2000,
+      "studio": "Xebec"
+    },
+    "age": 27,
+    "height": 168,
+    "hair_color": "Brown",
+    "sex": "♀️",
+    "seiyuu": "Megumi Hayashibara"
+  },
+  {
+    "name": "Yusaku Godai",
+    "anime": {
+      "name": "Maison Ikkoku",
+      "year": 1986,
+      "studio": "Deen"
+    },
+    "age": 19,
+    "height": 173,
+    "hair_color": "Brown",
+    "sex": "♂️",
+    "seiyuu": "Issei Futamata"
+  },
+  {
+    "name": "Kyoko Otonashi",
+    "anime": {
+      "name": "Maison Ikkoku",
+      "year": 1986,
+      "studio": "Deen"
+    },
+    "age": 21,
+    "height": 158,
+    "hair_color": "Black",
+    "sex": "♀️",
+    "seiyuu": "Sumi Shimamoto"
+  },
+  {
+    "name": "Kyosuke Kasuga",
+    "anime": {
+      "name": "Kimagure Orange Road",
+      "year": 1987,
+      "studio": "Pierrot"
+    },
+    "age": 15,
+    "height": 170,
+    "hair_color": "Brown",
+    "sex": "♂️",
+    "seiyuu": "Toru Furuya"
+  },
+  {
+    "name": "Madoka Ayukawa",
+    "anime": {
+      "name": "Kimagure Orange Road",
+      "year": 1987,
+      "studio": "Pierrot"
+    },
+    "age": 15,
+    "height": 159,
+    "hair_color": "Black",
+    "sex": "♀️",
+    "seiyuu": "Hiromi Tsuru"
+  },
+  {
+    "name": "Hikaru Hiyama",
+    "anime": {
+      "name": "Kimagure Orange Road",
+      "year": 1987,
+      "studio": "Pierrot"
+    },
+    "age": 13,
+    "height": 155,
+    "hair_color": "Brown",
+    "sex": "♀️",
+    "seiyuu": "Eriko Hara"
   }
 ]
