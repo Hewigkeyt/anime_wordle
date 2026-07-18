@@ -2,7 +2,7 @@
   width: 100%;
   max-width: 480px;
   position: relative;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
 }
 
 .searchbar__row-wrapper {
@@ -129,6 +129,7 @@
   flex-direction: column;
   align-items: center;
   margin-top: 10px;
+  margin-bottom: 20px;
   text-align: left;
   gap: 8px;
   max-height: 100px;
@@ -137,6 +138,8 @@
 .guess-table__empty.hidden {
   max-height: 0;
   overflow: hidden;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .db-wrapper {

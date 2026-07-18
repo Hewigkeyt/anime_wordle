@@ -36,6 +36,7 @@ export default function App() {
   const [dailyTarget, setDailyTarget] = useState(null);
   const [yesterdayTarget, setYesterdayTarget] = useState(undefined);
   const [infiniteTarget, setInfiniteTarget] = useState(() => loadInfiniteTarget(DB) ?? pickRandom(DB));
+  const [strongFilter, setStrongFilter] = useState(true);
 
   const [dailyWarning, setDailyWarning] = useState(null);
 
@@ -48,8 +49,8 @@ export default function App() {
   });
   }, []);
 
-  const daily = useWordle(DB, dailyTarget, "daily");
-  const infinite = useWordle(DB, infiniteTarget, "infinite");
+  const daily = useWordle(DB, dailyTarget, "daily", strongFilter);
+  const infinite = useWordle(DB, infiniteTarget, "infinite", strongFilter);
 
   const target = mode === "daily" ? dailyTarget : infiniteTarget;
 
@@ -137,12 +138,13 @@ export default function App() {
         </button>
       )}
       {rows.length > 0 && (
-        <HintPanel db={DB} guessedRows={rows} onHintUsed={onHintUsed} />
+        <HintPanel db={DB} guessedRows={rows} onHintUsed={onHintUsed} target={target}/>
       )}
     </div>
 
       {/* Hide search when game is over or daily already completed */}
       {!won && !lost && (mode ==="infinite" || dailyBoardVisible) && (
+        <>
       <SearchBar
         query={query}
         setQuery={setQuery}
@@ -152,8 +154,19 @@ export default function App() {
         onSelectSuggestion={selectSuggestion}
         onSubmit={submitGuess}
         disabled={won || lost}
-        hint={rows.length > 0 ? <HintPanel db={DB} guessedRows={rows} onHintUsed={onHintUsed} /> : null}
+        hint={rows.length > 0 ? <HintPanel db={DB} guessedRows={rows} onHintUsed={onHintUsed} target={target}/> : null}
       />
+      <button
+        className={`strong-filter-toggle ${rows.length >0 ? "display" : ""} ${strongFilter ? "is-on" : ""}`}
+        onClick={() => setStrongFilter((v) => !v)}
+        aria-pressed={strongFilter}
+      >
+        <span className="strong-filter-toggle__track">
+          <span className="strong-filter-toggle__thumb" />
+        </span>
+        Hide suggestions from guessed incorrect animes.
+      </button>
+      </>
       )}
 
       {showBanner && mode === "daily" && (

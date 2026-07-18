@@ -8,7 +8,7 @@ import { saveGuessRows, loadGuessRows, clearGuessRows, clearInfiniteTarget } fro
  * @param {object[]} db     - the full character database
  * @param {object}   target - the secret character (daily or random, resolved by the caller)
  */
-export function useWordle(db, target, mode = null) {
+export function useWordle(db, target, mode = null, strongFilter = true) {
   const [query,    setQuery]    = useState("");
   const [selected, setSelected] = useState(null);
   const [rows,     setRows]     = useState(() => mode ? (loadGuessRows(mode) ?? []) : []);
@@ -17,6 +17,8 @@ export function useWordle(db, target, mode = null) {
   const [hintUsed, setHintUsed] = useState(false);
 
   const guessedNames = new Set(rows.map((r) => r.character.name));
+  const guessedAnimeNames = new Set(rows.map((r) => r.character.anime.name));
+
   const [suggestions, setSuggestions] = useState([]);
 
   // Reset state whenever the target changes (mode switch)
@@ -41,12 +43,13 @@ export function useWordle(db, target, mode = null) {
       .filter(
         (c) =>
           !guessedNames.has(c.name) &&
+        (!strongFilter || c.anime.name === target.anime.name || !guessedAnimeNames.has(c.anime.name)) &&
           (c.name.toLowerCase().includes(q) ||
             c.anime.name.toLowerCase().includes(q))
       )
       .slice(0, 8);
     setSuggestions(matches);
-  }, [query, rows, won, lost, db]); // eslint-disable-line react-hooks/exhaustive-deps
+  }, [query, rows, won, lost, db, strongFilter]); // eslint-disable-line react-hooks/exhaustive-deps
 
   const submitGuess = useCallback(
     (char) => {

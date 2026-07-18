@@ -25,6 +25,51 @@
   justify-content: center;
 }
 
+.strong-filter-toggle {
+  display: none;
+  align-items: center;
+  gap: 8px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 0.9rem;
+  color: var(--color-muted-dark);
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.strong-filter-toggle.display {
+  display: flex;
+}
+
+.strong-filter-toggle__track {
+  width: 36px;
+  height: 20px;
+  border-radius: 999px;
+  background: var(--color-muted-dark);
+  position: relative;
+  transition: background 0.2s;
+}
+
+.strong-filter-toggle__thumb {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: white;
+  transition: transform 0.2s;
+}
+
+.strong-filter-toggle.is-on .strong-filter-toggle__track {
+  background: var(--color-yellow);
+}
+
+.strong-filter-toggle.is-on .strong-filter-toggle__thumb {
+  transform: translateX(16px);
+}
+
 @media (max-width: 768px) {
   .mobile-actions {
     display: flex;

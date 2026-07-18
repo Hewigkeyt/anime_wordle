@@ -1,6 +1,7 @@
 .legend {
   display: flex;
-  gap: 16px;
+  row-gap: 5px;
+  column-gap: 16px;
   flex-wrap: wrap;
   justify-content: center;
   margin-bottom: 6px;
