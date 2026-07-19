@@ -1,6 +1,9 @@
+import { useState } from "react";
 import "./Footer.css";
 
 export default function Footer() {
+    const [CLopen, CLsetOpen] = useState(false);
+
     return (
         <footer className="footer">
             <p>Information:</p>
@@ -17,12 +20,17 @@ export default function Footer() {
                 <li>Addition/fix of characters in the database.</li>
             </ul>
             <br />
-            <p>Recent updates:</p>
-            <ul>
-                <li>Update in the daily picker so that a character cannot be picked twice in 3 months.</li>
-                <li>Multi-value hair color and studio.</li>
-                <li>Seiyuu and sex in the clues.</li>
-            </ul>
+            <p>Changelog:</p>
+            <button className="hint-section__header" onClick={() => CLsetOpen(v => !v)}>{CLopen ? "Hide" : "See"} full changelog {CLopen ? "▲" : "▼"}</button>
+            {CLopen && (
+                <ul className="change-log">
+                    <li>2026-07-19 Revamped the hint panel to filter directly the incorrect guessed studios, and to show studios' year range.</li>
+                    <li>2026-07-14 Updated in the daily picker so the same character cannot be picked twice in 3 months.</li>
+                    <li>2026-07-10 Added multi-value for hair color (removed "bicolor" value) and studio.</li>
+                    <li>2026-07-09 Changed the leaderboard layout and added results for previous daily.</li>
+                    <li>2026-07-02 Added seiyuu and sex data in the clues.</li>
+                </ul>
+            )}
             <br />
             <p>Privacy Policy:</p>
             <p className="privacy">Your privacy is important to us. This website uses Google AdSense to serve advertisements. Google and its partners use cookies to serve ads based on your prior visits to this website or other websites on the Internet.</p>

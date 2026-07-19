@@ -4221,5 +4221,369 @@
     "hair_color": "Brown",
     "sex": "♀️",
     "seiyuu": "Eriko Hara"
+  },
+  {
+    "name": "Saeko Nogami",
+    "anime": {
+      "name": "City Hunter",
+      "year": 1987,
+      "studio": "Sunrise"
+    },
+    "age": null,
+    "height": 170,
+    "hair_color": "Blue",
+    "sex": "♀️",
+    "seiyuu": "Harumi  Ichiryuusai"
+  },
+  {
+    "name": "Nanoha Takamachi",
+    "anime": {
+      "name": "Magical Girl Lyrical Nanoha",
+      "year": 2004,
+      "studio": "Seven Arcs"
+    },
+    "age": 9,
+    "height": 131,
+    "hair_color": "Brown",
+    "sex": "♀️",
+    "seiyuu": "Yukari Tamura"
+  },
+  {
+    "name": "Fate Testarossa",
+    "anime": {
+      "name": "Magical Girl Lyrical Nanoha",
+      "year": 2004,
+      "studio": "Seven Arcs"
+    },
+    "age": 9,
+    "height": 134,
+    "hair_color": "Blond",
+    "sex": "♀️",
+    "seiyuu": "Nana Mizuki"
+  },
+  {
+    "name": "Hayate Yagami",
+    "anime": {
+      "name": "Magical Girl Lyrical Nanoha A's",
+      "year": 2005,
+      "studio": "Seven Arcs"
+    },
+    "age": 9,
+    "height": 132,
+    "hair_color": "Brown",
+    "sex": "♀️",
+    "seiyuu": "Kana Ueda"
+  },
+  {
+    "name": "Signum",
+    "anime": {
+      "name": "Magical Girl Lyrical Nanoha A's",
+      "year": 2005,
+      "studio": "Seven Arcs"
+    },
+    "age": 19,
+    "height": 169,
+    "hair_color": "Pink",
+    "sex": "♀️",
+    "seiyuu": "Kaori Shimizu"
+  },
+  {
+    "name": "Vita",
+    "anime": {
+      "name": "Magical Girl Lyrical Nanoha A's",
+      "year": 2005,
+      "studio": "Seven Arcs"
+    },
+    "age": 9,
+    "height": 115,
+    "hair_color": "Red",
+    "sex": "♀️",
+    "seiyuu": "Asami Sanada"
+  },
+  {
+    "name": "Nadia La Arwall",
+    "anime": {
+      "name": "Nadia: The Secret of Blue Water",
+      "year": 1990,
+      "studio": "Gainax"
+    },
+    "age": 14,
+    "height": 155,
+    "hair_color": "Blue",
+    "sex": "♀️",
+    "seiyuu": "Yoshino Takamori"
+  },
+  {
+    "name": "Jean Roque Lartigue",
+    "anime": {
+      "name": "Nadia: The Secret of Blue Water",
+      "year": 1990,
+      "studio": "Gainax"
+    },
+    "age": 14,
+    "height": 152,
+    "hair_color": "Brown",
+    "sex": "♂️",
+    "seiyuu": "Noriko Hidaka"
+  },
+  {
+    "name": "Captain Nemo",
+    "anime": {
+      "name": "Nadia: The Secret of Blue Water",
+      "year": 1990,
+      "studio": "Gainax"
+    },
+    "age": 46,
+    "height": 187,
+    "hair_color": "Black",
+    "sex": "♂️",
+    "seiyuu": "Akio Otsuka"
+  },
+  {
+    "name": "Ichiro Ogami",
+    "anime": {
+      "name": "Sakura Taisen",
+      "year": 2000,
+      "studio": "Madhouse"
+    },
+    "age": 20,
+    "height": 176,
+    "hair_color": "Black",
+    "sex": "♂️",
+    "seiyuu": "Akio Suyama"
+  },
+  {
+    "name": "Sakura Shinguji",
+    "anime": {
+      "name": "Sakura Taisen",
+      "year": 2000,
+      "studio": "Madhouse"
+    },
+    "age": 17,
+    "height": 155,
+    "hair_color": "Blue",
+    "sex": "♀️",
+    "seiyuu": "Chisa Yokoyama"
+  },
+  {
+    "name": "Sumire Kanzaki",
+    "anime": {
+      "name": "Sakura Taisen",
+      "year": 2000,
+      "studio": "Madhouse"
+    },
+    "age": 16,
+    "height": 164,
+    "hair_color": "Brown",
+    "sex": "♀️",
+    "seiyuu": "Michie Tomizawa"
+  },
+  {
+    "name": "Maria Tachibana",
+    "anime": {
+      "name": "Sakura Taisen",
+      "year": 2000,
+      "studio": "Madhouse"
+    },
+    "age": 19,
+    "height": 186,
+    "hair_color": "Blond",
+    "sex": "♀️",
+    "seiyuu": "Urara Takano"
+  },
+  {
+    "name": "Kanna Kirishima",
+    "anime": {
+      "name": "Sakura Taisen",
+      "year": 2000,
+      "studio": "Madhouse"
+    },
+    "age": 18,
+    "height": 197,
+    "hair_color": "Brown",
+    "sex": "♀️",
+    "seiyuu": "Mayumi Tanaka"
+  },
+  {
+    "name": "Kouran Li",
+    "anime": {
+      "name": "Sakura Taisen",
+      "year": 2000,
+      "studio": "Madhouse"
+    },
+    "age": 17,
+    "height": 156,
+    "hair_color": "Purple",
+    "sex": "♀️",
+    "seiyuu": "Yuriko Fuchizaki"
+  },
+  {
+    "name": "Iris Chateaubriand",
+    "anime": {
+      "name": "Sakura Taisen",
+      "year": 2000,
+      "studio": "Madhouse"
+    },
+    "age": 9,
+    "height": 106,
+    "hair_color": "Blond",
+    "sex": "♀️",
+    "seiyuu": "Kumiko Nishihara"
+  },
+  {
+    "name": "Tatsuya Uesugi",
+    "anime": {
+      "name": "Touch",
+      "year": 1985,
+      "studio": "Group TAC"
+    },
+    "age": 15,
+    "height": 168,
+    "hair_color": "Brown",
+    "sex": "♂️",
+    "seiyuu": "Yuji Mitsuya"
+  },
+  {
+    "name": "Kazuya Uesugi",
+    "anime": {
+      "name": "Touch",
+      "year": 1985,
+      "studio": "Group TAC"
+    },
+    "age": 15,
+    "height": 168,
+    "hair_color": "Brown",
+    "sex": "♂️",
+    "seiyuu": "Keiichi Nanba"
+  },
+  {
+    "name": "Minami Asakura",
+    "anime": {
+      "name": "Touch",
+      "year": 1985,
+      "studio": "Group TAC"
+    },
+    "age": 15,
+    "height": 158,
+    "hair_color": "Brown",
+    "sex": "♀️",
+    "seiyuu": "Noriko Hidaka"
+  },
+  {
+    "name": "Arale Norimaki",
+    "anime": {
+      "name": "Dr. Slump",
+      "year": 1981,
+      "studio": "Toei Animation"
+    },
+    "age": 13,
+    "height": 139,
+    "hair_color": "Purple",
+    "sex": null,
+    "seiyuu": "Mami Koyama"
+  },
+  {
+    "name": "Senbei Norimaki",
+    "anime": {
+      "name": "Dr. Slump",
+      "year": 1981,
+      "studio": "Toei Animation"
+    },
+    "age": 28,
+    "height": 175,
+    "hair_color": "Black",
+    "sex": "♂️",
+    "seiyuu": "Kenji Utsumi"
+  },
+  {
+    "name": "Gajira Norimaki",
+    "anime": {
+      "name": "Dr. Slump",
+      "year": 1981,
+      "studio": "Toei Animation"
+    },
+    "age": 0,
+    "height": 61,
+    "hair_color": "Blond",
+    "sex": null,
+    "seiyuu": "Yoko Teppouzuka"
+  },
+  {
+    "name": "Heero Yuy",
+    "anime": {
+      "name": "Mobile Suit Gundam Wing",
+      "year": 1995,
+      "studio": "Sunrise"
+    },
+    "age": 15,
+    "height": 156,
+    "hair_color": "Brown",
+    "sex": "♂️",
+    "seiyuu": "Hikaru Midorikawa"
+  },
+  {
+    "name": "Duo Maxwell",
+    "anime": {
+      "name": "Mobile Suit Gundam Wing",
+      "year": 1995,
+      "studio": "Sunrise"
+    },
+    "age": 15,
+    "height": 156,
+    "hair_color": "Brown",
+    "sex": "♂️",
+    "seiyuu": "Toshihiko Seki"
+  },
+  {
+    "name": "Trowa Barton",
+    "anime": {
+      "name": "Mobile Suit Gundam Wing",
+      "year": 1995,
+      "studio": "Sunrise"
+    },
+    "age": 15,
+    "height": 160,
+    "hair_color": "Brown",
+    "sex": "♂️",
+    "seiyuu": "Shigeru Nakahara"
+  },
+  {
+    "name": "Quatre Raberba Winner",
+    "anime": {
+      "name": "Mobile Suit Gundam Wing",
+      "year": 1995,
+      "studio": "Sunrise"
+    },
+    "age": 15,
+    "height": 156,
+    "hair_color": "Blond",
+    "sex": "♂️",
+    "seiyuu": "Ai Orikasa"
+  },
+  {
+    "name": "Chang Wufei",
+    "anime": {
+      "name": "Mobile Suit Gundam Wing",
+      "year": 1995,
+      "studio": "Sunrise"
+    },
+    "age": 15,
+    "height": 156,
+    "hair_color": "Black",
+    "sex": "♂️",
+    "seiyuu": "Ryuuzou Ishino"
+  },
+  {
+    "name": "Relena Darlian",
+    "anime": {
+      "name": "Mobile Suit Gundam Wing",
+      "year": 1995,
+      "studio": "Sunrise"
+    },
+    "age": 15,
+    "height": 154,
+    "hair_color": "Brown",
+    "sex": "♀️",
+    "seiyuu": "Akiko Yajima"
   }
 ]

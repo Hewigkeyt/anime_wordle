@@ -9,6 +9,15 @@
   max-width: 900px;
 }
 
+.change-log {
+  animation: slideDown 0.15s ease;
+}
+
+@keyframes slideDown {
+  from { opacity: 0; transform: translateY(-6px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
 .footer p {
   font-size: 1rem;
   margin: 0;
