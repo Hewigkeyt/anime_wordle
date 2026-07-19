@@ -106,7 +106,7 @@ export default function HintPanel({ db, guessedRows, onHintUsed, variant = "inli
               </button>
               {section1Open && (
                 <div className="hint-section__body">
-                  <p className="hint-panel__details">Wrong guesses are hidden.</p>
+                  <p className="hint-panel__details">Ruled out studios are hidden.</p>
                   <select
                     className="hint-section__select"
                     value={selectedStudio ?? ""}
@@ -159,7 +159,7 @@ export default function HintPanel({ db, guessedRows, onHintUsed, variant = "inli
               </button>
               {section2Open && (
                 <div className="hint-section__body">
-                  <p className="hint-panel__details">Wrong guesses are hidden.</p>
+                  <p className="hint-panel__details">Ruled out studios are hidden.</p>
 
                   {unguessedStudios.length === 0 ? (
                     <p className="hint-section__empty">All studios guessed!</p>

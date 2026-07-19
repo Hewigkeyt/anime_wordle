@@ -24,7 +24,8 @@ export default function Footer() {
             <button className="hint-section__header" onClick={() => CLsetOpen(v => !v)}>{CLopen ? "Hide" : "See"} full changelog {CLopen ? "▲" : "▼"}</button>
             {CLopen && (
                 <ul className="change-log">
-                    <li>2026-07-19 Revamped the hint panel to filter directly the incorrect guessed studios, and to show studios' year range.</li>
+                    <li>2026-07-19 Removed by default suggestions from animes already ruled out.</li>
+                    <li>2026-07-19 Revamped the hint panel to filter directly the ruled out studios, and to show studios' year range.</li>
                     <li>2026-07-14 Updated in the daily picker so the same character cannot be picked twice in 3 months.</li>
                     <li>2026-07-10 Added multi-value for hair color (removed "bicolor" value) and studio.</li>
                     <li>2026-07-09 Changed the leaderboard layout and added results for previous daily.</li>
