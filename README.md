@@ -39,6 +39,8 @@ You would need a .env file with your own VITE_SUPABASE_URL and VITE_SUPABASE_ANO
 
 
 ### Important changelog
+- 2026-07-22 Added a monthly ranking! The average is calculated with the following weights.\
+Hints used = +5. Missed day = worst score of the day +1.
 - 2026-07-19 Removed by default suggestions from animes already ruled out.                     
 - 2026-07-19 Revamped the hint panel to filter directly the ruled out studios, and to show studios' year range.
 - 2026-07-14 Updated in the daily picker so the same character cannot be picked twice in 3 months.

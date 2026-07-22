@@ -62,7 +62,10 @@
   font-size: 12px;
 }
 
-.daily-result__lb-medal { font-size: 18px; flex-shrink: 0; }
+.daily-result__lb-medal {
+  font-size: 18px;
+  flex-shrink: 0;
+}
 
 .daily-result__lb-name {
   flex: 1;
@@ -70,7 +73,9 @@
   color: var(--color-text);
 }
 
-.daily-result__lb-guesses { color: var(--color-muted); }
+.daily-result__lb-guesses {
+  color: var(--color-muted);
+}
 
 .daily-result__lb-hint {
   font-size: 10px;
@@ -82,9 +87,10 @@
   letter-spacing: 0.05em;
 }
 
-.daily-result__lb-row--small > span {
+.daily-result__lb-row--small>span {
   font-size: 10px;
 }
+
 .daily-result__lb-row.margin {
   margin-top: 10px;
 }
@@ -157,7 +163,15 @@
   flex-shrink: 0;
 }
 
-.lb-drawer__tab:hover { opacity: 0.85; }
+.lb-drawer__tab:hover {
+  opacity: 0.85;
+}
+
+.lb-drawer__panel-wrapper {
+  display: flex;
+  gap: 4px;
+  background-color: var(--color-border);
+}
 
 .lb-drawer__panel {
   background: rgba(22, 27, 34, 0.95);
@@ -178,13 +192,25 @@
 }
 
 @keyframes slideDown {
-  from { opacity: 0; transform: translateY(-6px); }
-  to   { opacity: 1; transform: translateY(0); }
+  from {
+    opacity: 0;
+    transform: translateY(-6px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 @keyframes fadeIn {
-  from { opacity: 0; }
-  to   { opacity: 1; }
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }
 
 @media (max-width: 768px) {
@@ -207,7 +233,7 @@
     background: var(--color-surface);
     border: 1px solid var(--color-border);
     border-radius: 12px;
-    padding: 20px 16px;
+    padding: 5px 16px 20px;
     width: 90%;
     max-width: 400px;
     max-height: 80vh;
@@ -229,10 +255,15 @@
   }
 }
 
+.today,
 .yesterday {
   font-size: 12px;
   font-weight: 700;
   margin: 20px 0 10px;
+}
+
+.today {
+  margin-top: 0;
 }
 
 @media (max-width: 768px) {
@@ -242,8 +273,20 @@
     text-overflow: ellipsis;
     white-space: nowrap;
   }
+
   .daily-result__lb-col {
     flex-grow: 0;
     flex: 1;
   }
+}
+
+.lb-modal__overlay .mode-selector {
+  margin: 0 auto 5px;
+}
+
+.modal__content__show {
+  display: block;
+}
+.modal__content__hide {
+  display: none;
 }

@@ -195,3 +195,21 @@ export function saveDailySubmitted() {
   const data = JSON.parse(raw);
   localStorage.setItem("aw_daily_result", JSON.stringify({ ...data, submitted: true }));
 }
+
+export async function monthly(day = todayString()) {
+  const today = new Date(day);
+  const firstDayCurrent = today.getFullYear().toString() + today.getMonth().toString() + "01";
+  const yyyy = today.getFullYear();
+  const mm = String(today.getMonth() + 1).padStart(2, '0');
+  const dd = '01'; 
+  const inputFormatted = `${yyyy}-${mm}-${dd}`;
+  const { data, error } = await supabase
+    .from("daily_scores")
+    .select("username, guesses, hint_used, day")
+    .gte("day", inputFormatted)
+    .order("day", { ascending: true });
+
+    // .limit(3);
+  
+  return { data, error };
+}

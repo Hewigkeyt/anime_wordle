@@ -18,12 +18,14 @@ export default function Footer() {
             <p>Updates to come:</p>
             <ul>
                 <li>Addition/fix of characters in the database.</li>
+                <li>Filter out from hints studios ruled out by year.</li>
             </ul>
             <br />
             <p>Changelog:</p>
             <button className="hint-section__header" onClick={() => CLsetOpen(v => !v)}>{CLopen ? "Hide" : "See"} full changelog {CLopen ? "▲" : "▼"}</button>
             {CLopen && (
                 <ul className="change-log">
+                    <li>2026-07-22 Added a monthly ranking! The average is calculated with the following weights.<br/>Hints used = +5. Missed day = worst score of the day +1.</li>
                     <li>2026-07-19 Removed by default suggestions from animes already ruled out.</li>
                     <li>2026-07-19 Revamped the hint panel to filter directly the ruled out studios, and to show studios' year range.</li>
                     <li>2026-07-14 Updated in the daily picker so the same character cannot be picked twice in 3 months.</li>
