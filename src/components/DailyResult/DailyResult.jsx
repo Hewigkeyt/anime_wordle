@@ -16,6 +16,8 @@ export default function DailyResult({ won, guessCount, hintUsed, target, already
 
   const [countdown, setCountdown] = useState("");
   const [copied, setCopied] = useState(false);
+  const [copiedMin, setCopiedMin] = useState(false);
+
 
 
   useEffect(() => {
@@ -41,11 +43,16 @@ export default function DailyResult({ won, guessCount, hintUsed, target, already
     });
   }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
+  function buildShareTextMin(guessCount, hintUsed) {
+    const header = `Anime Wordle ${todayString()}`;
+    const result = `✅ ${guessCount} guess${guessCount > 1 ? "es" : ""}${hintUsed ? " (hint)" : ""}`;
+
+    return `${header}\n${result}\nhttps://hewigkeyt.github.io/anime_wordle/`;
+  }
 
   function buildShareText(guessCount, hintUsed, rows) {
     const header = `Anime Wordle ${todayString()}`;
     const result = `✅ ${guessCount} guess${guessCount > 1 ? "es" : ""}${hintUsed ? " (hint)" : ""}`;
-    console.log(rows)
     const grid = rows.slice().map(({ cells }) =>
       cells.map((c) => {
         if (c.status === "correct") return "🟩";
@@ -55,6 +62,13 @@ export default function DailyResult({ won, guessCount, hintUsed, target, already
     ).join("\n");
 
     return `${header}\n${result}\n${grid}\nhttps://hewigkeyt.github.io/anime_wordle/`;
+  }
+
+
+  function handleShareMin() {
+    const text = buildShareTextMin(guessCount, hintUsed);
+    navigator.clipboard.writeText(text).then(() => setCopiedMin(true));
+    setTimeout(() => setCopiedMin(false), 2000);
   }
 
   function handleShare(rows) {
@@ -106,9 +120,14 @@ export default function DailyResult({ won, guessCount, hintUsed, target, already
         </p>
       </div>
       <p className="daily-result__countdown">Next character in <strong>{countdown}</strong></p>
-      {!alreadyCompleted && (<button className="daily-result__share-btn" onClick={() => handleShare(rows)}>
-        {copied ? "Copied! ✓" : "Share result 📋"}
-      </button>)}
+      <div className="daily-result__copy-wrapper">
+        {!alreadyCompleted && (<button className="daily-result__share-btn" onClick={() => handleShareMin()}>
+          {copiedMin ? "Copied! ✓" : "Share result 📋 (no rows)"}
+        </button>)}
+        {!alreadyCompleted && (<button className="daily-result__share-btn" onClick={() => handleShare(rows)}>
+          {copied ? "Copied! ✓" : "Share result 📋"}
+        </button>)}
+      </div>
       {/* Score submission */}
       {won && (
         <div className="daily-result__submit">

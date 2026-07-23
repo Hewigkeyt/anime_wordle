@@ -25,6 +25,7 @@ export default function Footer() {
             <button className="hint-section__header" onClick={() => CLsetOpen(v => !v)}>{CLopen ? "Hide" : "See"} full changelog {CLopen ? "▲" : "▼"}</button>
             {CLopen && (
                 <ul className="change-log">
+                    <li>2026-07-23 Added a button to copy only the number of guesses without the rows. For spam detection bots.</li>
                     <li>2026-07-22 Added a monthly ranking! The average is calculated with the following weights.<br/>Hints used = +5. Missed day = worst score of the day +1.</li>
                     <li>2026-07-19 Removed by default suggestions from animes already ruled out.</li>
                     <li>2026-07-19 Revamped the hint panel to filter directly the ruled out studios, and to show studios' year range.</li>

@@ -126,3 +126,18 @@
 }
 
 .daily-result__share-btn:hover { opacity: 0.8; }
+
+.daily-result__copy-wrapper {
+  display: inline-grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr; /* Forces every column to equal width */
+  gap: 8px;
+  width: fit-content;
+  margin: auto;
+}
+
+@media (max-width: 412px) {
+  .daily-result__copy-wrapper {
+      grid-auto-flow: row;
+  }
+}
