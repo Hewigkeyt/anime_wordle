@@ -43,11 +43,24 @@ export default function DailyResult({ won, guessCount, hintUsed, target, already
     });
   }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
-  function buildShareTextMin(guessCount, hintUsed) {
+  function buildShareTextMin(guessCount, hintUsed, rows) {
     const header = `Anime Wordle ${todayString()}`;
     const result = `✅ ${guessCount} guess${guessCount > 1 ? "es" : ""}${hintUsed ? " (hint)" : ""}`;
 
-    return `${header}\n${result}\nhttps://hewigkeyt.github.io/anime_wordle/`;
+    const renderRow = ({ cells }) =>
+      cells.map((c) => {
+        if (c.status === "correct") return "🟩";
+        if (c.status === "wrong") return "🟥";
+        return "🟨"; // low or high
+      }).join("");
+
+    const displayRows = [rows[0], rows[1], "...", rows[rows.length - 2], rows[rows.length - 1]];
+
+    const grid = displayRows
+      .map((r) => (r === "..." ? "..." : renderRow(r)))
+      .join("\n");
+
+    return `${header}\n${result}\n${grid}\nhttps://hewigkeyt.github.io/anime_wordle/`;
   }
 
   function buildShareText(guessCount, hintUsed, rows) {
@@ -65,8 +78,8 @@ export default function DailyResult({ won, guessCount, hintUsed, target, already
   }
 
 
-  function handleShareMin() {
-    const text = buildShareTextMin(guessCount, hintUsed);
+  function handleShareMin(rows) {
+    const text = buildShareTextMin(guessCount, hintUsed, rows);
     navigator.clipboard.writeText(text).then(() => setCopiedMin(true));
     setTimeout(() => setCopiedMin(false), 2000);
   }
@@ -121,8 +134,8 @@ export default function DailyResult({ won, guessCount, hintUsed, target, already
       </div>
       <p className="daily-result__countdown">Next character in <strong>{countdown}</strong></p>
       <div className="daily-result__copy-wrapper">
-        {!alreadyCompleted && (<button className="daily-result__share-btn" onClick={() => handleShareMin()}>
-          {copiedMin ? "Copied! ✓" : "Share result 📋 (no rows)"}
+        {!alreadyCompleted && rows.length > 4 && (<button className="daily-result__share-btn" onClick={() => handleShareMin(rows)}>
+          {copiedMin ? "Copied! ✓" : "Share result (short) 📋 "}
         </button>)}
         {!alreadyCompleted && (<button className="daily-result__share-btn" onClick={() => handleShare(rows)}>
           {copied ? "Copied! ✓" : "Share result 📋"}
