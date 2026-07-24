@@ -4585,5 +4585,226 @@
     "hair_color": "Brown",
     "sex": "♀️",
     "seiyuu": "Akiko Yajima"
+  },
+  {
+    "name": "Yoh Asakura",
+    "anime": {
+      "name": "Shaman King",
+      "year": 2001,
+      "studio": "Xebec"
+    },
+    "age": 13,
+    "height": 160,
+    "hair_color": "Brown",
+    "sex": "♂️",
+    "seiyuu": "Yuko Sato"
+  },
+  {
+    "name": "Manta Oyamada",
+    "anime": {
+      "name": "Shaman King",
+      "year": 2001,
+      "studio": "Xebec"
+    },
+    "age": 13,
+    "height": 80,
+    "hair_color": "Brown",
+    "sex": "♂️",
+    "seiyuu": "Inuko Inuyama"
+  },
+  {
+    "name": "Anna Kyouyama",
+    "anime": {
+      "name": "Shaman King",
+      "year": 2001,
+      "studio": "Xebec"
+    },
+    "age": 13,
+    "height": 158,
+    "hair_color": "Blond",
+    "sex": "♀️",
+    "seiyuu": "Megumi Hayashibara"
+  },
+  {
+    "name": "Tao Ren",
+    "anime": {
+      "name": "Shaman King",
+      "year": 2001,
+      "studio": "Xebec"
+    },
+    "age": 13,
+    "height": 140,
+    "hair_color": "Purple",
+    "sex": "♂️",
+    "seiyuu": "Romi Park"
+  },
+  {
+    "name": "Hao Asakura",
+    "anime": {
+      "name": "Shaman King",
+      "year": 2001,
+      "studio": "Xebec"
+    },
+    "age": 13,
+    "height": 160,
+    "hair_color": "Brown",
+    "sex": "♂️",
+    "seiyuu": "Minami Takayama"
+  },
+  {
+    "name": "Amidamaru",
+    "anime": {
+      "name": "Shaman King",
+      "year": 2001,
+      "studio": "Xebec"
+    },
+    "age": 600,
+    "height": 180,
+    "hair_color": "Purple",
+    "sex": "♂️",
+    "seiyuu": "Katsuyuki Konishi"
+  },
+  {
+    "name": "Kei Kurono",
+    "anime": {
+      "name": "Gantz",
+      "year": 2004,
+      "studio": "Gonzo"
+    },
+    "age": 15,
+    "height": 168,
+    "hair_color": "Brown",
+    "sex": "♂️",
+    "seiyuu": "Daisuke Namikawa"
+  },
+  {
+    "name": "Masaru Kato",
+    "anime": {
+      "name": "Gantz",
+      "year": 2004,
+      "studio": "Gonzo"
+    },
+    "age": 15,
+    "height": 190,
+    "hair_color": "Black",
+    "sex": "♂️",
+    "seiyuu": "Masashi Oosato"
+  },
+  {
+    "name": "Kei Kishimoto",
+    "anime": {
+      "name": "Gantz",
+      "year": 2004,
+      "studio": "Gonzo"
+    },
+    "age": 16,
+    "height": 160,
+    "hair_color": "Brown",
+    "sex": "♀️",
+    "seiyuu": "Hitomi Nabatame"
+  },
+  {
+    "name": "Reika Shimohira",
+    "anime": {
+      "name": "Gantz",
+      "year": 2004,
+      "studio": "Gonzo"
+    },
+    "age": 17,
+    "height": 168,
+    "hair_color": "Black",
+    "sex": "♀️",
+    "seiyuu": "Saori Hayami"
+  },
+  {
+    "name": "You Hazuki",
+    "anime": {
+      "name": "Attacker You!",
+      "year": 1984,
+      "studio": "Knack Productions"
+    },
+    "age": 13,
+    "height": 172,
+    "hair_color": "Orange",
+    "sex": "♀️",
+    "seiyuu": "Yuko Kobayashi"
+  },
+  {
+    "name": "Nami Hayase",
+    "anime": {
+      "name": "Attacker You!",
+      "year": 1984,
+      "studio": "Knack Productions"
+    },
+    "age": 13,
+    "height": 168,
+    "hair_color": "Blue",
+    "sex": "♀️",
+    "seiyuu": "Naoko Matsui"
+  },
+  {
+    "name": "Sho Takiki",
+    "anime": {
+      "name": "Attacker You!",
+      "year": 1984,
+      "studio": "Knack Productions"
+    },
+    "age": 15,
+    "height": 178,
+    "hair_color": "Black",
+    "sex": "♂️",
+    "seiyuu": "Kenyuu Horiuchi"
+  },
+  {
+    "name": "Hitomi Kisugi",
+    "anime": {
+      "name": "Cat's Eye",
+      "year": 1983,
+      "studio": "TMS Entertainment"
+    },
+    "age": 21,
+    "height": 164,
+    "hair_color": "Black",
+    "sex": "♀️",
+    "seiyuu": "Keiko Toda"
+  },
+  {
+    "name": "Rui Kisugi",
+    "anime": {
+      "name": "Cat's Eye",
+      "year": 1983,
+      "studio": "TMS Entertainment"
+    },
+    "age": 24,
+    "height": 168,
+    "hair_color": "Black",
+    "sex": "♀️",
+    "seiyuu": "Toshiko Fujita"
+  },
+  {
+    "name": "Ai Kisugi",
+    "anime": {
+      "name": "Cat's Eye",
+      "year": 1983,
+      "studio": "TMS Entertainment"
+    },
+    "age": 16,
+    "height": 154,
+    "hair_color": "Brown",
+    "sex": "♀️",
+    "seiyuu": "Chika Sakamoto"
+  },
+  {
+    "name": "Toshio Utsumi",
+    "anime": {
+      "name": "Cat's Eye",
+      "year": 1983,
+      "studio": "TMS Entertainment"
+    },
+    "age": 24,
+    "height": 175,
+    "hair_color": "Black",
+    "sex": "♂️",
+    "seiyuu": "Yoshito Yasuhara"
   }
 ]
