@@ -12,19 +12,21 @@ export default function Footer() {
                 <li>Hair colors are simplified to basic shades (e.g., navy and cyan are both 'Blue').</li>
                 <li>Short introductions are ignored (e.g. Eren Yeager is 15 y.o.).</li>
                 <li>For instance Naruto Uzumaki is a 12-year-old character from Naruto (2002), not Naruto Shippuden (2007).</li>
+                <li>For variety, the same character cannot be the target twice within 3 months, and the same anime cannot appear more than once a month.</li>
                 <li>If you notice an error please fill an issue <a href="https://github.com/Hewigkeyt/anime_wordle/issues">here</a>.</li>
             </ul>
             <br />
             <p>Updates to come:</p>
             <ul>
                 <li>Addition/fix of characters in the database.</li>
-                <li>Filter out from hints studios ruled out by year.</li>
+                <li>Revamp of hair brown color (too much variation).</li>
             </ul>
             <br />
             <p>Changelog:</p>
             <button className="hint-section__header" onClick={() => CLsetOpen(v => !v)}>{CLopen ? "Hide" : "See"} full changelog {CLopen ? "▲" : "▼"}</button>
             {CLopen && (
                 <ul className="change-log">
+                    <li>2026-07-27 Filter out from hints studios ruled out by year.</li>
                     <li>2026-07-23 Added a button to copy only the number of guesses without the rows. For spam detection bots.</li>
                     <li>2026-07-22 Added a monthly ranking! The average is calculated with the following weights.<br/>Hints used = +5. Missed day = worst score of the day +1.</li>
                     <li>2026-07-19 Removed by default suggestions from animes already ruled out.</li>

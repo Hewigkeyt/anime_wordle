@@ -4806,5 +4806,187 @@
     "hair_color": "Black",
     "sex": "♂️",
     "seiyuu": "Yoshito Yasuhara"
+  },
+  {
+    "name": "Minato Namikaze",
+    "anime": {
+      "name": "Naruto",
+      "year": 2002,
+      "studio": "Pierrot"
+    },
+    "age": 24,
+    "height": 180,
+    "hair_color": "Blond",
+    "sex": "♂️",
+    "seiyuu": "Toshiyuki Morikawa"
+  },
+  {
+    "name": "Itachi Uchiha",
+    "anime": {
+      "name": "Naruto",
+      "year": 2002,
+      "studio": "Pierrot"
+    },
+    "age": 17,
+    "height": 175,
+    "hair_color": "Black",
+    "sex": "♂️",
+    "seiyuu": "Hideo Ishikawa"
+  },
+  {
+    "name": "Yuzuru Otonashi",
+    "anime": {
+      "name": "Angel Beats!",
+      "year": 2010,
+      "studio": "P.A. Works"
+    },
+    "age": null,
+    "height": 175,
+    "hair_color": "Orange",
+    "sex": "♂️",
+    "seiyuu": "Hiroshi Kamiya"
+  },
+  {
+    "name": "Yuri Nakamura",
+    "anime": {
+      "name": "Angel Beats!",
+      "year": 2010,
+      "studio": "P.A. Works"
+    },
+    "age": null,
+    "height": 160,
+    "hair_color": "Purple",
+    "sex": "♀️",
+    "seiyuu": "Harumi Sakurai"
+  },
+  {
+    "name": "Kanade Tachiban",
+    "anime": {
+      "name": "Angel Beats!",
+      "year": 2010,
+      "studio": "P.A. Works"
+    },
+    "age": null,
+    "height": 150,
+    "hair_color": "White",
+    "sex": "♀️",
+    "seiyuu": "Kana Hanazawa"
+  },
+  {
+    "name": "Issei Hyoudou",
+    "anime": {
+      "name": "High School DxD",
+      "year": 2012,
+      "studio": "TNK"
+    },
+    "age": 17,
+    "height": 170,
+    "hair_color": "Brown",
+    "sex": "♂️",
+    "seiyuu": "Yuki Kaji"
+  },
+  {
+    "name": "Rias Gremory",
+    "anime": {
+      "name": "High School DxD",
+      "year": 2012,
+      "studio": "TNK"
+    },
+    "age": 18,
+    "height": 172,
+    "hair_color": "Red",
+    "sex": "♀️",
+    "seiyuu": "Yoko Hikasa"
+  },
+  {
+    "name": "Akeno Himejima",
+    "anime": {
+      "name": "High School DxD",
+      "year": 2012,
+      "studio": "TNK"
+    },
+    "age": 18,
+    "height": 168,
+    "hair_color": "Black",
+    "sex": "♀️",
+    "seiyuu": "Shizuka Ito"
+  },
+  {
+    "name": "Asia Argento",
+    "anime": {
+      "name": "High School DxD",
+      "year": 2012,
+      "studio": "TNK"
+    },
+    "age": 16,
+    "height": 155,
+    "hair_color": "Blond",
+    "sex": "♀️",
+    "seiyuu": "Azumi Asakura"
+  },
+  {
+    "name": "Koneko Toujou",
+    "anime": {
+      "name": "High School DxD",
+      "year": 2012,
+      "studio": "TNK"
+    },
+    "age": 15,
+    "height": 138,
+    "hair_color": "White",
+    "sex": "♀️",
+    "seiyuu": "Ayana Taketatsu"
+  },
+  {
+    "name": "Taki Minase",
+    "anime": {
+      "name": "Bible Black",
+      "year": 2001,
+      "studio": "Studio Jam"
+    },
+    "age": 17,
+    "height": 173,
+    "hair_color": "Brown",
+    "sex": "♂️",
+    "seiyuu": "Osamu Tokita"
+  },
+  {
+    "name": "Imari Kurumi",
+    "anime": {
+      "name": "Bible Black",
+      "year": 2001,
+      "studio": "Studio Jam"
+    },
+    "age": 17,
+    "height": 158,
+    "hair_color": "Brown",
+    "sex": "♀️",
+    "seiyuu": "Kaori Nishijima"
+  },
+  {
+    "name": "Reika Kitami",
+    "anime": {
+      "name": "Bible Black",
+      "year": 2001,
+      "studio": "Studio Jam"
+    },
+    "age": 29,
+    "height": 168,
+    "hair_color": "Blond",
+    "sex": null,
+    "seiyuu": "Michiru Shirozaki"
+  },
+  {
+    "name": "Hiroko Takashiro",
+    "anime": {
+      "name": "Bible Black",
+      "year": 2001,
+      "studio": "Studio Jam"
+    },
+    "age": 30,
+    "height": 165,
+    "hair_color": "Pink",
+    "sex": "♀️",
+    "seiyuu": "Nagisa Futami"
   }
 ]

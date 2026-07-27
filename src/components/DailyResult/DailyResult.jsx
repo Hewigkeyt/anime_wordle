@@ -47,20 +47,20 @@ export default function DailyResult({ won, guessCount, hintUsed, target, already
     const header = `Anime Wordle ${todayString()}`;
     const result = `✅ ${guessCount} guess${guessCount > 1 ? "es" : ""}${hintUsed ? " (hint)" : ""}`;
 
-    const renderRow = ({ cells }) =>
-      cells.map((c) => {
-        if (c.status === "correct") return "🟩";
-        if (c.status === "wrong") return "🟥";
-        return "🟨"; // low or high
-      }).join("");
+    // const renderRow = ({ cells }) =>
+    //   cells.map((c) => {
+    //     if (c.status === "correct") return "🟩";
+    //     if (c.status === "wrong") return "🟥";
+    //     return "🟨"; // low or high
+    //   }).join("");
 
-    const displayRows = [rows[0], rows[1], "...", rows[rows.length - 2], rows[rows.length - 1]];
+    // const displayRows = [rows[0], rows[1], "...", rows[rows.length - 2], rows[rows.length - 1]];
 
-    const grid = displayRows
-      .map((r) => (r === "..." ? "..." : renderRow(r)))
-      .join("\n");
+    // const grid = displayRows
+    //   .map((r) => (r === "..." ? "..." : renderRow(r)))
+    //   .join("\n");
 
-    return `${header}\n${result}\n${grid}\nhttps://hewigkeyt.github.io/anime_wordle/`;
+    return `${header}\n${result}\nhttps://hewigkeyt.github.io/anime_wordle/`;
   }
 
   function buildShareText(guessCount, hintUsed, rows) {
@@ -134,8 +134,8 @@ export default function DailyResult({ won, guessCount, hintUsed, target, already
       </div>
       <p className="daily-result__countdown">Next character in <strong>{countdown}</strong></p>
       <div className="daily-result__copy-wrapper">
-        {!alreadyCompleted && rows.length > 4 && (<button className="daily-result__share-btn" onClick={() => handleShareMin(rows)}>
-          {copiedMin ? "Copied! ✓" : "Share result (short) 📋 "}
+        {!alreadyCompleted && (<button className="daily-result__share-btn" onClick={() => handleShareMin(rows)}>
+          {copiedMin ? "Copied! ✓" : "Share result (no rows) 📋 "}
         </button>)}
         {!alreadyCompleted && (<button className="daily-result__share-btn" onClick={() => handleShare(rows)}>
           {copied ? "Copied! ✓" : "Share result 📋"}
