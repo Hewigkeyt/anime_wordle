@@ -14,6 +14,23 @@ export default function HintPanel({ db, guessedRows, onHintUsed, variant = "inli
     [guessedRows]
   );
 
+   const yearBounds = useMemo(() => {
+    let min = -Infinity;
+    let max = Infinity;
+    guessedRows.forEach((r) => {
+      const cell = r.cells.find((c) => c.key === "year");
+      if (!cell) return;
+      const y = Number(cell.display);
+      if (cell.status === "low") min = Math.max(min, y + 1);
+      else if (cell.status === "high") max = Math.min(max, y - 1);
+      else if (cell.status === "correct") {
+        min = Math.max(min, y);
+        max = Math.min(max, y);
+      }
+    });
+    return [min, max];
+  }, [guessedRows]);
+
   const correctStudios = useMemo(
     () => new Set(Array.isArray(target.anime.studio) ? target.anime.studio : [target.anime.studio]),
     [target]
@@ -58,7 +75,13 @@ export default function HintPanel({ db, guessedRows, onHintUsed, variant = "inli
   }, [unguessedStudiosMap]);
 
   const unguessedStudiosYear = useMemo(() => {
+    const [minYear, maxYear] = yearBounds;
+
+
     return Object.entries(unguessedStudiosMap)
+    .filter(([, animeMap]) =>
+        Array.from(animeMap.values()).some((a) => a.year >= minYear && a.year <= maxYear)
+      )
       .map(([studio, animeMap]) => {
         const years = Array.from(animeMap.values()).map((a) => a.year);
         return [studio, Math.min(...years), Math.max(...years)];
