@@ -39,6 +39,7 @@ You would need a .env file with your own VITE_SUPABASE_URL and VITE_SUPABASE_ANO
 
 
 ### Important changelog
+- 2026-07-28 Reviewed and integrated 219 TV-anime character records using first-appearance metadata, consolidating 10 pre-existing title aliases.
 - 2026-07-22 Added a monthly ranking! The average is calculated with the following weights.\
 Hints used = +5. Missed day = worst score of the day +1.
 - 2026-07-19 Removed by default suggestions from animes already ruled out.                     
