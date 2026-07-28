@@ -4801,7 +4801,7 @@
       "year": 1966,
       "studio": "Studio Zero"
     },
-    "age": null,
+    "age": 10,
     "height": null,
     "hair_color": "Black",
     "sex": "♂️",
@@ -4814,7 +4814,7 @@
       "year": 1966,
       "studio": "Studio Zero"
     },
-    "age": null,
+    "age": 10,
     "height": null,
     "hair_color": "Black",
     "sex": "♂️",
@@ -4827,7 +4827,7 @@
       "year": 1966,
       "studio": "Studio Zero"
     },
-    "age": null,
+    "age": 10,
     "height": null,
     "hair_color": "Black",
     "sex": "♂️",
@@ -4840,7 +4840,7 @@
       "year": 1966,
       "studio": "Studio Zero"
     },
-    "age": null,
+    "age": 10,
     "height": null,
     "hair_color": "Black",
     "sex": "♂️",
@@ -4853,7 +4853,7 @@
       "year": 1966,
       "studio": "Studio Zero"
     },
-    "age": null,
+    "age": 10,
     "height": null,
     "hair_color": "Black",
     "sex": "♂️",
@@ -4957,7 +4957,7 @@
       "year": 1972,
       "studio": "Toei Animation"
     },
-    "age": null,
+    "age": 72,
     "height": null,
     "hair_color": "Grey",
     "sex": "♂️",
@@ -5061,7 +5061,7 @@
       "year": 1978,
       "studio": "Toei Animation"
     },
-    "age": null,
+    "age": 14,
     "height": null,
     "hair_color": "Black",
     "sex": "♂️",
@@ -5230,7 +5230,7 @@
       "year": 1981,
       "studio": "Toei Animation"
     },
-    "age": null,
+    "age": 15,
     "height": 171,
     "hair_color": "Black",
     "sex": "♂️",
@@ -5295,7 +5295,7 @@
       "year": 1982,
       "studio": "TMS Entertainment"
     },
-    "age": null,
+    "age": 29,
     "height": 185,
     "hair_color": "Blonde",
     "sex": "♂️",
@@ -5334,7 +5334,7 @@
       "year": 1989,
       "studio": "Sunrise"
     },
-    "age": null,
+    "age": 20,
     "height": 155,
     "hair_color": "Brown",
     "sex": "♀️",
@@ -5698,7 +5698,7 @@
       "year": 1999,
       "studio": "Studio Pierrot"
     },
-    "age": null,
+    "age": 51,
     "height": null,
     "hair_color": "Bald",
     "sex": "♂️",
@@ -5711,7 +5711,7 @@
       "year": 1999,
       "studio": "Studio Pierrot"
     },
-    "age": null,
+    "age": 15,
     "height": null,
     "hair_color": "Blonde",
     "sex": "♀️",
@@ -5738,7 +5738,7 @@
       "studio": "Studio Pierrot"
     },
     "age": null,
-    "height": null,
+    "height": 157,
     "hair_color": "Brown",
     "sex": "♀️",
     "seiyuu": "Ayako Kawasumi"
@@ -5854,7 +5854,7 @@
       "year": 2000,
       "studio": "Studio Gallop"
     },
-    "age": null,
+    "age": 16,
     "height": 153,
     "hair_color": [
       "Black",
@@ -5923,7 +5923,7 @@
       "year": 2001,
       "studio": "Studio Deen"
     },
-    "age": null,
+    "age": 15,
     "height": 171.3,
     "hair_color": "Orange",
     "sex": "♂️",
@@ -5936,7 +5936,7 @@
       "year": 2001,
       "studio": "Studio Deen"
     },
-    "age": null,
+    "age": 15,
     "height": 156.7,
     "hair_color": "Brown",
     "sex": "♀️",
@@ -5949,7 +5949,7 @@
       "year": 2001,
       "studio": "Studio Deen"
     },
-    "age": null,
+    "age": 15,
     "height": 170.5,
     "hair_color": "Silver",
     "sex": "♂️",
@@ -5975,8 +5975,8 @@
       "year": 2002,
       "studio": "J.C.Staff"
     },
-    "age": null,
-    "height": null,
+    "age": 15,
+    "height": 154,
     "hair_color": "Orange",
     "sex": "♀️",
     "seiyuu": "Chieko Higuchi"
@@ -5988,8 +5988,8 @@
       "year": 2002,
       "studio": "J.C.Staff"
     },
-    "age": null,
-    "height": null,
+    "age": 15,
+    "height": 156,
     "hair_color": "Orange",
     "sex": "♀️",
     "seiyuu": "Houko Kuwashima"
@@ -6001,8 +6001,8 @@
       "year": 2002,
       "studio": "J.C.Staff"
     },
-    "age": null,
-    "height": null,
+    "age": 15,
+    "height": 163,
     "hair_color": "Black",
     "sex": "♀️",
     "seiyuu": "Rie Tanaka"
@@ -6015,7 +6015,7 @@
       "studio": "J.C.Staff"
     },
     "age": null,
-    "height": null,
+    "height": 158,
     "hair_color": "Brown",
     "sex": "♀️",
     "seiyuu": "Akiko Hiramatsu"
@@ -6027,8 +6027,8 @@
       "year": 2002,
       "studio": "J.C.Staff"
     },
-    "age": null,
-    "height": null,
+    "age": 15,
+    "height": 156,
     "hair_color": "Brown",
     "sex": "♀️",
     "seiyuu": "Yuki Matsuoka"
@@ -6157,7 +6157,7 @@
       "year": 2004,
       "studio": "Manglobe"
     },
-    "age": null,
+    "age": 20,
     "height": 180,
     "hair_color": "Black",
     "sex": "♂️",
@@ -6222,7 +6222,7 @@
       "year": 2005,
       "studio": "J.C.Staff"
     },
-    "age": null,
+    "age": 15,
     "height": 160,
     "hair_color": "Brown",
     "sex": "♀️",
@@ -6235,7 +6235,7 @@
       "year": 2005,
       "studio": "J.C.Staff"
     },
-    "age": null,
+    "age": 15,
     "height": 165,
     "hair_color": "Brown",
     "sex": "♂️",
@@ -6261,7 +6261,7 @@
       "year": 2005,
       "studio": "Bones"
     },
-    "age": null,
+    "age": 29,
     "height": null,
     "hair_color": "Blonde",
     "sex": "♂️",
@@ -6287,7 +6287,7 @@
       "year": 2005,
       "studio": "Bones"
     },
-    "age": null,
+    "age": 26,
     "height": null,
     "hair_color": "Green",
     "sex": "♀️",
@@ -6379,7 +6379,7 @@
       "studio": "Bones"
     },
     "age": 16,
-    "height": null,
+    "height": 166,
     "hair_color": "Black",
     "sex": "♀️",
     "seiyuu": "Kaori Nazuka"
@@ -6392,7 +6392,7 @@
       "studio": "Bones"
     },
     "age": null,
-    "height": null,
+    "height": 170,
     "hair_color": "Black",
     "sex": "♀️",
     "seiyuu": "Akeno Watanabe"
@@ -6418,7 +6418,7 @@
       "studio": "Bones"
     },
     "age": 13,
-    "height": null,
+    "height": 150,
     "hair_color": "Blue",
     "sex": "♂️",
     "seiyuu": "Yumiko Kobayashi"
@@ -6745,7 +6745,7 @@
       "year": 2013,
       "studio": "White Fox"
     },
-    "age": null,
+    "age": 17,
     "height": 163,
     "hair_color": "Pink",
     "sex": "♀️",
@@ -6940,7 +6940,7 @@
       "year": 2017,
       "studio": "MAPPA"
     },
-    "age": null,
+    "age": 16,
     "height": 166,
     "hair_color": "Black",
     "sex": "♀️",
@@ -6953,7 +6953,7 @@
       "year": 2017,
       "studio": "MAPPA"
     },
-    "age": null,
+    "age": 16,
     "height": 162,
     "hair_color": "Blonde",
     "sex": "♀️",
@@ -6966,7 +6966,7 @@
       "year": 2017,
       "studio": "MAPPA"
     },
-    "age": null,
+    "age": 16,
     "height": 173,
     "hair_color": "Brown",
     "sex": "♂️",
@@ -7057,7 +7057,7 @@
       "year": 2018,
       "studio": "CloverWorks"
     },
-    "age": null,
+    "age": 16,
     "height": 152,
     "hair_color": "Blonde",
     "sex": "♀️",
@@ -7320,7 +7320,7 @@
       "studio": "Telecom Animation Film"
     },
     "age": null,
-    "height": null,
+    "height": 168,
     "hair_color": "Brown",
     "sex": "♂️",
     "seiyuu": "Taichi Ichikawa"
@@ -7333,7 +7333,7 @@
       "studio": "Telecom Animation Film"
     },
     "age": null,
-    "height": null,
+    "height": 300,
     "hair_color": "None",
     "sex": "♂️",
     "seiyuu": "Kenta Miyake"
@@ -7346,7 +7346,7 @@
       "studio": "Telecom Animation Film"
     },
     "age": null,
-    "height": null,
+    "height": 170,
     "hair_color": "Blue",
     "sex": "♂️",
     "seiyuu": "Nobuhiko Okamoto"
@@ -7359,7 +7359,7 @@
       "studio": "Telecom Animation Film"
     },
     "age": null,
-    "height": null,
+    "height": 164,
     "hair_color": "Blonde",
     "sex": "♀️",
     "seiyuu": "Saori Hayami"
@@ -7462,8 +7462,8 @@
       "year": 2023,
       "studio": "MAPPA"
     },
-    "age": null,
-    "height": null,
+    "age": 16,
+    "height": 150,
     "hair_color": "White",
     "sex": "♂️",
     "seiyuu": "Chiaki Kobayashi"
@@ -7619,7 +7619,7 @@
       "studio": "CygamesPictures"
     },
     "age": 17,
-    "height": null,
+    "height": 175,
     "hair_color": "Black",
     "sex": "♂️",
     "seiyuu": "Chiaki Kobayashi"
@@ -7632,7 +7632,7 @@
       "studio": "CygamesPictures"
     },
     "age": 16,
-    "height": null,
+    "height": 165,
     "hair_color": "White",
     "sex": "♂️",
     "seiyuu": "Shuuichirou Umeda"
