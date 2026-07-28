@@ -370,6 +370,19 @@
     "seiyuu": "Yuki Kaida"
   },
   {
+    "name": "Leorio Paradinight",
+    "anime": {
+      "name": "Hunter x Hunter",
+      "year": 1999,
+      "studio": "Nippon Animation"
+    },
+    "age": 19,
+    "height": 193,
+    "hair_color": "Black",
+    "sex": "♂️",
+    "seiyuu": "Hozumi Goda"
+  },
+  {
     "name": "Edward Elric",
     "anime": {
       "name": "Fullmetal Alchemist",
@@ -6578,71 +6591,6 @@
     "hair_color": "Black",
     "sex": "♂️",
     "seiyuu": "Aoi Yuuki"
-  },
-  {
-    "name": "Gon Freecss",
-    "anime": {
-      "name": "Hunter x Hunter",
-      "year": 2011,
-      "studio": "Madhouse"
-    },
-    "age": 11,
-    "height": 154,
-    "hair_color": "Green",
-    "sex": "♂️",
-    "seiyuu": "Megumi Han"
-  },
-  {
-    "name": "Killua Zoldyck",
-    "anime": {
-      "name": "Hunter x Hunter",
-      "year": 2011,
-      "studio": "Madhouse"
-    },
-    "age": 11,
-    "height": 158,
-    "hair_color": "White",
-    "sex": "♂️",
-    "seiyuu": "Mariya Ise"
-  },
-  {
-    "name": "Kurapika",
-    "anime": {
-      "name": "Hunter x Hunter",
-      "year": 2011,
-      "studio": "Madhouse"
-    },
-    "age": 17,
-    "height": 171,
-    "hair_color": "Blonde",
-    "sex": "♂️",
-    "seiyuu": "Miyuki Sawashiro"
-  },
-  {
-    "name": "Leorio Paradinight",
-    "anime": {
-      "name": "Hunter x Hunter",
-      "year": 2011,
-      "studio": "Madhouse"
-    },
-    "age": 19,
-    "height": 193,
-    "hair_color": "Black",
-    "sex": "♂️",
-    "seiyuu": "Keiji Fujiwara"
-  },
-  {
-    "name": "Hisoka Morow",
-    "anime": {
-      "name": "Hunter x Hunter",
-      "year": 2011,
-      "studio": "Madhouse"
-    },
-    "age": null,
-    "height": 187,
-    "hair_color": "Red",
-    "sex": "♂️",
-    "seiyuu": "Daisuke Namikawa"
   },
   {
     "name": "Yukio Okumura",
