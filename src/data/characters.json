@@ -351,7 +351,7 @@
       "studio": "Nippon Animation"
     },
     "age": 28,
-    "height": 197,
+    "height": 187,
     "hair_color": "Blue",
     "sex": "♂️",
     "seiyuu": "Hiroki Takahashi"
@@ -2484,7 +2484,7 @@
       "year": 2017,
       "studio": "Orange"
     },
-    "age": null,
+    "age": 300,
     "height": 160,
     "hair_color": "Green",
     "sex": null,
@@ -2517,7 +2517,7 @@
     "seiyuu": "Mitsuki Saiga"
   },
   {
-    "name": "Cinabre",
+    "name": "Cinnabar",
     "anime": {
       "name": "Land of the Lustrous",
       "year": 2017,
@@ -3841,7 +3841,7 @@
     },
     "age": 24,
     "height": 177,
-    "hair_color": "Blond",
+    "hair_color": "Blonde",
     "sex": "♂️",
     "seiyuu": "Toshihiko Seki"
   },
@@ -3958,7 +3958,7 @@
     },
     "age": 13,
     "height": 151,
-    "hair_color": "Blond",
+    "hair_color": "Blonde",
     "sex": "♀️",
     "seiyuu": "Reiko Takagi"
   },
@@ -4051,7 +4051,7 @@
     "height": 170,
     "hair_color": "Blue",
     "sex": "♀️",
-    "seiyuu": "Harumi  Ichiryuusai"
+    "seiyuu": "Harumi Ichiryuusai"
   },
   {
     "name": "Nanoha Takamachi",
@@ -4075,7 +4075,7 @@
     },
     "age": 9,
     "height": 134,
-    "hair_color": "Blond",
+    "hair_color": "Blonde",
     "sex": "♀️",
     "seiyuu": "Nana Mizuki"
   },
@@ -4205,7 +4205,7 @@
     },
     "age": 19,
     "height": 186,
-    "hair_color": "Blond",
+    "hair_color": "Blonde",
     "sex": "♀️",
     "seiyuu": "Urara Takano"
   },
@@ -4244,7 +4244,7 @@
     },
     "age": 9,
     "height": 106,
-    "hair_color": "Blond",
+    "hair_color": "Blonde",
     "sex": "♀️",
     "seiyuu": "Kumiko Nishihara"
   },
@@ -4288,7 +4288,7 @@
     "seiyuu": "Noriko Hidaka"
   },
   {
-    "name": "Gajira Norimaki",
+    "name": "Gatchan Norimaki",
     "anime": {
       "name": "Dr. Slump",
       "year": 1981,
@@ -4296,7 +4296,7 @@
     },
     "age": 0,
     "height": 61,
-    "hair_color": "Blond",
+    "hair_color": "Blonde",
     "sex": null,
     "seiyuu": "Yoko Teppouzuka"
   },
@@ -4348,7 +4348,7 @@
     },
     "age": 15,
     "height": 156,
-    "hair_color": "Blond",
+    "hair_color": "Blonde",
     "sex": "♂️",
     "seiyuu": "Ai Orikasa"
   },
@@ -4413,7 +4413,7 @@
     },
     "age": 13,
     "height": 158,
-    "hair_color": "Blond",
+    "hair_color": "Blonde",
     "sex": "♀️",
     "seiyuu": "Megumi Hayashibara"
   },
@@ -4608,7 +4608,7 @@
     },
     "age": 24,
     "height": 180,
-    "hair_color": "Blond",
+    "hair_color": "Blonde",
     "sex": "♂️",
     "seiyuu": "Toshiyuki Morikawa"
   },
@@ -4652,7 +4652,7 @@
     "seiyuu": "Harumi Sakurai"
   },
   {
-    "name": "Kanade Tachiban",
+    "name": "Kanade Tachibana",
     "anime": {
       "name": "Angel Beats!",
       "year": 2010,
@@ -4712,7 +4712,7 @@
     },
     "age": 16,
     "height": 155,
-    "hair_color": "Blond",
+    "hair_color": "Blonde",
     "sex": "♀️",
     "seiyuu": "Azumi Asakura"
   },
@@ -4764,7 +4764,7 @@
     },
     "age": 29,
     "height": 168,
-    "hair_color": "Blond",
+    "hair_color": "Blonde",
     "sex": "♀️",
     "seiyuu": "Michiru Shirozaki"
   },
@@ -5087,7 +5087,7 @@
       "year": 1978,
       "studio": "Toei Animation"
     },
-    "age": 30,
+    "age": 28,
     "height": null,
     "hair_color": "Brown",
     "sex": "♂️",
