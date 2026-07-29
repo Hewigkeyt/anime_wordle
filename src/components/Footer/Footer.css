@@ -12,6 +12,16 @@
 .change-log {
   animation: slideDown 0.15s ease;
 }
+.change-log td {
+  vertical-align: top;
+  font-size: 0.8rem;
+  padding: 0 0 10px 5px;
+}
+
+.change-log td:nth-child(odd) {
+  width: 1px;
+  white-space: nowrap;
+}
 
 @keyframes slideDown {
   from { opacity: 0; transform: translateY(-6px); }

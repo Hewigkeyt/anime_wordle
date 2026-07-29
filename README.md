@@ -39,6 +39,7 @@ You would need a .env file with your own VITE_SUPABASE_URL and VITE_SUPABASE_ANO
 
 
 ### Important changelog
+- 2026-07-29 Big DB update. Brown hair split into brown, dark brown and light brown.
 - 2026-07-22 Added a monthly ranking! The average is calculated with the following weights.\
 Hints used = +5. Missed day = worst score of the day +1.
 - 2026-07-19 Removed by default suggestions from animes already ruled out.                     

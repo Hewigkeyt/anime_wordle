@@ -9,7 +9,7 @@ export default function Footer() {
             <p>Information:</p>
             <ul>
                 <li>A character's data is based on their first major anime appearance.</li>
-                <li>Hair colors are simplified to basic shades (e.g., navy and cyan are both 'Blue').</li>
+                <li>Hair colors are simplified to basic shades (e.g., navy and cyan are both 'Blue').<br/>Brown is still split into 3 shades because the range is too wide.</li>
                 <li>Short introductions are ignored (e.g. Eren Yeager is 15 y.o.).</li>
                 <li>For instance Naruto Uzumaki is a 12-year-old character from Naruto (2002), not Naruto Shippuden (2007).</li>
                 <li>For variety, the same character cannot be the target twice within 3 months, and the same anime cannot appear more than once a month.</li>
@@ -25,17 +25,18 @@ export default function Footer() {
             <p>Changelog:</p>
             <button className="hint-section__header" onClick={() => CLsetOpen(v => !v)}>{CLopen ? "Hide" : "See"} full changelog {CLopen ? "▲" : "▼"}</button>
             {CLopen && (
-                <ul className="change-log">
-                    <li>2026-07-27 Filter out from hints studios ruled out by year.</li>
-                    <li>2026-07-23 Added a button to copy only the number of guesses without the rows. For spam detection bots.</li>
-                    <li>2026-07-22 Added a monthly ranking! The average is calculated with the following weights.<br/>Hints used = +5. Missed day = worst score of the day +1.</li>
-                    <li>2026-07-19 Removed by default suggestions from animes already ruled out.</li>
-                    <li>2026-07-19 Revamped the hint panel to filter directly the ruled out studios, and to show studios' year range.</li>
-                    <li>2026-07-14 Updated in the daily picker so the same character cannot be picked twice in 3 months.</li>
-                    <li>2026-07-10 Added multi-value for hair color (removed "bicolor" value) and studio.</li>
-                    <li>2026-07-09 Changed the leaderboard layout and added results for previous daily.</li>
-                    <li>2026-07-02 Added seiyuu and sex data in the clues.</li>
-                </ul>
+                <table className="change-log">
+                    <tr><td>2026-07-29</td><td>Big DB update. Brown hair split into brown, dark brown and light brown.</td></tr>
+                    <tr><td>2026-07-27</td><td>Filter out from hints studios ruled out by year.</td></tr>
+                    <tr><td>2026-07-23</td><td>Added a button to copy only the number of guesses without the rows. For spam detection bots.</td></tr>
+                    <tr><td>2026-07-22</td><td>Added a monthly ranking! The average is calculated with the following weights.<br/>Hints used = +5. Missed day = worst score of the day +1.</td></tr>
+                    <tr><td>2026-07-19</td><td>Removed by default suggestions from animes already ruled out.</td></tr>
+                    <tr><td>2026-07-19</td><td>Revamped the hint panel to filter directly the ruled out studios, and to show studios' year range.</td></tr>
+                    <tr><td>2026-07-14</td><td>Updated in the daily picker so the same character cannot be picked twice in 3 months.</td></tr>
+                    <tr><td>2026-07-10</td><td>Added multi-value for hair color (removed "bicolor" value) and studio.</td></tr>
+                    <tr><td>2026-07-09</td><td>Changed the leaderboard layout and added results for previous daily.</td></tr>
+                    <tr><td>2026-07-02</td><td>Added seiyuu and sex data in the clues.</td></tr>
+                </table>
             )}
             <br />
             <p>Privacy Policy:</p>
