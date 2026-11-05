@@ -2826,7 +2826,7 @@
     "height": 158,
     "hair_color": "Light brown",
     "sex": "♀️",
-    "seiyuu": "Yui Horie"
+    "seiyuu": "Mamiko Noto"
   },
   {
     "name": "Honoka Kosaka",
@@ -6370,5 +6370,44 @@
     "hair_color": "White",
     "sex": "♂️",
     "seiyuu": "Shuuichirou Umeda"
+  },
+  {
+    "name": "Toma Kamijo",
+    "anime": {
+      "name": "A Certain Magical Index",
+      "year": 2008,
+      "studio": "J.C.Staff"
+    },
+    "age": 15,
+    "height": 168,
+    "hair_color": "Black",
+    "sex": "♂️",
+    "seiyuu": "Atsushi Abe"
+  },
+  {
+    "name": "Index Librorum Prohibitorum",
+    "anime": {
+      "name": "A Certain Magical Index",
+      "year": 2008,
+      "studio": "J.C.Staff"
+    },
+    "age": 14,
+    "height": 148,
+    "hair_color": "Silver",
+    "sex": "♀️",
+    "seiyuu": "Yuka Iguchi"
+  },
+  {
+    "name": "Mikoto Mikasa",
+    "anime": {
+      "name": "A Certain Magical Index",
+      "year": 2008,
+      "studio": "J.C.Staff"
+    },
+    "age": 13,
+    "height": 161,
+    "hair_color": "Brown",
+    "sex": "♀️",
+    "seiyuu": "Rina Sato"
   }
 ]
