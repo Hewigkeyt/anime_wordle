@@ -1,5 +1,6 @@
-import { useState, useEffect, useCallback } from "react";
+import { useState, useEffect, useCallback, useMemo } from "react";
 import { buildResult } from "../utils/gameLogic";
+import { createSearchIndex, searchCharacters } from "../utils/search";
 import { saveGuessRows, loadGuessRows, clearGuessRows, clearInfiniteTarget } from "../lib/daily";
 
 
@@ -21,6 +22,9 @@ export function useWordle(db, target, mode = null, strongFilter = true) {
 
   const [suggestions, setSuggestions] = useState([]);
 
+  // Normalized once per database, so each keystroke only scores and ranks.
+  const searchIndex = useMemo(() => createSearchIndex(db), [db]);
+
   // Reset state whenever the target changes (mode switch)
   useEffect(() => {
     setQuery("");
@@ -38,18 +42,17 @@ export function useWordle(db, target, mode = null, strongFilter = true) {
       setSuggestions([]);
       return;
     }
-    const q = query.toLowerCase();
-    const matches = db
-      .filter(
-        (c) =>
+    setSuggestions(
+      searchCharacters(searchIndex, query, {
+        isEligible: (c) =>
           !guessedNames.has(c.name) &&
-        (!strongFilter || c.anime.name === target.anime.name || !guessedAnimeNames.has(c.anime.name)) &&
-          (c.name.toLowerCase().includes(q) ||
-            c.anime.name.toLowerCase().includes(q))
-      )
-      .slice(0, 8);
-    setSuggestions(matches);
-  }, [query, rows, won, lost, db, strongFilter]); // eslint-disable-line react-hooks/exhaustive-deps
+          (!strongFilter ||
+            !target ||
+            c.anime.name === target.anime.name ||
+            !guessedAnimeNames.has(c.anime.name)),
+      })
+    );
+  }, [query, rows, won, lost, searchIndex, strongFilter]); // eslint-disable-line react-hooks/exhaustive-deps
 
   const submitGuess = useCallback(
     (char) => {
